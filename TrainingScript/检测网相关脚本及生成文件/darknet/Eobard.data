@@ -1,0 +1,5 @@
+classes=2
+train =/home/ma-user/work/data/YOLOv2/list/train.txt
+valid =/home/ma-user/work/data/YOLOv2/list/val.txt
+names =/home/ma-user/work/data/Eobard.names
+backup =/home/ma-user/work/data/backup

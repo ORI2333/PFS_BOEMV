@@ -1,0 +1,1851 @@
+diff -urpBN hiopenais/build/aicmng.mk hiopenais_modify/build/aicmng.mk
+--- hiopenais/build/aicmng.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/aicmng.mk	2021-03-29 04:55:11.000000000 -0700
+@@ -0,0 +1,45 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# Hisilicon HiOpenAIS app makefile
++
++include ./mk.param
++
++TARGET := libaicmng
++
++ifeq ($(OSTYPE), liteos)
++	TARGET:=$(TARGET).a
++else
++	TARGET:=$(TARGET).so
++	MPI_LIBS += -shared -fPIC -Wl,-z,defs
++endif
++
++CFLAGS += -I$(AIC_MNG_DIR)
++CFLAGS += -I$(PLUG_UTIL_DIR)
++CFLAGS += -I$(MPP_HELP_DIR)
++CFLAGS += -I$(OSD_DIR)
++CFLAGS += -I$(EXT_UTIL_DIR)
++CFLAGS += -I$(CJSON_DIR)
++CFLAGS += -I$(THIRD_DIR)
++
++# aic core
++SMP_SRCS += $(AIC_MNG_DIR)/aic_mng.c
++SMP_SRCS += $(AIC_MNG_DIR)/plug_mng.c
++SMP_SRCS += $(AIC_MNG_DIR)/ext_plug.c
++
++MPI_LIBS += -lmpphelp -lhibase
++MPI_LIBS += -lhi_cipher
++
++# compile linux or liteos
++# include $(PWD)/../$(ARM_ARCH)_$(OSTYPE).mak
++include $(SCRIPT_ROOT)/$(ARM_ARCH)_$(OSTYPE).mk
+diff -urpBN hiopenais/build/boards/higo/Makefile hiopenais_modify/build/boards/higo/Makefile
+--- hiopenais/build/boards/higo/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/boards/higo/Makefile	2021-07-01 20:29:10.000000000 -0700
+@@ -0,0 +1,24 @@
++
++# Hisilicon HiOpenAIS cnn_mnist plug demo makefile
++include ../mk.param
++
++TARGET := higo.so
++
++# source files
++SMP_SRCS := $(BOARDS_HIGO_DIR)/higo_main.c
++SMP_SRCS += $(BOARDS_HIGO_DIR)/higv_cextfile.c
++SMP_SRCS += $(BOARDS_HIGO_DIR)/tpHal.c
++SMP_SRCS += $(BOARDS_HIGO_DIR)/playback.c
++SMP_SRCS += $(BOARDS_HIGO_DIR)/recorder.c
++SMP_SRCS += $(BOARDS_HIGO_DIR)/jpegEncoder.c
++CFLAGS += -I$(BOARDS_HIGO_DIR) -I$(BOARDS_HIGO_DIR)/component/higo/include -I$(BOARDS_HIGO_DIR)/component/higv/include  -I$(BOARDS_HIGO_DIR)/media_adpt/include
++CFLAGS += -Wl,-rpath=/usr/lib -ltde
++STATIC_LIBS += $(BOARDS_HIGO_DIR)/component/higv/lib/libhigv.a $(BOARDS_HIGO_DIR)/component/higo/lib/libhigo.a $(BOARDS_HIGO_DIR)/component/higo/lib/libhigoadp.a 
++STATIC_LIBS += $(BOARDS_HIGO_DIR)/media_adpt/lib/libmw_media_adpt.a $(BOARDS_HIGO_DIR)/media_adpt/lib/libuproc.a
++STATIC_LIBS += $(BOARDS_HIGO_DIR)/libs/libfreetype.a
++STATIC_LIBS += $(BOARDS_HIGO_DIR)/libs/libharfbuzz.a
++STATIC_LIBS += $(BOARDS_HIGO_DIR)/libs/libjpeg.a
++STATIC_LIBS += $(BOARDS_HIGO_DIR)/libs/libpng.a
++STATIC_LIBS += $(BOARDS_HIGO_DIR)/libs/libtimers.a
++STATIC_LIBS += $(BOARDS_HIGO_DIR)/libs/libz.a
++include ../linux.mk
+diff -urpBN hiopenais/build/boards/histreaming/Makefile hiopenais_modify/build/boards/histreaming/Makefile
+--- hiopenais/build/boards/histreaming/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/boards/histreaming/Makefile	2021-07-01 20:29:10.000000000 -0700
+@@ -0,0 +1,13 @@
++
++# Hisilicon HiOpenAIS cnn_mnist plug demo makefile
++include ../mk.param
++
++TARGET := histreaming.so
++
++# source files
++SMP_SRCS := $(BOARDS_HISTREAMING_DIR)/histreaming.c
++
++CFLAGS += -I$(BOARDS_HISTREAMING_DIR) -I$(BOARDS_HISTREAMING_DIR)/link/include
++CFLAGS += -Wl,-rpath=/usr/lib -L$(BOARDS_HISTREAMING_DIR) -lpthread
++STATIC_LIBS +=  $(BOARDS_HISTREAMING_DIR)/link/lib/liblink_core.a $(BOARDS_HISTREAMING_DIR)/link/lib/libsecurec.a  $(BOARDS_HISTREAMING_DIR)/link/lib/libcjson.a  $(BOARDS_HISTREAMING_DIR)/link/lib/libcoap.a
++include ../linux.mk
+diff -urpBN hiopenais/build/boards/ircut/Makefile hiopenais_modify/build/boards/ircut/Makefile
+--- hiopenais/build/boards/ircut/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/boards/ircut/Makefile	2021-07-01 20:29:10.000000000 -0700
+@@ -0,0 +1,12 @@
++
++# Hisilicon HiOpenAIS cnn_mnist plug demo makefile
++include ../mk.param
++
++TARGET := ircutservice.so
++
++# source files
++SMP_SRCS := $(BOARDS_IRCUTSERVICE_DIR)/ircutservice.c
++CFLAGS += -I$(BOARDS_IRCUTSERVICE_DIR)
++CFLAGS += -Wl,-rpath=/usr/lib
++
++include ../linux.mk
+diff -urpBN hiopenais/build/boards/linux.mk hiopenais_modify/build/boards/linux.mk
+--- hiopenais/build/boards/linux.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/boards/linux.mk	2021-07-01 20:29:10.000000000 -0700
+@@ -0,0 +1,79 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# Hisilicon HiOpenAIS ext demo linux rule makefile
++# 插件makefile可在最后include此文件
++
++#====================================================
++#	Source FileList
++#====================================================
++SOURCE_TREE := $(ROOT_DIR)
++BUILD_TREE  := $(ROOT_DIR)
++
++#====================================================
++#	Objects FileList
++#====================================================
++SRC_ROOT := $(SOURCE_TREE)
++OBJ_ROOT := $(BUILD_TREE)/objs
++OBJS 	 := $(SMP_SRCS:$(SRC_ROOT)%.c=$(OBJ_ROOT)%.o)
++OBJS     := $(sort $(OBJS))
++OBJS_DIR := $(sort $(dir $(OBJS)))
++CPP_OBJS := $(CPP_SRCS:$(SRC_ROOT)%.cpp=$(OBJ_ROOT)%.o)
++
++#====================================================
++#	Create Directory
++#====================================================
++CreateDir = $(shell [ -d $1 ] || mkdir -p $1 || echo ":mkdir '$1' fail")
++CreateResult := 
++dummy := $(call CreateDir, $(OBJS_ROOT))
++dummy += $(foreach dir, $(OBJS_DIR), CreateResult += $(call CreateDir, $(dir)))
++ifneq ($(strip CreateDir),)
++	err = $(error $(CreateResult))
++endif
++#====================================================
++#	SDK libs
++#====================================================
++# plug依赖的hiopenais|sdk lib
++MPI_LIBS += -lmpphelp -lhibase
++MPI_LIBS += -lsecurec
++# plug依赖的系统库
++MPI_LIBS += -lpthread -lrt -lm -lc
++# plug生成.so动态库及相关ld选项
++MPI_LIBS += -shared -fPIC -Wl,-z,defs
++
++#====================================================
++#	Plug demo compile rules
++#====================================================
++MKDIRS := $(TARGET_HIOPENAIS) $(TARGET_DIR)
++
++.PHONY : all clean
++all: $(TARGET)
++
++$(TARGET): $(OBJS) $(CPP_OBJS) | $(MKDIRS)
++	@echo ... ld $@
++	@ $(CC) $(CFLAGS) -o $(TARGET_DIR)/$@ $^ -Wl,--start-group $(MPI_LIBS) -Wl,--end-group $(STATIC_LIBS)
++
++$(CPP_OBJS) : $(OBJ_ROOT)/%.o : $(SRC_ROOT)/%.cpp
++	@echo @@@ c++ $^
++	@$(CC) $(CFLAGS) -c "$<" -o "$@"
++
++$(OBJS) : $(OBJ_ROOT)/%.o : $(SRC_ROOT)/%.c
++	@echo @@@ cc $^
++	@$(CC) $(CFLAGS) -c "$<" -o "$@"
++
++$(MKDIRS):
++	mkdir $@
++
++clean:
++	@rm -f $(TARGET_DIR)/$(TARGET)
++	@rm -f $(OBJS) $(CPP_OBJS)
+diff -urpBN hiopenais/build/boards/Makefile hiopenais_modify/build/boards/Makefile
+--- hiopenais/build/boards/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/boards/Makefile	2021-07-01 20:29:10.000000000 -0700
+@@ -0,0 +1,24 @@
++# Hisilicon HiOpenAIS plug demo workspace makefile
++
++TARGETS := taurus rtsp_agent histreaming ircut higo wifi
++
++TARGETS_clean := ${addsuffix _clean,${TARGETS}}
++TARGETS_rebuild := ${addsuffix _rebuild,${TARGETS}}
++
++.PHONY: all clean rebuild $(TARGETS) $(TARGETS_clean) $(TARGETS_rebuild)
++all: $(TARGETS)
++clean: ${TARGETS_clean}
++rebuild: clean all
++
++$(TARGETS):
++	make -C $@
++	@echo
++
++${TARGETS_clean}:
++	make -C ${patsubst %_clean,%,$@} clean
++	@echo
++
++${TARGETS_rebuild}:
++	make -C ${patsubst %_rebuild,%,$@} clean
++	make -C ${patsubst %_rebuild,%,$@}
++	@echo
+diff -urpBN hiopenais/build/boards/mk.param hiopenais_modify/build/boards/mk.param
+--- hiopenais/build/boards/mk.param	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/boards/mk.param	2021-07-01 20:29:10.000000000 -0700
+@@ -0,0 +1,94 @@
++# Hisilicon HiOpenAIS module makefile public param
++# 各demo plug makefile均应在前面include此文件
++
++# NOTE: PWD是plug_demo/xxx_plug模块目录，而不是plug_demo目录
++# export PRJ_ROOT := $(shell pwd)
++export ROOT_DIR := ../../..
++
++# 根据你的plug目录设置HIOPENAIS目录，必须用相对路径
++export HIOPENAIS_SRC := $(ROOT_DIR)/src
++export OUTPUT_DIR := $(ROOT_DIR)/output
++export THIRD_PARTY_DIR := $(ROOT_DIR)/third_party
++
++# include hiopenais基本环境和参数文件
++include ../../.config
++
++# 需要调整SDK_ROOT为相对plug project的路径
++SDK_ROOT := $(ROOT_DIR)/sdk/$(CHIP_TYPE)
++
++include ../../sdk_param/$(CHIP_TYPE).param
++
++# 删除mpp|sample/makefile.param中定义的某些并不需要的变量
++AUDIO_LIBA :=
++COMM_OBJ :=
++
++# target path
++export TARGET_ROOT := $(OUTPUT_DIR)/
++# export TARGET_HIOPENAIS_DIR := $(TARGET_ROOT)/hiopenais
++export TARGET_HIOPENAIS_DIR := $(TARGET_ROOT)
++export TARGET_DIR := $(TARGET_HIOPENAIS_DIR)/exts
++
++# 依赖的HiOpenais子模块目录
++export EXT_UTIL_DIR := $(HIOPENAIS_SRC)/hi_ext_util
++export LITE_HTTP_DIR := $(HIOPENAIS_SRC)/lite_http
++export MPP_HELP_DIR := $(HIOPENAIS_SRC)/mpp_help
++export PLUG_UTIL_DIR := $(HIOPENAIS_SRC)/plug_util
++export AIC_MNG_DIR := $(HIOPENAIS_SRC)/aic_mng
++
++# 可使用的3rd modules目录
++export THIRD_DIR := $(ROOT_DIR)/dependency
++# export THIRD_PREB_DIR := $(HIOPENAIS_ROOT)/3rd/$(CHIP_TYPE)
++
++export INI_UTIL_DIR := $(THIRD_PARTY_DIR)/src/iniparser
++export CFG_UTIL_DIR := $(ROOT_DIR)/dependency/configaccess
++export EXT_HEAP_DIR := $(ROOT_DIR)/dependency/cns_heap
++export CJSON_DIR := $(THIRD_PARTY_DIR)/src/cJSON
++export OSD_DIR := $(ROOT_DIR)/dependency/osd
++
++export INI_UTIL_INC_DIR := $(INI_UTIL_DIR)/include
++export CFG_UTIL_INC_DIR := $(CFG_UTIL_DIR)/include
++
++# 可使用的opensource 3rd modules目录
++export OPENSSL_DIR := $(THIRD_PARTY_DIR)/output/openssl
++export OPENSSL_INC_DIR := $(OPENSSL_DIR)/include
++export OPENSSL_LIB_DIR := $(OPENSSL_DIR)/lib
++
++# NNIE sample plug dir
++export BOARDS_TAURUS_DIR := $(ROOT_DIR)/boards/taurus
++export AUDIO_DIR := $(ROOT_DIR)/dependency/audio
++export CNN_MNIST_DIR := $(HIOPENAIS_SRC)/plug_demo/cnn_mnist
++export CNN_TRASH_CLASSIFY_DIR := $(HIOPENAIS_SRC)/plug_demo/cnn_trash_classify
++export NNIE_SAMPLE_PLUG_DIR := $(HIOPENAIS_SRC)/plug_demo/nnie_sample_plug
++export BOARDS_RTSP_AGENT_DIR := $(ROOT_DIR)/boards/rtsp_agent
++export BOARDS_HISTREAMING_DIR := $(ROOT_DIR)/boards/histreaming
++export BOARDS_IRCUTSERVICE_DIR := $(ROOT_DIR)/boards/ircut
++export BOARDS_HIGO_DIR := $(ROOT_DIR)/boards/higo
++export BOARDS_WIFI_DIR := $(ROOT_DIR)/boards/wifi
++
++# 使用外部heap，用来做heap破坏检查，会损失性能，仅在debug时才使用
++ifeq ($(CFG_EXT_HEAP), y)
++	CFLAGS += -DCFG_EXT_HEAP
++	CFLAGS += -I$(EXT_HEAP_DIR)
++endif
++
++# plug依赖的hiopenais|sdk的include目录
++# CFLAGS += -I$(NNIE_SAMPLE_PLUG_DIR)
++CFLAGS += -I$(MPP_SAMPLE_COMM_DIR)
++CFLAGS += -I$(SVP_SAMPLE_COMM_DIR)
++CFLAGS += -I$(AIC_MNG_DIR)
++CFLAGS += -I$(MPP_HELP_DIR)
++CFLAGS += -I$(PLUG_UTIL_DIR)
++CFLAGS += -I$(MPP_INC_DIR)
++CFLAGS += -I$(OSD_DIR)
++# CFLAGS += -I$(LITE_HTTP_DIR)
++CFLAGS += -I$(EXT_UTIL_DIR)
++CFLAGS += -I$(THIRD_DIR)
++CFLAGS += -I$(CJSON_DIR)
++# CFLAGS += -I$(OPENSSL_INC_DIR)
++export CFLAGS
++
++# plug依赖的hiopenais|sdk lib目录
++MPI_LIBS += -L$(TARGET_HIOPENAIS_DIR) 
++MPI_LIBS += -L$(MPP_LIB_DIR)
++# MPI_LIBS += -L$(OPENSSL_LIB_DIR)
++export MPI_LIBS
+diff -urpBN hiopenais/build/boards/rtsp_agent/Makefile hiopenais_modify/build/boards/rtsp_agent/Makefile
+--- hiopenais/build/boards/rtsp_agent/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/boards/rtsp_agent/Makefile	2021-07-01 20:29:10.000000000 -0700
+@@ -0,0 +1,11 @@
++# Hisilicon HiOpenAIS cnn_mnist plug demo makefile
++include ../mk.param
++TARGET := rtsp_agent.so
++
++# source files
++SMP_SRCS := $(BOARDS_RTSP_AGENT_DIR)/rtsp_agent.c
++
++CFLAGS += -I$(BOARDS_RTSP_AGENT_DIR)
++CFLAGS += -Wl,-rpath=/usr/lib -L$(BOARDS_RTSP_AGENT_DIR) -lpthread
++STATIC_LIBS += $(BOARDS_RTSP_AGENT_DIR)/librtspserver.a
++include ../linux.mk
+diff -urpBN hiopenais/build/boards/taurus/Makefile hiopenais_modify/build/boards/taurus/Makefile
+--- hiopenais/build/boards/taurus/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/boards/taurus/Makefile	2021-07-01 20:29:10.000000000 -0700
+@@ -0,0 +1,26 @@
++# Hisilicon HiOpenAIS cnn_mnist plug demo makefile
++
++include ../mk.param
++
++TARGET := taurus.so
++
++# source files
++SMP_SRCS := $(BOARDS_TAURUS_DIR)/taurus_adapt.c
++
++SMP_SRCS += $(BOARDS_TAURUS_DIR)/button_control.c
++
++SMP_SRCS += $(AUDIO_DIR)/audio_test.c
++SMP_SRCS += $(AUDIO_DIR)/audio_aac_adp.c
++SMP_SRCS += $(AUDIO_DIR)/audio_dl_adp.c
++
++CFLAGS += -I$(AUDIO_DIR)
++CFLAGS += -Wl,-rpath=/usr/lib
++
++# SMP_SRCS += $(NNIE_SAMPLE_SRCS)
++
++# libs and paths
++# MPI_LIBS += -l???
++# MPI_LIBS += -L???
++
++# compile linux or HuaweiLite
++include ../linux.mk
+diff -urpBN hiopenais/build/boards/wifi/Makefile hiopenais_modify/build/boards/wifi/Makefile
+--- hiopenais/build/boards/wifi/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/boards/wifi/Makefile	2021-07-01 20:29:10.000000000 -0700
+@@ -0,0 +1,13 @@
++
++# Hisilicon HiOpenAIS cnn_mnist plug demo makefile
++include ../mk.param
++
++TARGET := wifi.so
++
++# source files
++SMP_SRCS := $(BOARDS_WIFI_DIR)/wifi.c
++SMP_SRCS += $(BOARDS_WIFI_DIR)/wifi_apd_setup.c
++CFLAGS += -I$(BOARDS_WIFI_DIR)
++CFLAGS += -Wl,-rpath=/usr/lib
++
++include ../linux.mk
+diff -urpBN hiopenais/build/.config hiopenais_modify/build/.config
+--- hiopenais/build/.config	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/.config	2021-03-30 04:50:34.000000000 -0700
+@@ -0,0 +1,26 @@
++# Hisilicon HiOpenAIS .config，它将被include到makefile中
++
++# 默认使用的CHIP_TYPE，根据实际的类型设置，可以用set_chip脚本设置
++CHIP_TYPE ?= hi3516dv300
++export CHIP_TYPE
++OS_TYPE ?= linux
++export OS_TYPE
++
++# 默认使用的SDK_ROOT，根据实际的类型设置，可以用set_sdk脚本设置
++# SDK_ROOT默认为与hiopenais平级（父目录相同）
++SDK_ROOT ?= ../sdk/$(CHIP_TYPE)
++export SDK_ROOT
++
++# 默认使用的SENSOR0_TYPE，根据实际的类型设置，可以用set_sensor脚本设置
++SENSOR0_TYPE ?= SONY_IMX335_MIPI_5M_30FPS_12BIT
++# SENSOR0_TYPE ?= SONY_IMX458_MIPI_2M_90FPS_10BIT
++export SENSOR0_TYPE
++
++# 使用外部heap，用来做heap破坏检查，会损失性能，仅在debug时才使用
++export CFG_EXT_HEAP := n
++
++# app name
++export APP_NAME := HiOpenAIS
++
++# app version, 暂时定义在ver.param中
++export APP_VER := 0.9.1-b1
+diff -urpBN hiopenais/build/def_config/3516dv300_hispark.defconfig hiopenais_modify/build/def_config/3516dv300_hispark.defconfig
+--- hiopenais/build/def_config/3516dv300_hispark.defconfig	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/def_config/3516dv300_hispark.defconfig	2021-03-25 03:27:21.000000000 -0700
+@@ -0,0 +1,24 @@
++# Hisilicon HiOpenAIS .config，它将被include到makefile中
++
++# 默认使用的CHIP_TYPE，根据实际的类型设置，可以用set_chip脚本设置
++CHIP_TYPE ?= 3516dv300
++export CHIP_TYPE
++
++# 默认使用的SDK_ROOT，根据实际的类型设置，可以用set_sdk脚本设置
++# SDK_ROOT默认为与hiopenais平级（父目录相同）
++SDK_ROOT ?= ../boards/$(CHIP_TYPE)
++export SDK_ROOT
++
++# 默认使用的SENSOR0_TYPE，根据实际的类型设置，可以用set_sensor脚本设置
++SENSOR0_TYPE ?= SONY_IMX335_MIPI_5M_30FPS_12BIT
++# SENSOR0_TYPE ?= SONY_IMX458_MIPI_2M_90FPS_10BIT
++export SENSOR0_TYPE
++
++# 使用外部heap，用来做heap破坏检查，会损失性能，仅在debug时才使用
++export CFG_EXT_HEAP := n
++
++# app name
++export APP_NAME := HiOpenAIS
++
++# app version, 暂时定义在ver.param中
++export APP_VER := 0.9.1-b1
+diff -urpBN hiopenais/build/hibase.mk hiopenais_modify/build/hibase.mk
+--- hiopenais/build/hibase.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/hibase.mk	2021-03-29 04:55:19.000000000 -0700
+@@ -0,0 +1,65 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# Hisilicon HiOpenAIS libhibase makefile
++
++include ./mk.param
++
++TARGET := libhibase
++
++ifeq ($(OSTYPE), liteos)
++	TARGET:=$(TARGET).a
++else
++	TARGET:=$(TARGET).so
++	MPI_LIBS += -shared -fPIC -Wl,-z,defs
++endif
++
++# cc flags
++CFLAGS += -I$(EXT_UTIL_DIR)
++CFLAGS += -I$(INI_UTIL_INC_DIR)
++CFLAGS += -I$(CFG_UTIL_INC_DIR)
++CFLAGS += -I$(CJSON_DIR)
++CFLAGS += -I$(THIRD_DIR)
++CFLAGS += -I$(OPENSSL_INC_DIR)
++CFLAGS += -I$(MPP_INC_DIR)
++
++# SMP_SRCS := $(wildcard *.c)
++SMP_SRCS += $(EXT_UTIL_DIR)/hi_app_base.c
++SMP_SRCS += $(EXT_UTIL_DIR)/hi_str_util.c
++SMP_SRCS += $(EXT_UTIL_DIR)/hi_misc_util.c
++SMP_SRCS += $(EXT_UTIL_DIR)/hi_dbg_log.c
++SMP_SRCS += $(EXT_UTIL_DIR)/posix_help.c
++SMP_SRCS += $(EXT_UTIL_DIR)/cjson_help.c
++SMP_SRCS += $(EXT_UTIL_DIR)/evt_mon.c
++# SMP_SRCS += $(EXT_UTIL_DIR)/hi_ssl_adpt.c
++SMP_SRCS += $(EXT_UTIL_DIR)/inet_test_util.c
++SMP_SRCS += $(EXT_UTIL_DIR)/strm_msg_sk.c
++
++ifeq ($(OSTYPE), liteos)
++	SMP_SRCS += $(EXT_UTIL_DIR)/liteos_adpt.c
++endif
++
++SMP_SRCS += $(wildcard $(INI_UTIL_SRC_DIR)/*.c)
++SMP_SRCS += $(CJSON_DIR)/cJSON.c
++ifeq ($(CFG_EXT_HEAP), y)
++	SMP_SRCS += $(wildcard $(EXT_HEAP_DIR)/*.c)
++endif
++
++# lib path and libs
++# MPI_LIBS += ./dependent/libcjson.so
++# MPI_LIBS += -lcrypto
++# MPI_LIBS += -L$(OPENSSL_LIB_DIR)
++
++# compile linux or liteos
++# include $(PWD)/../$(ARM_ARCH)_$(OSTYPE).mak
++include $(SCRIPT_ROOT)/$(ARM_ARCH)_$(OSTYPE).mk
+\ 文件尾没有换行符
+diff -urpBN hiopenais/build/hidevid.mk hiopenais_modify/build/hidevid.mk
+--- hiopenais/build/hidevid.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/hidevid.mk	2021-03-29 04:55:24.000000000 -0700
+@@ -0,0 +1,34 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# Hisilicon HiOpenAIS app makefile
++
++include ./mk.param
++
++TARGET := hidevid
++
++SMP_SRCS += $(PRJ_ROOT)/hi_dev_id/hi_dev_id.c
++
++CFLAGS += -I$(MPP_INC_DIR)
++
++# MPI_LIBS += -lhi_cipher
++MPI_LIBS += -L$(MPP_LIB_DIR)
++
++# 链入mpp动态库
++# MPI_LIBS += -lmpi -ldnvqe -lupvqe -lVoiceEngine
++# 链入mpp静态库
++MPI_LIBS += -Wl,-Bstatic -lmpi -ldnvqe -lupvqe -lVoiceEngine -Wl,-Bdynamic
++
++# compile linux or liteos
++# include $(PWD)/../$(ARM_ARCH)_$(OSTYPE).mak
++include $(SCRIPT_ROOT)/$(ARM_ARCH)_$(OSTYPE).mk
+diff -urpBN hiopenais/build/hiopenais.mk hiopenais_modify/build/hiopenais.mk
+--- hiopenais/build/hiopenais.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/hiopenais.mk	2021-03-29 04:55:28.000000000 -0700
+@@ -0,0 +1,80 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# Hisilicon HiOpenAIS app makefile
++
++include ./mk.param
++
++TARGET := hiopenais
++
++CFLAGS += -I$(HIOPENAIS_DIR)
++CFLAGS += -I$(AIC_MNG_DIR)
++CFLAGS += -I$(UVC_DEV_DIR)
++CFLAGS += -I$(PLUG_UTIL_DIR)
++CFLAGS += -I$(MPP_HELP_DIR)
++CFLAGS += -I$(OSD_DIR)
++CFLAGS += -I$(LITE_HTTP_DIR)
++CFLAGS += -I$(EXT_UTIL_DIR)
++CFLAGS += -I$(INI_UTIL_INC_DIR)
++CFLAGS += -I$(CFG_UTIL_INC_DIR)
++CFLAGS += -I$(CJSON_DIR)
++CFLAGS += -I$(MPP_SAMPLE_COMM_DIR)
++CFLAGS += -I$(THIRD_DIR)
++CFLAGS += -I$(MPP_UVC_DEV_DIR)
++
++# main
++SMP_SRCS += $(HIOPENAIS_DIR)/hiopenais.c
++
++# aic agents
++SMP_SRCS += $(HIOPENAIS_DIR)/httpd_aic.c
++ifeq ($(CFG_HISTM), y)
++	SMP_SRCS += $(HIOPENAIS_DIR)/histm_aic.c
++endif
++SMP_SRCS += $(HIOPENAIS_DIR)/strm_saver.c
++SMP_SRCS += $(HIOPENAIS_DIR)/strm_isp.c
++SMP_SRCS += $(HIOPENAIS_DIR)/uvc_aic.c
++
++# SMP_SRCS += $(PLUG_UTIL_DIR)/auth_file.c
++# SMP_SRCS += $(PLUG_UTIL_DIR)/auth_verify.c
++# CFLAGS += -I$(OPENSSL_INC_DIR)
++
++MPI_LIBS += -L$(NGHTTP2_LIB_DIR) -L$(OPENSSL_LIB_DIR)
++MPI_LIBS += -laicmng -luvcdev -lmpphelp -llitehttpd -lhibase -lnghttp2 -lssl -lcrypto
++MPI_LIBS += -lhi_cipher
++# MPI_LIBS += -lmcheck
++
++# 必须把histreaming库放在后面，因为库中包含了cJSON代码，避免hiopenais混合使用了2套cJSON代码
++ifeq ($(CFG_HISTM), y)
++	CFLAGS += -I$(HISTM_INC_DIR)
++	MPI_LIBS += -L$(HISTM_LIB_DIR)
++	MPI_LIBS += -lhistreaming_cpp
++	MPI_LIBS += -lhistreaming
++	MPI_LIBS += -llink_log
++	## MPI_LIBS += -L$(HISTM_DIR) -L$(HILENS_FACE_DIR) -L$(MPP_LIB_DIR)
++	## MPI_LIBS += -lhistreaming -lhistreaming_cpp -lhilens
++	## MPI_LIBS += -Wl,-Bstatic -ltde -lnnie -Wl,-Bdynamic
++	CFLAGS += -DCFG_HISTM
++endif
++
++APP_VER ?= UNKNOWN
++CFLAGS += -DAPP_VER='"$(APP_VER)"'
++APP_NAME ?= HiOpenAIS
++CFLAGS += -DAPP_NAME='"$(APP_NAME)"'
++
++# show sensor type
++$(info ... $(APP_NAME) $(APP_VER))
++$(info ... SENSOR0_TYPE=$(SENSOR0_TYPE))
++
++# compile linux or liteos
++# include $(PWD)/../$(ARM_ARCH)_$(OSTYPE).mak
++include $(SCRIPT_ROOT)/$(ARM_ARCH)_$(OSTYPE).mk
+diff -urpBN hiopenais/build/litehttpd.mk hiopenais_modify/build/litehttpd.mk
+--- hiopenais/build/litehttpd.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/litehttpd.mk	2021-03-29 04:55:32.000000000 -0700
+@@ -0,0 +1,46 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# Hisilicon HiOpenAIS liblitehttpd makefile
++
++include ./mk.param
++
++TARGET := liblitehttpd
++
++ifeq ($(OSTYPE), liteos)
++	TARGET:=$(TARGET).a
++else
++	TARGET:=$(TARGET).so
++	MPI_LIBS += -shared -fPIC -Wl,-z,defs
++endif
++
++CFLAGS += -I$(LITE_HTTP_DIR)
++CFLAGS += -I$(EXT_UTIL_DIR)
++CFLAGS += -I$(OPENSSL_INC_DIR)
++CFLAGS += -I$(NGHTTP2_INC_DIR)
++CFLAGS += -I$(THIRD_DIR)
++
++# SMP_SRCS := $(wildcard *.c)
++SMP_SRCS += $(LITE_HTTP_DIR)/http_util.c 
++SMP_SRCS += $(LITE_HTTP_DIR)/http_hdrs.c
++SMP_SRCS += $(LITE_HTTP_DIR)/http_svr.c
++SMP_SRCS += $(LITE_HTTP_DIR)/http_rapi.c
++SMP_SRCS += $(LITE_HTTP_DIR)/http_sse.c
++SMP_SRCS += $(LITE_HTTP_DIR)/lite_httpd.c
++
++MPI_LIBS += -L$(NGHTTP2_LIB_DIR) -L$(OPENSSL_LIB_DIR)
++MPI_LIBS += -lhibase -lnghttp2 -lssl -lcrypto
++
++# compile linux or liteos
++# include $(PWD)/../$(ARM_ARCH)_$(OSTYPE).mak
++include $(SCRIPT_ROOT)/$(ARM_ARCH)_$(OSTYPE).mk
+diff -urpBN hiopenais/build/Makefile hiopenais_modify/build/Makefile
+--- hiopenais/build/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/Makefile	2021-04-25 06:35:38.000000000 -0700
+@@ -0,0 +1,38 @@
++# Hisilicon HiOpenAIS workspace makefile
++
++TARGETS := hibase litehttpd mpphelp uvcdev aicmng hiopenais
++# TARGETS := hibase
++
++TARGETS_clean := ${addsuffix _clean,${TARGETS}}
++TARGETS_rebuild := ${addsuffix _rebuild,${TARGETS}}
++
++.PHONY: all clean rebuild $(TARGETS) $(TARGETS_clean) $(TARGETS_rebuild) plugs plugs_clean plugs_rebuild boards boards_clean boards_rebuild hidevid hidevid_clean hidevid_rebuild 
++all: $(TARGETS)
++rebuild: clean all
++clean: ${TARGETS_clean}
++
++$(TARGETS) hidevid:
++	make -f ${addsuffix .mk,$@}
++	@echo
++${TARGETS_clean} hidevid_clean:
++	make -f ${patsubst %_clean,%,$@}.mk clean
++	@echo
++${TARGETS_rebuild} hidevid_rebuild:
++	make -f ${patsubst %_rebuild,%,$@}.mk clean
++	make -f ${patsubst %_rebuild,%,$@}.mk
++	@echo
++
++plugs:
++	make -C plug_demo
++plugs_clean:
++	make -C plug_demo clean
++plugs_rebuild:
++	make -C plug_demo rebuild
++
++boards:
++	make -C boards
++boards_clean:
++	make -C boards clean
++boards_rebuild:
++	make -C boards rebuild
++
+diff -urpBN hiopenais/build/mk.param hiopenais_modify/build/mk.param
+--- hiopenais/build/mk.param	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/mk.param	2021-03-29 04:25:43.000000000 -0700
+@@ -0,0 +1,85 @@
++# Hisilicon HiOpenAIS module makefile public param
++
++# 各模块makefile均应在前面include此文件
++# include此文件时，PWD必须是hiopenais root目录
++# export PRJ_ROOT := $(shell pwd)
++export ROOT_DIR := ..
++export PRJ_ROOT := $(ROOT_DIR)/src
++export OUTPUT_DIR := $(ROOT_DIR)/output
++export THIRD_PARTY_DIR := $(ROOT_DIR)/third_party
++export SCRIPT_ROOT := .
++
++include .config
++include sdk_param/$(CHIP_TYPE).param
++
++# config
++export CFG_HISTM := n
++
++# target输出的存储目录
++export TARGET_ROOT := $(OUTPUT_DIR)/
++# export TARGET_DIR := $(TARGET_ROOT)/hiopenais
++export TARGET_DIR := $(TARGET_ROOT)
++
++# 项目子模块目录
++export EXT_UTIL_DIR := $(PRJ_ROOT)/hi_ext_util
++export LITE_HTTP_DIR := $(PRJ_ROOT)/lite_http
++export MPP_HELP_DIR := $(PRJ_ROOT)/mpp_help
++export UVC_DEV_DIR := $(PRJ_ROOT)/uvc_dev
++export AIC_MNG_DIR := $(PRJ_ROOT)/aic_mng
++export HIOPENAIS_DIR := $(PRJ_ROOT)/hiopenais
++export PLUG_UTIL_DIR := $(PRJ_ROOT)/plug_util
++
++export SRC_ROOT_DIR := $(EXT_UTIL_DIR)
++#export SRC_THIRD_DIR := $(ROOT_DIR)/opensrc/src/cJSON
++
++# 依赖的3rd modules目录
++export THIRD_DIR := $(ROOT_DIR)/dependency
++# export THIRD_PREB_DIR := $(PRJ_ROOT)/3rd/$(CHIP_TYPE)
++
++# 依赖的cJSON opensource dir
++export CJSON_DIR := $(THIRD_PARTY_DIR)/src/cJSON
++
++# 依赖的hislicon OSD source dir
++export OSD_DIR := $(ROOT_DIR)/dependency/osd
++
++# 依赖的extheap 3rd source dir
++export EXT_HEAP_DIR := $(ROOT_DIR)/dependency/cns_heap
++
++# 依赖的configaccess src dir
++export CFG_UTIL_DIR := $(ROOT_DIR)/dependency/configaccess
++export CFG_UTIL_INC_DIR := $(CFG_UTIL_DIR)/include
++
++# 依赖的iniparser src dir
++export INI_UTIL_DIR := $(THIRD_PARTY_DIR)/src/iniparser
++export INI_UTIL_INC_DIR := $(INI_UTIL_DIR)/src
++export INI_UTIL_SRC_DIR := $(INI_UTIL_DIR)/src
++
++# 依赖的hisilicon prebuild module dir
++export SECUREC_DIR := $(ROOT_DIR)/dependency/securec
++export HISTM_DIR := $(ROOT_DIR)/dependency/histm
++export HISTM_INC_DIR := $(HISTM_DIR)/include
++export HISTM_LIB_DIR := $(HISTM_DIR)/lib
++
++# 依赖的opensource rebuild module dir
++export OPENSSL_DIR := $(THIRD_PARTY_DIR)/output/openssl
++export OPENSSL_INC_DIR := $(OPENSSL_DIR)/include
++export OPENSSL_LIB_DIR := $(OPENSSL_DIR)/lib
++export NGHTTP2_DIR := $(THIRD_PARTY_DIR)/output/nghttp2
++export NGHTTP2_INC_DIR := $(NGHTTP2_DIR)/include
++export NGHTTP2_LIB_DIR := $(NGHTTP2_DIR)/lib
++
++# mpp目录
++export MPP_INC_DIR := $(MPP_DIR)/include
++export MPP_LIB_DIR := $(MPP_DIR)/lib
++export MPP_UVC_DEV_DIR := $(MPP_DIR)/sample/uvc_app
++
++# 其他选项
++# CFLAGS += -D__USE_GNU
++# securec performance
++CFLAGS += -DWITH_PERFORMANCE_ADDONS
++
++# 使用外部heap，用来做heap破坏检查，会损失性能，仅在debug时才使用
++ifeq ($(CFG_EXT_HEAP), y)
++	CFLAGS += -DCFG_EXT_HEAP
++	CFLAGS += -I$(EXT_HEAP_DIR)
++endif
+diff -urpBN hiopenais/build/mpphelp.mk hiopenais_modify/build/mpphelp.mk
+--- hiopenais/build/mpphelp.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/mpphelp.mk	2021-04-25 06:51:36.000000000 -0700
+@@ -0,0 +1,84 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# Hisilicon HiOpenAIS libmpphelp makefile
++
++include ./mk.param
++
++TARGET := libmpphelp
++
++ifeq ($(OSTYPE), liteos)
++	TARGET:=$(TARGET).a
++else
++	TARGET:=$(TARGET).so
++	MPI_LIBS += -shared -fPIC -Wl,-z,defs
++endif
++
++CFLAGS += -I$(MPP_HELP_DIR)
++CFLAGS += -I$(SVP_SAMPLE_COMM_DIR)
++CFLAGS += -I$(MPP_SAMPLE_COMM_DIR)
++CFLAGS += -I$(OSD_DIR)
++CFLAGS += -I$(SCENE_INC_DIR)
++CFLAGS += -I$(MPP_INC_DIR)
++CFLAGS += -I$(EXT_UTIL_DIR)
++CFLAGS += -I$(INI_UTIL_INC_DIR)
++CFLAGS += -I$(CFG_UTIL_INC_DIR)
++CFLAGS += -I$(CJSON_DIR)
++CFLAGS += -I$(THIRD_DIR)
++
++ifneq ($(OSTYPE), liteos)
++	SMP_SRCS += $(SCENE_DIR)/src/core/hi_scene.c
++	SMP_SRCS += $(SCENE_DIR)/src/core/hi_scene_setparam.c
++	SMP_SRCS += $(SCENE_DIR)/src/sample/scene_loadparam.c
++	SMP_SRCS += $(wildcard $(MPP_SAMPLE_COMM_DIR)/*.c)
++	
++	# TODO: 确认是否必须?
++	SMP_SRCS += $(wildcard $(CFG_UTIL_DIR)/src/*.c)
++endif
++
++SMP_SRCS += $(OSD_DIR)/hi_osd.c
++SMP_SRCS += $(OSD_DIR)/hi_appcomm_log.c
++
++# $(COMM_OBJ)中已经包含mpp/sample/common/*.o，最终的make中其会被推导为.c编译
++SMP_SRCS += $(MPP_HELP_DIR)/mpp_sess.c
++SMP_SRCS += $(MPP_HELP_DIR)/ive_img.c
++SMP_SRCS += $(MPP_HELP_DIR)/vgs_img.c
++SMP_SRCS += $(MPP_HELP_DIR)/osd_img.c
++
++# 设置于mk.param的$(COMM_OBJ)中包含了mpp/sample/common/*.o
++export OBJS := $(COMM_OBJ)
++# $(info COMM_OBJ: $(COMM_OBJ))
++
++# lib path and libs
++# TODO: 强制将libnnie.a链入，以避免插件单独链接之
++# MPI_LIBS += -Wl,-Bstatic -lmpi -live -lhdmi -Wl,-Bdynamic
++MPI_LIBS += -shared -fPIC -Wl,-z,defs
++# 静态链入，这样上层库就不用再链接mpp动态库
++MPI_LIBS += -Wl,-Bstatic -lmpi -live -lmd -lnnie -lhdmi -ltde -ldnvqe -lupvqe -lVoiceEngine -Wl,-Bdynamic
++# MPI_LIBS += -lmpi -live -lmd -lnnie -lhdmi -ltde -ldnvqe -lupvqe -lVoiceEngine
++MPI_LIBS += -lhibase
++# ifeq ($(CONFIG_HI_TDE_SUPPORT), y)
++# MPI_LIBS += $(REL_LIB)/libtde.a
++# endif
++# MPI_LIBS += $(REL_LIB)/libhdmi.a
++MPI_LIBS += $(SENSOR_LIBS) 
++# MPI_LIBS += $(AUDIO_LIBA) 
++# MPI_LIBS += -L$(MPP_LIB_DIR)
++# $(info MPI_LIBS: $(MPI_LIBS))
++
++# show sensor type
++$(info ... SENSOR0_TYPE: $(SENSOR0_TYPE))
++
++# compile linux or liteos
++# include $(PWD)/../$(ARM_ARCH)_$(OSTYPE).mak
++include $(SCRIPT_ROOT)/$(ARM_ARCH)_$(OSTYPE).mk
+diff -urpBN hiopenais/build/pack.sh hiopenais_modify/build/pack.sh
+--- hiopenais/build/pack.sh	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/pack.sh	2021-03-29 04:55:52.000000000 -0700
+@@ -0,0 +1,27 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++#!/bin/sh
++
++if [ ! -n "$1" ] ; then
++    echo You must spec pkg file name as param1.
++    exit 1
++fi
++
++FILE=$1
++
++# 希望tar出来的pkg，能在单板root下直接解开使用。用tar -C选项达不到效果，采用进入zout，tar *的方式
++# 选项-h用来解除符号链接，将符号链接的原始文件tar进去。-h应该放在-czf的前面
++cd zout
++tar -h -czf ../$FILE *
++cd ..
+diff -urpBN hiopenais/build/plug_demo/cat_classify/Makefile hiopenais_modify/build/plug_demo/cat_classify/Makefile
+--- hiopenais/build/plug_demo/cat_classify/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/cat_classify/Makefile	2021-07-20 23:48:17.622991687 -0700
+@@ -0,0 +1,25 @@
++# Hisilicon HiOpenAIS Cat_classify plug demo makefile
++
++include ../mk.param
++
++TARGET := hi.cat_classify.plug
++
++CFLAGS += -I$(SVP_NNIE_SAMPLE_DIR)
++CFLAGS += -I$(SVP_SAMPLE_NNIE_SOFT_DIR)
++CFLAGS += -I$(HISIGNALLING_DIR)
++
++# source files
++SMP_SRCS := $(wildcard $(CAT_CLASSIFY_DIR)/*.c)
++SMP_SRCS += $(NNIE_SAMPLE_SRCS)
++SMP_SRCS += $(MPP_SAMPLE_COMM_DIR)/sample_comm_vpss.c
++SMP_SRCS += $(HISIGNALLING_DIR)/hisignalling.c
++
++SMP_SRCS += $(AUDIO_DIR)/audio_test.c
++SMP_SRCS += $(AUDIO_DIR)/audio_aac_adp.c
++SMP_SRCS += $(AUDIO_DIR)/audio_dl_adp.c
++
++CFLAGS += -I$(AUDIO_DIR)
++CFLAGS += -Wl,-rpath=/usr/lib
++
++# compile linux
++include ../linux.mk
+\ 文件尾没有换行符
+diff -urpBN hiopenais/build/plug_demo/cnn_gender_classify/Makefile hiopenais_modify/build/plug_demo/cnn_gender_classify/Makefile
+--- hiopenais/build/plug_demo/cnn_gender_classify/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/cnn_gender_classify/Makefile	2021-06-12 02:00:28.000000000 -0700
+@@ -0,0 +1,22 @@
++# Hisilicon HiOpenAIS cnn_trash_classify plug demo makefile
++
++include ../mk.param
++
++TARGET := hi.cnn_gender_classify.plug
++
++CFLAGS += -I$(SVP_NNIE_SAMPLE_DIR)
++CFLAGS += -I$(SVP_SAMPLE_NNIE_SOFT_DIR)
++CFLAGS += -I$(FACE_DETECT)
++
++# source files
++SMP_SRCS := $(wildcard $(CNN_GENDER_CLASSIFY_DIR)/*.c)
++SMP_SRCS += $(NNIE_SAMPLE_SRCS)
++SMP_SRCS += $(MPP_SAMPLE_COMM_DIR)/sample_comm_vpss.c
++
++CFLAGS += -I$(AUDIO_DIR)
++CFLAGS += -Wl,-rpath=/usr/lib
++MPI_LIBS += -L$(FACE_DETECT)
++MPI_LIBS += -lhirfcn_face_detect
++
++# compile linux
++include ../linux.mk
+\ 文件尾没有换行符
+diff -urpBN hiopenais/build/plug_demo/cnn_hand_gesture/Makefile hiopenais_modify/build/plug_demo/cnn_hand_gesture/Makefile
+--- hiopenais/build/plug_demo/cnn_hand_gesture/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/cnn_hand_gesture/Makefile	2021-06-28 02:17:15.000000000 -0700
+@@ -0,0 +1,16 @@
++# Hisilicon HiOpenAIS yolov2_hand_detect plug demo makefile
++
++include ../mk.param
++
++TARGET := hi.cnn_hand_gesture.plug
++
++CFLAGS += -I$(SVP_NNIE_SAMPLE_DIR)
++CFLAGS += -I$(SVP_SAMPLE_NNIE_SOFT_DIR)
++
++# source files
++SMP_SRCS := $(wildcard $(CNN_HAND_GESTURE_DIR)/*.c)
++SMP_SRCS += $(NNIE_SAMPLE_SRCS)
++SMP_SRCS += $(MPP_SAMPLE_COMM_DIR)/sample_comm_vpss.c
++
++# compile linux
++include ../linux.mk
+\ 文件尾没有换行符
+diff -urpBN hiopenais/build/plug_demo/cnn_mnist/Makefile hiopenais_modify/build/plug_demo/cnn_mnist/Makefile
+--- hiopenais/build/plug_demo/cnn_mnist/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/cnn_mnist/Makefile	2021-03-26 19:08:08.000000000 -0700
+@@ -0,0 +1,16 @@
++# Hisilicon HiOpenAIS cnn_mnist plug demo makefile
++
++include ../mk.param
++
++TARGET := hi.cnn_mnist.plug
++
++CFLAGS += -I$(SVP_NNIE_SAMPLE_DIR)
++CFLAGS += -I$(SVP_SAMPLE_NNIE_SOFT_DIR)
++
++# source files
++SMP_SRCS := $(wildcard $(CNN_MNIST_DIR)/*.c)
++SMP_SRCS += $(NNIE_SAMPLE_SRCS)
++SMP_SRCS += $(MPP_SAMPLE_COMM_DIR)/sample_comm_vpss.c
++
++# compile linux
++include ../linux.mk
+\ 文件尾没有换行符
+diff -urpBN hiopenais/build/plug_demo/cnn_trash_classify/Makefile hiopenais_modify/build/plug_demo/cnn_trash_classify/Makefile
+--- hiopenais/build/plug_demo/cnn_trash_classify/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/cnn_trash_classify/Makefile	2021-05-04 00:42:48.000000000 -0700
+@@ -0,0 +1,23 @@
++# Hisilicon HiOpenAIS cnn_trash_classify plug demo makefile
++
++include ../mk.param
++
++TARGET := hi.cnn_trash_classify.plug
++
++CFLAGS += -I$(SVP_NNIE_SAMPLE_DIR)
++CFLAGS += -I$(SVP_SAMPLE_NNIE_SOFT_DIR)
++
++# source files
++SMP_SRCS := $(wildcard $(CNN_TRASH_CLASSIFY_DIR)/*.c)
++SMP_SRCS += $(NNIE_SAMPLE_SRCS)
++SMP_SRCS += $(MPP_SAMPLE_COMM_DIR)/sample_comm_vpss.c
++
++SMP_SRCS += $(AUDIO_DIR)/audio_test.c
++SMP_SRCS += $(AUDIO_DIR)/audio_aac_adp.c
++SMP_SRCS += $(AUDIO_DIR)/audio_dl_adp.c
++
++CFLAGS += -I$(AUDIO_DIR)
++CFLAGS += -Wl,-rpath=/usr/lib
++
++# compile linux
++include ../linux.mk
+\ 文件尾没有换行符
+diff -urpBN hiopenais/build/plug_demo/hand_classify/Makefile hiopenais_modify/build/plug_demo/hand_classify/Makefile
+--- hiopenais/build/plug_demo/hand_classify/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/hand_classify/Makefile	2021-09-20 00:54:35.442476007 -0700
+@@ -0,0 +1,27 @@
++# Hisilicon HiOpenAIS cnn_trash_classify plug demo makefile
++
++include ../mk.param
++
++TARGET := hi.hand_classify.plug
++
++CFLAGS += -I$(SVP_NNIE_SAMPLE_DIR)
++CFLAGS += -I$(SVP_SAMPLE_NNIE_SOFT_DIR)
++CFLAGS += -I$(YOLOV2_HAND_DETECT_DIR)
++CFLAGS += -I$(HISIGNALLING_DIR)
++
++# source files
++SMP_SRCS := $(wildcard $(HAND_CLASSIFY_DIR)/*.c)
++SMP_SRCS += $(YOLOV2_HAND_DETECT_DIR)/yolov2_hand_detect.c
++SMP_SRCS += $(NNIE_SAMPLE_SRCS)
++SMP_SRCS += $(MPP_SAMPLE_COMM_DIR)/sample_comm_vpss.c
++SMP_SRCS += $(HISIGNALLING_DIR)/hisignalling.c
++
++SMP_SRCS += $(AUDIO_DIR)/audio_test.c
++SMP_SRCS += $(AUDIO_DIR)/audio_aac_adp.c
++SMP_SRCS += $(AUDIO_DIR)/audio_dl_adp.c
++
++CFLAGS += -I$(AUDIO_DIR)
++CFLAGS += -Wl,-rpath=/usr/lib
++
++# compile linux
++include ../linux.mk
+\ 文件尾没有换行符
+diff -urpBN hiopenais/build/plug_demo/linux.mk hiopenais_modify/build/plug_demo/linux.mk
+--- hiopenais/build/plug_demo/linux.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/linux.mk	2021-06-18 02:08:34.000000000 -0700
+@@ -0,0 +1,83 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# Hisilicon HiOpenAIS plug demo linux rule makefile
++# 插件makefile可在最后include此文件
++
++#====================================================
++#	Source FileList
++#====================================================
++SOURCE_TREE := $(ROOT_DIR)
++BUILD_TREE  := $(ROOT_DIR)
++
++#====================================================
++#	Objects FileList
++#====================================================
++SRC_ROOT := $(SOURCE_TREE)
++OBJ_ROOT := $(BUILD_TREE)/objs
++OBJS 	 := $(SMP_SRCS:$(SRC_ROOT)%.c=$(OBJ_ROOT)%.o)
++OBJS     := $(sort $(OBJS))
++OBJS_DIR := $(sort $(dir $(OBJS)))
++CPP_OBJS := $(CPP_SRCS:$(SRC_ROOT)%.cpp=$(OBJ_ROOT)%.o)
++
++#====================================================
++#	Create Directory
++#====================================================
++CreateDir = $(shell [ -d $1 ] || mkdir -p $1 || echo ":mkdir '$1' fail")
++CreateResult := 
++dummy := $(call CreateDir, $(OBJS_ROOT))
++dummy += $(foreach dir, $(OBJS_DIR), CreateResult += $(call CreateDir, $(dir)))
++ifneq ($(strip CreateDir),)
++	err = $(error $(CreateResult))
++endif
++
++#====================================================
++#	SDK libs
++#====================================================
++# plug依赖的hiopenais|sdk lib
++MPI_LIBS += -lmpphelp -llitehttpd -lhibase
++MPI_LIBS += -lhi_cipher
++MPI_LIBS += -Wl,-Bstatic -lnnie -Wl,-Bdynamic
++MPI_LIBS += -lsecurec
++MPI_LIBS += -lcrypto
++# plug依赖的系统库
++MPI_LIBS += -lpthread -lrt -lm -lc
++# plug生成.so动态库及相关ld选项
++MPI_LIBS += -shared -fPIC -Wl,-z,defs
++
++#====================================================
++#	Plug demo compile rules
++#====================================================
++MKDIRS := $(TARGET_HIOPENAIS) $(TARGET_DIR)
++
++.PHONY : all clean
++all: $(TARGET)
++
++$(TARGET): $(OBJS) $(CPP_OBJS) | $(MKDIRS)
++	@echo ... ld $@
++	@ $(CC) $(CFLAGS) -o $(TARGET_DIR)/$@ $^ -Wl,--start-group $(MPI_LIBS) -Wl,--end-group
++
++$(CPP_OBJS) : $(OBJ_ROOT)/%.o : $(SRC_ROOT)/%.cpp
++	@echo @@@ c++ $^
++	@$(CC) $(CFLAGS) -c "$<" -o "$@"
++
++$(OBJS) : $(OBJ_ROOT)/%.o : $(SRC_ROOT)/%.c
++	@echo @@@ cc $^
++	@$(CC) $(CFLAGS) -c "$<" -o "$@"
++
++$(MKDIRS):
++	mkdir $@
++
++clean:
++	@rm -f $(TARGET_DIR)/$(TARGET)
++	@rm -f $(OBJS) $(CPP_OBJS)
+diff -urpBN hiopenais/build/plug_demo/Makefile hiopenais_modify/build/plug_demo/Makefile
+--- hiopenais/build/plug_demo/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/Makefile	2021-09-17 07:02:59.931930710 -0700
+@@ -0,0 +1,26 @@
++# Hisilicon HiOpenAIS plug demo workspace makefile
++
++TARGETS :=  hand_classify yolov2_hand_detect 
++
++# hand_classify cnn_mnist cnn_trash_classify cnn_hand_gesture cnn_gender_classify
++# hand_classify yolov2_hand_detect cat_classify
++TARGETS_clean := ${addsuffix _clean,${TARGETS}}
++TARGETS_rebuild := ${addsuffix _rebuild,${TARGETS}}
++
++.PHONY: all clean rebuild $(TARGETS) $(TARGETS_clean) $(TARGETS_rebuild)
++all: $(TARGETS)
++clean: ${TARGETS_clean}
++rebuild: clean all
++
++$(TARGETS):
++	make -C $@
++	@echo
++
++${TARGETS_clean}:
++	make -C ${patsubst %_clean,%,$@} clean
++	@echo
++
++${TARGETS_rebuild}:
++	make -C ${patsubst %_rebuild,%,$@} clean
++	make -C ${patsubst %_rebuild,%,$@}
++	@echo
+diff -urpBN hiopenais/build/plug_demo/mk.param hiopenais_modify/build/plug_demo/mk.param
+--- hiopenais/build/plug_demo/mk.param	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/mk.param	2021-07-19 22:34:43.157667118 -0700
+@@ -0,0 +1,110 @@
++# Hisilicon HiOpenAIS module makefile public param
++# 各demo plug makefile均应在前面include此文件
++
++# NOTE: PWD是plug_demo/xxx_plug模块目录，而不是plug_demo目录
++# export PRJ_ROOT := $(shell pwd)
++export ROOT_DIR := ../../..
++
++# 根据你的plug目录设置HIOPENAIS目录，必须用相对路径
++export HIOPENAIS_SRC := $(ROOT_DIR)/src
++export OUTPUT_DIR := $(ROOT_DIR)/output
++export THIRD_PARTY_DIR := $(ROOT_DIR)/third_party
++
++# include hiopenais基本环境和参数文件
++include ../../.config
++
++# 需要调整SDK_ROOT为相对plug project的路径
++SDK_ROOT := $(ROOT_DIR)/sdk/$(CHIP_TYPE)
++
++include ../../sdk_param/$(CHIP_TYPE).param
++
++# 删除mpp|sample/makefile.param中定义的某些并不需要的变量
++AUDIO_LIBA :=
++COMM_OBJ :=
++
++# target path
++export TARGET_ROOT := $(OUTPUT_DIR)/
++# export TARGET_HIOPENAIS_DIR := $(TARGET_ROOT)/hiopenais
++export TARGET_HIOPENAIS_DIR := $(TARGET_ROOT)
++export TARGET_DIR := $(TARGET_HIOPENAIS_DIR)/plugs
++
++# 依赖的HiOpenais子模块目录
++export EXT_UTIL_DIR := $(HIOPENAIS_SRC)/hi_ext_util
++export LITE_HTTP_DIR := $(HIOPENAIS_SRC)/lite_http
++export MPP_HELP_DIR := $(HIOPENAIS_SRC)/mpp_help
++export PLUG_UTIL_DIR := $(HIOPENAIS_SRC)/plug_util
++export AIC_MNG_DIR := $(HIOPENAIS_SRC)/aic_mng
++
++# 可使用的3rd modules目录
++export THIRD_DIR := $(ROOT_DIR)/dependency
++# export THIRD_PREB_DIR := $(HIOPENAIS_ROOT)/3rd/$(CHIP_TYPE)
++
++export INI_UTIL_DIR := $(THIRD_PARTY_DIR)/src/iniparser
++export CFG_UTIL_DIR := $(ROOT_DIR)/dependency/configaccess
++export EXT_HEAP_DIR := $(ROOT_DIR)/dependency/cns_heap
++export CJSON_DIR := $(THIRD_PARTY_DIR)/src/cJSON
++export OSD_DIR := $(ROOT_DIR)/dependency/osd
++export FACE_DETECT := $(ROOT_DIR)/dependency/svp/rfcn_face_detect
++
++export INI_UTIL_INC_DIR := $(INI_UTIL_DIR)/include
++export CFG_UTIL_INC_DIR := $(CFG_UTIL_DIR)/include
++
++# 可使用的opensource 3rd modules目录
++export OPENSSL_DIR := $(THIRD_PARTY_DIR)/output/openssl
++export OPENSSL_INC_DIR := $(OPENSSL_DIR)/include
++export OPENSSL_LIB_DIR := $(OPENSSL_DIR)/lib
++
++# NNIE sample plug dir
++export AUDIO_DIR := $(ROOT_DIR)/dependency/audio
++export CNN_MNIST_DIR := $(HIOPENAIS_SRC)/plug_demo/cnn_mnist
++export CNN_TRASH_CLASSIFY_DIR := $(HIOPENAIS_SRC)/plug_demo/cnn_trash_classify
++export YOLOV2_HAND_DETECT_DIR := $(HIOPENAIS_SRC)/plug_demo/yolov2_hand_detect
++export CNN_HAND_GESTURE_DIR := $(HIOPENAIS_SRC)/plug_demo/cnn_hand_gesture
++export HAND_CLASSIFY_DIR := $(HIOPENAIS_SRC)/plug_demo/hand_classify
++export CNN_GENDER_CLASSIFY_DIR := $(HIOPENAIS_SRC)/plug_demo/cnn_gender_classify
++export NNIE_SAMPLE_PLUG_DIR := $(HIOPENAIS_SRC)/plug_demo/nnie_sample_plug
++export HISIGNALLING_DIR := $(HIOPENAIS_SRC)/plug_demo/hisignalling
++export CAT_CLASSIFY_DIR := $(HIOPENAIS_SRC)/plug_demo/cat_classify
++
++# 使用外部heap，用来做heap破坏检查，会损失性能，仅在debug时才使用
++ifeq ($(CFG_EXT_HEAP), y)
++	CFLAGS += -DCFG_EXT_HEAP
++	CFLAGS += -I$(EXT_HEAP_DIR)
++endif
++
++# plug依赖的hiopenais|sdk的include目录
++CFLAGS += -I$(NNIE_SAMPLE_PLUG_DIR)
++CFLAGS += -I$(MPP_SAMPLE_COMM_DIR)
++CFLAGS += -I$(SVP_SAMPLE_COMM_DIR)
++CFLAGS += -I$(SVP_SAMPLE_NNIE_SOFT_DIR)
++CFLAGS += -I$(SVP_NNIE_SAMPLE_DIR)
++CFLAGS += -I$(MPP_HELP_DIR)
++CFLAGS += -I$(PLUG_UTIL_DIR)
++CFLAGS += -I$(AIC_MNG_DIR)
++CFLAGS += -I$(MPP_INC_DIR)
++CFLAGS += -I$(OSD_DIR)
++CFLAGS += -I$(LITE_HTTP_DIR)
++CFLAGS += -I$(EXT_UTIL_DIR)
++CFLAGS += -I$(THIRD_DIR)
++CFLAGS += -I$(CJSON_DIR)
++CFLAGS += -I$(OPENSSL_INC_DIR)
++CFLAGS += -I$(HISIGNALLING_DIR)
++export CFLAGS
++
++# plug依赖的hiopenais|sdk lib目录
++MPI_LIBS += -L$(TARGET_HIOPENAIS_DIR)
++MPI_LIBS += -L$(MPP_LIB_DIR)
++MPI_LIBS += -L$(OPENSSL_LIB_DIR)
++export MPI_LIBS
++
++# NNIE sample public srcs
++NNIE_SAMPLE_SRCS := $(wildcard $(NNIE_SAMPLE_PLUG_DIR)/*.c)
++NNIE_SAMPLE_SRCS += $(SVP_SAMPLE_COMM_DIR)/sample_comm_nnie.c
++NNIE_SAMPLE_SRCS += $(SVP_SAMPLE_COMM_DIR)/sample_comm_svp.c
++NNIE_SAMPLE_SRCS += $(SVP_SAMPLE_COMM_DIR)/sample_comm_ive.c
++NNIE_SAMPLE_SRCS += $(SVP_NNIE_SAMPLE_DIR)/sample_nnie.c
++NNIE_SAMPLE_SRCS += $(SVP_SAMPLE_NNIE_SOFT_DIR)/sample_svp_nnie_software.c
++export NNIE_SAMPLE_SRCS
++
++PLUG_UTIL_SRCS := $(wildcard $(PLUG_UTIL_DIR)/*.c)
++export PLUG_UTIL_SRCS
+\ 文件尾没有换行符
+diff -urpBN hiopenais/build/plug_demo/tennis_detect/Makefile hiopenais_modify/build/plug_demo/tennis_detect/Makefile
+--- hiopenais/build/plug_demo/tennis_detect/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/tennis_detect/Makefile	2021-06-01 05:08:51.000000000 -0700
+@@ -0,0 +1,35 @@
++# Hisilicon HiOpenAIS cnn_trash_classify plug demo makefile
++include ../mk.param
++
++TARGET := hi.tennis_detect.plug
++
++CFLAGS += -I$(SVP_NNIE_SAMPLE_DIR)
++CFLAGS += -I$(SVP_SAMPLE_NNIE_SOFT_DIR)
++CFLAGS += -Wno-psabi -I$(OPENCV_INC_DIR)
++CFLAGS += -I$(EXT_UTIL_DIR)
++CFLAGS += -I$(SVP_SAMPLE_IVE_DIR)
++CFLAGS += -I$(SVP_SAMPLE_COMM_DIR)
++CFLAGS += -I$(MPP_SAMPLE_COMM_DIR)
++CFLAGS += -I$(MPP_INC_DIR)
++
++# source files
++SVP_SAMPLE_IVE_DIR = $(SVP_SAMPLE_DIR)/ive/sample
++SMP_SRCS += $(NNIE_SAMPLE_SRCS)
++SMP_SRCS += $(MPP_SAMPLE_COMM_DIR)/sample_comm_vpss.c
++SMP_SRCS += $(wildcard $(SVP_SAMPLE_IVE_DIR)/*.c)
++SMP_SRCS += $(wildcard $(SVP_SAMPLE_COMM_DIR)/*.c)
++CPP_SRCS += $(wildcard $(TENNIS_DETECT_DIR)/*.cpp)
++
++MPI_LIBS += -lhi_cipher
++MPI_LIBS += -L$(OPENCV_LIB_DIR)
++MPI_LIBS += -lopencv_world
++MPI_LIBS += -L$(MPP_LIB_DIR)
++MPI_LIBS += -lmpi -lhdmi -lisp -lsns_imx290 -lsns_imx307 -lsns_imx307_2l -lsns_imx307_2l_slave -lsns_imx327 -lsns_imx327_2l -lsns_imx334 -lsns_imx335 -lsns_imx335_forcar -lsns_imx377
++MPI_LIBS += -lsns_imx390 -lsns_imx415 -lsns_imx458 -lsns_mn34220 -lsns_os04b10 -lsns_os05a -lsns_os05a_2l -lsns_os08a10 -lsns_ov2775 -lsns_ov9284
++MPI_LIBS += -lsns_ov12870 -lsns_ps5260_2l -lsns_sc4210 -lsns_gc2053 -l_hiae -l_hiawb -live -lmd -lnnie -lsvpruntime -lupvqe -l_hiacs -ldnvqe -l_hildci
++MPI_LIBS += -lVoiceEngine -l_hidrc -l_hidehaze -l_hiir_auto -l_hicalcflicker
++
++MPI_LIBS += -L$(OPENCV_LIB_DIR) 
++MPI_LIBS += -lopencv_world -lpthread -lrt -ldl
++
++include ../linux.mk
+\ 文件尾没有换行符
+diff -urpBN hiopenais/build/plug_demo/yolov2_hand_detect/Makefile hiopenais_modify/build/plug_demo/yolov2_hand_detect/Makefile
+--- hiopenais/build/plug_demo/yolov2_hand_detect/Makefile	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/plug_demo/yolov2_hand_detect/Makefile	2021-08-12 00:47:51.602118224 -0700
+@@ -0,0 +1,17 @@
++# Hisilicon HiOpenAIS yolov2_hand_detect plug demo makefile
++
++include ../mk.param
++
++TARGET := hi.yolov2_hand_detect.plug
++
++CFLAGS += -I$(SVP_NNIE_SAMPLE_DIR)
++CFLAGS += -I$(SVP_SAMPLE_NNIE_SOFT_DIR)
++CFLAGS += -I$(FACE_DETECT)
++
++# source files
++SMP_SRCS := $(wildcard $(YOLOV2_HAND_DETECT_DIR)/*.c)
++SMP_SRCS += $(NNIE_SAMPLE_SRCS)
++SMP_SRCS += $(MPP_SAMPLE_COMM_DIR)/sample_comm_vpss.c
++
++# compile linux
++include ../linux.mk
+\ 文件尾没有换行符
+diff -urpBN hiopenais/build/sdk_param/hi3516dv300lite.param hiopenais_modify/build/sdk_param/hi3516dv300lite.param
+--- hiopenais/build/sdk_param/hi3516dv300lite.param	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/sdk_param/hi3516dv300lite.param	2021-03-26 20:54:10.000000000 -0700
+@@ -0,0 +1,57 @@
++# Hisilicon sdk makefile param
++
++# 配置SDK相关目录，必须用相对路径
++export SDK_REAL_ROOT ?= $(SDK_ROOT)
++# 基于SDK_LINUX_ROOT的MPP|MPP_SAMPLE目录
++export MPP_DIR ?= $(SDK_REAL_ROOT)/mpp
++export MPP_SAMPLE_DIR ?= $(MPP_DIR)/sample
++
++# 可以通过这种方式来获得模块makefile的path，进一步用$(shell dirname $(SELF_PATH))等方式获得目录名称等
++# SELF_PATH := $(lastword $(MAKEFILE_LIST))
++# $(info SELF_PATH: $(SELF_PATH))
++
++# include mpp/makefile.param，这样就不用将工程目录置于mpp/sample目录中
++# 必须以相对路径include mpp/makefile.param，因其内部会设置mpp_dir为$(PWD)/param_dir
++# mpp/makefile.param是这样设置PARAM_DIR的: PARAM_DIR=$(shell pwd)/$(shell dirname $(PARAM_FILE))
++PARAM_FILE := $(MPP_DIR)/Makefile.param
++include $(PARAM_FILE)
++
++# include mpp/sample/Makefile.param，这样就不用将工程目录置于mpp/sample目录中
++# 最好也以相对路径include，以与include mpp/makefile.param保持一致
++# COMMON_DIR|AUDIO_ADP_DIR是以下Makefile.param需要的，其会以$(PWD)来定义，是绝对路径，会有问题，这里提前定义它
++export COMMON_DIR ?= $(MPP_SAMPLE_DIR)/common
++export AUDIO_ADP_DIR ?= $(MPP_SAMPLE_DIR)/audio/adp
++include $(MPP_SAMPLE_DIR)/Makefile.param
++
++# 删除mpp|sample/makefile.param中定义的某些并不需要的变量
++MPI_LIBS :=
++SMP_SRCS :=
++SMP_SRC :=
++
++# 保留了mpp|sample/makefile.param中的下列定义
++export SENSOR_LIBS
++export AUDIO_LIBA
++export CFLAGS
++
++# sensor lib，不需要根据sensor的选择补充
++SENSOR_LIBS += $(REL_LIB)/libsns_imx335.a
++
++# config
++export UAC_COMPILE := n
++
++# TODO: CFLGAS会被Makefile.param重置，应修改
++ifeq ($(UAC_COMPILE), y)
++CFLAGS += -DHI_UAC_COMPILE
++endif
++
++# mpp及sample modules目录
++export MPP_SAMPLE_DIR := $(MPP_DIR)/sample
++export MPP_SAMPLE_COMM_DIR := $(MPP_SAMPLE_DIR)/common
++export SVP_SAMPLE_DIR := $(MPP_SAMPLE_DIR)/svp
++export SVP_SAMPLE_COMM_DIR := $(SVP_SAMPLE_DIR)/common
++export SCENE_DIR := $(MPP_SAMPLE_DIR)/scene_auto
++export SCENE_INC_DIR := $(SCENE_DIR)/include
++
++# mpp目录
++export MPP_INC_DIR := $(MPP_DIR)/include
++export MPP_LIB_DIR := $(MPP_DIR)/lib
+diff -urpBN hiopenais/build/sdk_param/hi3516dv300.param hiopenais_modify/build/sdk_param/hi3516dv300.param
+--- hiopenais/build/sdk_param/hi3516dv300.param	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/sdk_param/hi3516dv300.param	2021-03-26 20:54:01.000000000 -0700
+@@ -0,0 +1,60 @@
++# Hisilicon sdk makefile param
++
++# 配置SDK相关目录，必须用相对路径
++export SDK_REAL_ROOT ?= $(SDK_ROOT)/smp/a7_linux
++# 基于SDK_LINUX_ROOT的MPP|MPP_SAMPLE目录
++export MPP_DIR ?= $(SDK_REAL_ROOT)/mpp
++export MPP_SAMPLE_DIR ?= $(MPP_DIR)/sample
++
++# 可以通过这种方式来获得模块makefile的path，进一步用$(shell dirname $(SELF_PATH))等方式获得目录名称等
++# SELF_PATH := $(lastword $(MAKEFILE_LIST))
++# $(info SELF_PATH: $(SELF_PATH))
++
++# include mpp/makefile.param，这样就不用将工程目录置于mpp/sample目录中
++# 必须以相对路径include mpp/makefile.param，因其内部会设置mpp_dir为$(PWD)/param_dir
++# mpp/makefile.param是这样设置PARAM_DIR的: PARAM_DIR=$(shell pwd)/$(shell dirname $(PARAM_FILE))
++PARAM_FILE := $(MPP_DIR)/Makefile.param
++include $(PARAM_FILE)
++
++# include mpp/sample/Makefile.param，这样就不用将工程目录置于mpp/sample目录中
++# 最好也以相对路径include，以与include mpp/makefile.param保持一致
++# COMMON_DIR|AUDIO_ADP_DIR是以下Makefile.param需要的，其会以$(PWD)来定义，是绝对路径，会有问题，这里提前定义它
++export COMMON_DIR ?= $(MPP_SAMPLE_DIR)/common
++export AUDIO_ADP_DIR ?= $(MPP_SAMPLE_DIR)/audio/adp
++include $(MPP_SAMPLE_DIR)/Makefile.param
++
++# 删除mpp|sample/makefile.param中定义的某些并不需要的变量
++MPI_LIBS :=
++SMP_SRCS :=
++SMP_SRC :=
++
++# 保留了mpp|sample/makefile.param中的下列定义
++export SENSOR_LIBS
++export AUDIO_LIBA
++export CFLAGS
++
++# sensor lib，不需要根据sensor的选择补充
++SENSOR_LIBS += $(REL_LIB)/libsns_imx335.a
++
++# config
++export UAC_COMPILE := n
++
++# TODO: CFLGAS会被Makefile.param重置，应修改
++ifeq ($(UAC_COMPILE), y)
++CFLAGS += -DHI_UAC_COMPILE
++endif
++
++# mpp及sample modules目录
++export MPP_SAMPLE_DIR := $(MPP_DIR)/sample
++export MPP_SAMPLE_COMM_DIR := $(MPP_SAMPLE_DIR)/common
++export SVP_SAMPLE_DIR := $(MPP_SAMPLE_DIR)/svp
++export SVP_SAMPLE_COMM_DIR := $(SVP_SAMPLE_DIR)/common
++export SVP_SAMPLE_NNIE_DIR := $(SVP_SAMPLE_DIR)/nnie
++export SVP_SAMPLE_NNIE_SOFT_DIR := $(SVP_SAMPLE_NNIE_DIR)/sample_nnie_software
++export SVP_NNIE_SAMPLE_DIR := $(SVP_SAMPLE_NNIE_DIR)/sample
++export SCENE_DIR := $(MPP_SAMPLE_DIR)/scene_auto
++export SCENE_INC_DIR := $(SCENE_DIR)/include
++
++# mpp目录
++export MPP_INC_DIR := $(MPP_DIR)/include
++export MPP_LIB_DIR := $(MPP_DIR)/lib
+diff -urpBN hiopenais/build/set_chip hiopenais_modify/build/set_chip
+--- hiopenais/build/set_chip	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/set_chip	2021-03-19 21:38:51.000000000 -0700
+@@ -0,0 +1,13 @@
++#!/bin/sh
++
++# NOTE: 必须用source来执行此sh，否则make时得不此sh设置的CHIP_TYPE
++
++DEF_TYPE=3516dv300
++
++if [[ ! $1 ]] ; then
++    echo reset chip type to default \'$DEF_TYPE\'.
++    export CHIP_TYPE=$DEF_TYPE
++else 
++    echo reset chip type to $1.
++    export CHIP_TYPE=$1
++fi
+diff -urpBN hiopenais/build/set_sdk hiopenais_modify/build/set_sdk
+--- hiopenais/build/set_sdk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/set_sdk	2021-03-25 05:22:44.000000000 -0700
+@@ -0,0 +1,17 @@
++#!/bin/sh
++
++# NOTE: 必须用source来执行此sh，否则make时得不此sh设置的SDK_ROOT
++
++# 因SDK的限制，必须用相对路径
++if [[ ! $1 ]] ; then
++    if [[ ! $CHIP_TYPE ]] ; then
++        echo reset $SDK_ROOT to default FAIL, for $CHIP_TYPE not set before.
++        # exit 1
++    else
++        echo reset $SDK_ROOT to default \'../$CHIP_TYPE\'.
++        export SDK_ROOT=../../boards/$(CHIP_TYPE)
++    fi
++else
++    echo reset $SDK_ROOT to $1.
++    export SDK_ROOT=$1
++fi
+diff -urpBN hiopenais/build/set_sensor hiopenais_modify/build/set_sensor
+--- hiopenais/build/set_sensor	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/set_sensor	2021-03-19 21:38:51.000000000 -0700
+@@ -0,0 +1,21 @@
++#!/bin/sh
++
++# NOTE: 必须用source来执行此sh，否则make时得不此sh设置的SENSOR0_TYPE
++
++# sensor type const，参见mpp/sample/makefile.param
++IMX335=SONY_IMX335_MIPI_4M_30FPS_12BIT
++IMX458=SONY_IMX458_MIPI_2M_90FPS_10BIT
++
++TYPE=$1
++if [[ ! $TYPE ]] ; then
++    echo reset sensor type to default 'IMX335'.
++    export SENSOR0_TYPE=$IMX335
++elif [[ $TYPE == "458" || $TYPE == "IMX458" || $TYPE == $IMX458 ]] ; then
++    echo set sensor type to 'IMX458'.
++    export SENSOR0_TYPE=$IMX458
++elif [[ $TYPE == "335" || $TYPE == "IMX335" || $TYPE == $IMX335 ]] ; then
++    echo set sensor type to 'IMX335'.
++    export SENSOR0_TYPE=$IMX335
++else 
++    echo unknown sensor type \"$TYPE\", discard.
++fi
+diff -urpBN hiopenais/build/smp_linux.mk hiopenais_modify/build/smp_linux.mk
+--- hiopenais/build/smp_linux.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/smp_linux.mk	2021-03-29 04:56:21.000000000 -0700
+@@ -0,0 +1,87 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# Hisilicon HiOpenAIS linux rule makefile
++
++#====================================================
++#	Module Specified Configure
++#====================================================
++CFLAGS += $(COMM_INC)
++
++#====================================================
++#	SDK libs
++#====================================================
++CFLAGS += -I$(SECUREC_DIR)
++MPI_LIBS += -L$(TARGET_DIR) -L$(MPP_LIB_DIR) -L$(SECUREC_DIR)
++MPI_LIBS += -lsecurec -lpthread -lrt -lm -lc
++
++#====================================================
++#	Source FileList
++#====================================================
++SOURCE_TREE := $(ROOT_DIR)
++BUILD_TREE  := $(ROOT_DIR)
++
++#====================================================
++#	Objects FileList
++#====================================================
++SRC_ROOT := $(SOURCE_TREE)
++OBJ_ROOT := $(BUILD_TREE)/objs
++OBJS     := $(SMP_SRCS:$(SRC_ROOT)%.c=$(OBJ_ROOT)%.o)
++OBJS     := $(sort $(OBJS))
++OBJS_DIR := $(sort $(dir $(OBJS)))
++CPP_OBJS := $(CPP_SRCS:$(SRC_ROOT)%.cpp=$(OBJ_ROOT)%.o)
++
++#====================================================
++#	Create Directory
++#====================================================
++CreateDir = $(shell [ -d $1 ] || mkdir -p $1 || echo ":mkdir '$1' fail")
++CreateResult := 
++dummy := $(call CreateDir, $(OBJS_ROOT))
++dummy += $(foreach dir, $(OBJS_DIR), CreateResult += $(call CreateDir, $(dir)))
++ifneq ($(strip CreateDir),)
++	err = $(error $(CreateResult))
++endif
++
++#====================================================
++#	Compile rules
++#====================================================
++MKDIRS := $(TARGET_DIR)
++
++.PHONY : clean all
++all: $(TARGET)
++
++$(TARGET): $(OBJS) $(CPP_OBJS) | $(MKDIRS)
++	@echo ... ld $@
++	@ $(CC) $(CFLAGS) -o $(TARGET_DIR)/$@ $^ -Wl,--start-group $(MPI_LIBS) -Wl,--end-group
++
++$(CPP_OBJS) : $(OBJ_ROOT)/%.o : $(SRC_ROOT)/%.cpp
++	@echo @@@ c++ $^
++	@$(CC) $(CFLAGS) -c "$<" -o "$@"
++
++$(OBJS) : $(OBJ_ROOT)/%.o : $(SRC_ROOT)/%.c
++	@echo @@@ cc $^
++	@$(CC) $(CFLAGS) -c "$<" -o "$@"
++
++$(MKDIRS):
++	mkdir -p $@
++
++clean:
++	@rm -rf $(OUTPUT_DIR)
++	@rm -rf $(OBJ_ROOT)
++
++cleanstream:
++	@rm -f *.h264
++	@rm -f *.h265
++	@rm -f *.jpg
++	@rm -f *.mjp
++	@rm -f *.mp4
+diff -urpBN hiopenais/build/smp_liteos.mk hiopenais_modify/build/smp_liteos.mk
+--- hiopenais/build/smp_liteos.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/smp_liteos.mk	2021-03-29 04:56:26.000000000 -0700
+@@ -0,0 +1,98 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++include $(LITEOSTOPDIR)/config.mk
++SDK_LIB_PATH := -L$(REL_LIB) -L$(REL_LIB)/extdrv
++
++SDK_LIB := $(SDK_LIB_PATH) --start-group -lhi_osal -lmpi -l$(ARCH_LIBNAME)_base -l$(ARCH_LIBNAME)_sys -lhi_user -lhdmi -l$(ARCH_LIBNAME)_isp -l$(ARCH_LIBNAME)_vi \
++							-l$(ARCH_LIBNAME)_vo -l$(ARCH_LIBNAME)_vpss -l$(ARCH_LIBNAME)_vgs -l$(ARCH_LIBNAME)_gdc -lhi_mipi_rx -lhi_mipi_tx\
++							-l$(ARCH_LIBNAME)_chnl -l$(ARCH_LIBNAME)_rc -l$(ARCH_LIBNAME)_rgn -l$(ARCH_LIBNAME)_vedu \
++							-l$(ARCH_LIBNAME)_venc -l$(ARCH_LIBNAME)_h265e -l$(ARCH_LIBNAME)_jpege -l$(ARCH_LIBNAME)_h264e  \
++							-l$(ARCH_LIBNAME)_dis  -l$(ARCH_LIBNAME)_hdmi  -lhifb -ltde -l$(ARCH_LIBNAME)_tde\
++							-l_hidehaze -l_hidrc -l_hildci -l_hiawb -l_hiae  -l_hicalcflicker -lisp -lhi_sensor_i2c -lhi_ssp_st7789\
++							-laacdec -laacenc -lupvqe -ldnvqe -lVoiceEngine -l$(ARCH_LIBNAME)_ai -l$(ARCH_LIBNAME)_ao -l$(ARCH_LIBNAME)_aio -l$(ARCH_LIBNAME)_aenc -l$(ARCH_LIBNAME)_adec -l$(ARCH_LIBNAME)_acodec \
++							-lhive_RES -lhive_record -lhive_HPF -lhive_AEC -lhive_AGC -lhive_ANR -lhive_EQ \
++							-l$(ARCH_LIBNAME)_vdec -l$(ARCH_LIBNAME)_jpegd  -l$(ARCH_LIBNAME)_vfmw \
++							-lhi_ssp_sony -lhi_sensor_spi -lhi_pwm -lhi_piris -lsys_config \
++							-lhi_cipher\
++							--end-group
++
++ifeq ($(CONFIG_HI_MOTIONFUSION_SUPPORT), y)
++SDK_LIB += -l$(ARCH_LIBNAME)_motionfusion
++SDK_LIB += -lmotionsensor_mng
++SDK_LIB += -lmotionsensor_chip
++SDK_LIB += -lmotionfusion
++SDK_LIB += -l$(ARCH_LIBNAME)_gyrodis
++endif
++ifeq ($(HI_SUBARCH), hi3559v200)
++SDK_LIB += -lsns_imx335_forcar
++else
++SDK_LIB += -lsns_imx335
++endif
++
++ifeq ($(CONFIG_HI_PM_SUPPORT),y)
++SDK_LIB += -l$(ARCH_LIBNAME)_pm
++endif
++
++ifeq ($(CONFIG_HI_SVP_CNN), y)
++SDK_LIB += -lnnie
++SDK_LIB += -l$(ARCH_LIBNAME)_nnie
++endif
++
++ifeq ($(CONFIG_HI_SVP_MD), y)
++SDK_LIB += -lmd
++endif
++
++ifeq ($(CONFIG_HI_SVP_IVE), y)
++SDK_LIB += -live
++SDK_LIB += -l$(ARCH_LIBNAME)_ive
++endif
++
++SDK_LIB += $(SENSOR_LIBS)
++
++LITEOS_LIBDEPS = --start-group $(LITEOS_LIBDEP) --end-group $(LITEOS_TABLES_LDFLAGS)
++
++LDFLAGS := $(LITEOS_LDFLAGS) --gc-sections
++
++SRCS  := $(SMP_SRCS)
++OBJS  := $(SRCS:%.c=%.o)
++
++CFLAGS += $(COMM_INC)
++CFLAGS += $(MEDIA_MSG_INC)
++CFLAGS += $(AMP_INC)
++CFLAGS += -I$(OSAL_ROOT)/include
++
++TARGET_PATH := $(TARGET_DIR)
++
++BIN := $(TARGET_PATH)/$(TARGET).bin
++MAP := $(TARGET_PATH)/$(TARGET).map
++
++MKDIRS := $(TARGET_DIR)
++
++.PHONY : clean all
++all: $(TARGET)
++
++$(TARGET): $(OBJS) | $(MKDIRS)
++	@echo ... ld $@
++	@$(AR) cr $(TARGET_PATH)/$@ $^
++
++$(OBJS): %.o:%.c
++	@echo @@@ cc $^
++	@$(CC) $(CFLAGS) -c $< -o $@
++
++$(MKDIRS):
++	@mkdir -p $@
++
++clean:
++	@rm -f $(TARGET_PATH)/$(TARGET) $(BIN) $(MAP) $(TARGET_PATH)/*.asm
++	@rm -f $(OBJS)
+diff -urpBN hiopenais/build/uvc_dev/uvc_app.conf hiopenais_modify/build/uvc_dev/uvc_app.conf
+--- hiopenais/build/uvc_dev/uvc_app.conf	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/uvc_dev/uvc_app.conf	2021-03-19 21:38:51.000000000 -0700
+@@ -0,0 +1,25 @@
++;UVC Camera Application configuration file
++;it need to be located at /etc/ directory
++
++[stream]
++
++;720: 720P, 1080: 1080P
++resolution = 720
++
++;0: MJPG, 1: H264
++format = 1
++
++[uvc]
++; set max PayloadImage size (e.g 1280*720 *2)
++imagesize= 16588800
++
++; set cache node number
++cache_count = 6
++
++; 0x1: IO_METHOD_MMAP, 0x2: IO_METHOD_USERPTR
++iomethod = 2
++
++
++
++
++
+diff -urpBN hiopenais/build/uvcdev.mk hiopenais_modify/build/uvcdev.mk
+--- hiopenais/build/uvcdev.mk	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/uvcdev.mk	2021-03-29 04:56:31.000000000 -0700
+@@ -0,0 +1,46 @@
++# Copyright (c) 2021 HiSilicon (Shanghai) Technologies CO., LIMITED.
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# Hisilicon HiOpenAIS app makefile
++
++include ./mk.param
++
++TARGET := libuvcdev
++
++ifeq ($(OSTYPE), liteos)
++	TARGET:=$(TARGET).a
++else
++	TARGET:=$(TARGET).so
++	MPI_LIBS += -shared -fPIC -Wl,-z,defs
++endif
++
++CFLAGS += -I$(UVC_DEV_DIR)
++CFLAGS += -I$(EXT_UTIL_DIR)
++CFLAGS += -I$(INI_UTIL_INC_DIR)
++CFLAGS += -I$(CFG_UTIL_INC_DIR)
++CFLAGS += -I$(THIRD_DIR)
++CFLAGS += -I$(MPP_UVC_DEV_DIR)
++
++#export OBJS := $(UVC_APP_OBJ)
++SMP_SRCS += $(MPP_UVC_DEV_DIR)/histream.c
++
++SMP_SRCS += $(UVC_DEV_DIR)/uvc_dev.c
++SMP_SRCS += $(UVC_DEV_DIR)/uvc_strm.c
++SMP_SRCS += $(UVC_DEV_DIR)/frm_store.c
++
++
++MPI_LIBS += -lhibase
++
++# compile linux or liteos
++# include $(PWD)/../$(ARM_ARCH)_$(OSTYPE).mak
++include $(SCRIPT_ROOT)/$(ARM_ARCH)_$(OSTYPE).mk
+diff -urpBN hiopenais/build/ver.param hiopenais_modify/build/ver.param
+--- hiopenais/build/ver.param	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/build/ver.param	2021-03-19 21:38:51.000000000 -0700
+@@ -0,0 +1,3 @@
++# Hisilicon HiOpenAIS version
++
++export APP_VER := 0.9.0 b4

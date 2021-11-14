@@ -1,0 +1,1871 @@
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/audio/adp/audio_aac_adp.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/audio/adp/audio_aac_adp.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/audio/adp/audio_dl_adp.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/audio/adp/audio_dl_adp.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/audio/sample_audio 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/audio/sample_audio 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/audio/sample_audio.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/audio/sample_audio.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/awb_online_calibration/sample_awb_calibration 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/awb_online_calibration/sample_awb_calibration 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/awb_online_calibration/sample_awb_calibration.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/awb_online_calibration/sample_awb_calibration.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/sample_bitrate_auto 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/sample_bitrate_auto 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/sample_bitrate_auto.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/sample_bitrate_auto.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/src/bitrate_auto_load_param.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/src/bitrate_auto_load_param.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/src/dictionary.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/src/dictionary.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/src/hi_bitrate_auto.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/src/hi_bitrate_auto.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/src/iniparser.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/bitrate_auto/src/iniparser.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/calcflicker/sample_calcflicker 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/calcflicker/sample_calcflicker 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/calcflicker/sample_calcflicker.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/calcflicker/sample_calcflicker.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/loadbmp.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/loadbmp.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_audio.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_audio.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_isp.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_isp.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_region.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_region.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_sys.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_sys.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_vdec.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_vdec.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_venc.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_venc.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_vi.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_vi.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_vo.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_vo.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_vpss.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/common/sample_comm_vpss.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/dis/sample_dis 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/dis/sample_dis 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/dis/sample_dis.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/dis/sample_dis.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/fisheye/sample_fisheye 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/fisheye/sample_fisheye 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/fisheye/sample_fisheye.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/fisheye/sample_fisheye.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/hifb/sample_hifb 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/hifb/sample_hifb 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/hifb/sample_hifb.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/hifb/sample_hifb.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/lsc_online_cali/lsc_online_cali 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/lsc_online_cali/lsc_online_cali 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/lsc_online_cali/lsc_online_cali.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/lsc_online_cali/lsc_online_cali.o 不同
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/Makefile.param hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/Makefile.param
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/Makefile.param	2021-03-09 04:21:44.000000000 -0800
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/Makefile.param	2021-07-18 08:41:39.447383014 -0700
+@@ -98,6 +98,8 @@ MPI_LIBS := $(REL_LIB)/libmpi.a
+ COMMON_DIR ?= $(PWD)/../common
+ AUDIO_ADP_DIR ?= $(PWD)/../audio/adp
+ 
++UVC_APP_DIR ?= $(PWD)/../uvc_app
++
+ INC_FLAGS := -I$(REL_INC)
+ INC_FLAGS += -I$(REL_INC)/adapt
+ ISP_VERSION := ISP_V2
+@@ -164,6 +166,11 @@ COMM_OBJ := $(COMM_SRC:%.c=%.o)
+ COMM_INC := -I$(COMMON_DIR)
+ COMM_INC += -I$(AUDIO_ADP_DIR)
+ 
++SAMPLE_UVC_APP_SRC := $(wildcard $(UVC_APP_DIR)/*.c)
++UVC_APP_SRC := $(SAMPLE_UVC_APP_SRC)
++UVC_APP_OBJ := $(SAMPLE_UVC_APP_SRC:%.c=%.o)
++UVC_APP_INC := -I$(UVC_APP_DIR)
++
+ MEDIA_MSG_CLIENT_SRC := $(wildcard $(COMMON_DIR)/media_msg/client/*.c)
+ MEDIA_MSG_CLIENT_OBJ := $(MEDIA_MSG_CLIENT_SRC:%.c=%.o)
+ 
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/region/sample_region 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/region/sample_region 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/region/sample_region.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/region/sample_region.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/sample_scene 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/sample_scene 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/src/core/hi_scene.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/src/core/hi_scene.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/src/core/hi_scene_setparam.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/src/core/hi_scene_setparam.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/src/sample/scene_loadparam.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/src/sample/scene_loadparam.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/src/sample/scene_prev.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/src/sample/scene_prev.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/src/sample/scene_sample.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/src/sample/scene_sample.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/tools/configaccess/src/hi_confaccess.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/tools/configaccess/src/hi_confaccess.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/tools/iniparser/src/dictionary.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/tools/iniparser/src/dictionary.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/tools/iniparser/src/iniparser.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/scene_auto/tools/iniparser/src/iniparser.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/snap/sample_snap 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/snap/sample_snap 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/snap/sample_snap.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/snap/sample_snap.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/common/sample_comm_ive.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/common/sample_comm_ive.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/common/sample_comm_nnie.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/common/sample_comm_nnie.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/common/sample_comm_svp.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/common/sample_comm_svp.o 不同
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/alexnet.modelgroup hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/alexnet.modelgroup
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/alexnet.modelgroup	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/alexnet.modelgroup	2021-07-18 08:51:52.671411380 -0700
+@@ -0,0 +1,13 @@
++name: "single_alexnet"
++priority: 1
++max_tmpbuf_size_mb: 1024
++
++input {
++	name: "data"
++}
++
++model {
++	name: "alexnet"
++	bottom: {name: "data"}
++	top: {name: "prob"}
++}
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_cop_param.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_cop_param.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_data_utils.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_data_utils.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_ive_image.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_ive_image.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_memory_ops.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_memory_ops.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_model_classification.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_model_classification.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_model_rcnn.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_model_rcnn.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_model_ssd.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_model_ssd.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_model_yolo.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_model_yolo.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_mutex_ops.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_mutex_ops.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_resize_roi.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_resize_roi.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_save_blob.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/common/src/sample_save_blob.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/libruntime_plugin_proposal.so 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/libruntime_plugin_proposal.so 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/libruntime_plugin_proposal_without_permute.so 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/libruntime_plugin_proposal_without_permute.so 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/plugins/common/proposal_common.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/plugins/common/proposal_common.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/plugins/proposal/hi_plugin_proposal.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/plugins/proposal/hi_plugin_proposal.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/plugins/proposal/libruntime_plugin_proposal.so 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/plugins/proposal/libruntime_plugin_proposal.so 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/plugins/proposal_without_permute/hi_plugin_proposal.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/plugins/proposal_without_permute/hi_plugin_proposal.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/plugins/proposal_without_permute/libruntime_plugin_proposal_without_permute.so 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/plugins/proposal_without_permute/libruntime_plugin_proposal_without_permute.so 不同
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/rfcn.modelgroup hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/rfcn.modelgroup
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/rfcn.modelgroup	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/rfcn.modelgroup	2021-07-18 08:51:52.671411380 -0700
+@@ -0,0 +1,18 @@
++name: "single_rfcn"
++priority: 1
++max_tmpbuf_size_mb: 2048
++
++input {
++    name: "data"
++}
++
++model {
++    name: "rfcn"
++    bottom: { name: "data" }
++    top: { name: "rois" }
++    top: { name: "cls_prob" }
++    top: { name: "bbox_pred" }
++    cops {
++        name: "proposal"
++    }
++}
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/sample_runtime_release 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/sample_runtime_release 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/src/main.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/src/main.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/src/sample_runtime_classify.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/src/sample_runtime_classify.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/src/sample_runtime_detection_rfcn.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/src/sample_runtime_detection_rfcn.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/src/sample_runtime_detection_ssd.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/src/sample_runtime_detection_ssd.o 不同
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/ssd.modelgroup hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/ssd.modelgroup
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/ssd.modelgroup	1969-12-31 16:00:00.000000000 -0800
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/hirt/ssd.modelgroup	2021-07-18 08:51:52.671411380 -0700
+@@ -0,0 +1,24 @@
++name: "single_ssd"
++priority: 1
++max_tmpbuf_size_mb: 3072
++
++input {
++	name: "data"
++}
++
++model {
++	name: "ssd"
++	bottom: {name: "data"}
++    top: {name: "conv4_3_norm_mbox_loc_perm"}
++    top: {name: "conv4_3_norm_mbox_conf_perm"}
++    top: {name: "fc7_mbox_loc_perm"}
++    top: {name: "fc7_mbox_conf_perm"}
++    top: {name: "conv6_2_mbox_loc_perm"}
++    top: {name: "conv6_2_mbox_conf_perm"}
++    top: {name: "conv7_2_mbox_loc_perm"}
++    top: {name: "conv7_2_mbox_conf_perm"}
++    top: {name: "conv8_2_mbox_loc_perm"}
++    top: {name: "conv8_2_mbox_conf_perm"}
++    top: {name:  "conv9_2_mbox_loc_perm"}
++    top: {name:  "conv9_2_mbox_conf_perm"}
++}
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_canny.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_canny.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_gmm2.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_gmm2.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_kcf.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_kcf.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_md.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_md.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_od.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_od.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_persptrans.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_persptrans.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_queue.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_queue.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_sobel_with_cached_mem.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_sobel_with_cached_mem.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_st_and_lk.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_st_and_lk.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_test_memory.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample/sample_ive_test_memory.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample_ive_main 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample_ive_main 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample_ive_main.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/ive/sample_ive_main.o 不同
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample/sample_nnie.c hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample/sample_nnie.c
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample/sample_nnie.c	2020-05-27 20:04:35.000000000 -0700
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample/sample_nnie.c	2021-07-18 08:41:39.459383014 -0700
+@@ -22,275 +22,20 @@
+ #include "sample_svp_nnie_software.h"
+ #include "sample_comm_ive.h"
+ 
+-/*cnn para*/
+-static SAMPLE_SVP_NNIE_MODEL_S s_stCnnModel = {0};
+-static SAMPLE_SVP_NNIE_PARAM_S s_stCnnNnieParam = {0};
+-static SAMPLE_SVP_NNIE_CNN_SOFTWARE_PARAM_S s_stCnnSoftwareParam = {0};
+-/*segment para*/
+-static SAMPLE_SVP_NNIE_MODEL_S s_stSegnetModel = {0};
+-static SAMPLE_SVP_NNIE_PARAM_S s_stSegnetNnieParam = {0};
+-/*fasterrcnn para*/
+-static SAMPLE_SVP_NNIE_MODEL_S s_stFasterRcnnModel = {0};
+-static SAMPLE_SVP_NNIE_PARAM_S s_stFasterRcnnNnieParam = {0};
+-static SAMPLE_SVP_NNIE_FASTERRCNN_SOFTWARE_PARAM_S s_stFasterRcnnSoftwareParam = {0};
+-static SAMPLE_SVP_NNIE_NET_TYPE_E s_enNetType;
+-/*rfcn para*/
+-static SAMPLE_SVP_NNIE_MODEL_S s_stRfcnModel = {0};
+-static SAMPLE_SVP_NNIE_PARAM_S s_stRfcnNnieParam = {0};
+-static SAMPLE_SVP_NNIE_RFCN_SOFTWARE_PARAM_S s_stRfcnSoftwareParam = {0};
+-static SAMPLE_IVE_SWITCH_S s_stRfcnSwitch = {HI_FALSE,HI_FALSE};
+-static HI_BOOL s_bNnieStopSignal = HI_FALSE;
+-static pthread_t s_hNnieThread = 0;
+-static SAMPLE_VI_CONFIG_S s_stViConfig = {0};
+-
+-/*ssd para*/
+-static SAMPLE_SVP_NNIE_MODEL_S s_stSsdModel = {0};
+-static SAMPLE_SVP_NNIE_PARAM_S s_stSsdNnieParam = {0};
+-static SAMPLE_SVP_NNIE_SSD_SOFTWARE_PARAM_S s_stSsdSoftwareParam = {0};
+-/*yolov1 para*/
+-static SAMPLE_SVP_NNIE_MODEL_S s_stYolov1Model = {0};
+-static SAMPLE_SVP_NNIE_PARAM_S s_stYolov1NnieParam = {0};
+-static SAMPLE_SVP_NNIE_YOLOV1_SOFTWARE_PARAM_S s_stYolov1SoftwareParam = {0};
+-/*yolov2 para*/
+-static SAMPLE_SVP_NNIE_MODEL_S s_stYolov2Model = {0};
+-static SAMPLE_SVP_NNIE_PARAM_S s_stYolov2NnieParam = {0};
+-static SAMPLE_SVP_NNIE_YOLOV2_SOFTWARE_PARAM_S s_stYolov2SoftwareParam = {0};
+-/*yolov3 para*/
+-static SAMPLE_SVP_NNIE_MODEL_S s_stYolov3Model = {0};
+-static SAMPLE_SVP_NNIE_PARAM_S s_stYolov3NnieParam = {0};
+-static SAMPLE_SVP_NNIE_YOLOV3_SOFTWARE_PARAM_S s_stYolov3SoftwareParam = {0};
+-/*lstm para*/
+-static SAMPLE_SVP_NNIE_MODEL_S s_stLstmModel = {0};
+-static SAMPLE_SVP_NNIE_PARAM_S s_stLstmNnieParam = {0};
+-/*pvanet para*/
+-static SAMPLE_SVP_NNIE_MODEL_S s_stPvanetModel = {0};
+-static SAMPLE_SVP_NNIE_PARAM_S s_stPvanetNnieParam = {0};
+-static SAMPLE_SVP_NNIE_FASTERRCNN_SOFTWARE_PARAM_S s_stPvanetSoftwareParam = {0};
+-
+-#ifdef SAMPLE_SVP_NNIE_PERF_STAT
+-#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_CLREAR()  memset(&s_stOpForwardPerfTmp,0,sizeof(s_stOpForwardPerfTmp));
+-#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_GET_DIFF_TIME(s_stOpForwardPerfTmp.u64SrcFlushTime)
+-#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_GET_DIFF_TIME(s_stOpForwardPerfTmp.u64PreDstFulshTime)
+-#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_GET_DIFF_TIME(s_stOpForwardPerfTmp.u64AferDstFulshTime)
+-#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_GET_DIFF_TIME(s_stOpForwardPerfTmp.u64OPTime)
+-
+-/*YoloV1*/
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_SRC_FLUSH_TIME() s_stYolov1Perf.stForwardPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_PRE_DST_FLUSH_TIME() s_stYolov1Perf.stForwardPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_AFTER_DST_FLUSH_TIME() s_stYolov1Perf.stForwardPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_OP_TIME() s_stYolov1Perf.stForwardPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov1Perf.stGRPerf.u64SrcFlushTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov1Perf.stGRPerf.u64PreDstFulshTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov1Perf.stGRPerf.u64AferDstFulshTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov1Perf.stGRPerf.u64OPTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_PRINT() printf("Yolov1 Forward time: %llu us,GR time:%llu us,Flush time: %llu us\n",\
+-    s_stYolov1Perf.stForwardPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stYolov1Perf.stGRPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
+-    (s_stYolov1Perf.stForwardPerf.u64SrcFlushTime + s_stYolov1Perf.stForwardPerf.u64PreDstFulshTime + s_stYolov1Perf.stForwardPerf.u64AferDstFulshTime\
+-    + s_stYolov1Perf.stGRPerf.u64SrcFlushTime + s_stYolov1Perf.stGRPerf.u64PreDstFulshTime + s_stYolov1Perf.stGRPerf.u64AferDstFulshTime)/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES );
+-/*Yolov2*/
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_SRC_FLUSH_TIME() s_stYolov2Perf.stForwardPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_PRE_DST_FLUSH_TIME() s_stYolov2Perf.stForwardPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_AFTER_DST_FLUSH_TIME() s_stYolov2Perf.stForwardPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_OP_TIME() s_stYolov2Perf.stForwardPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov2Perf.stGRPerf.u64SrcFlushTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov2Perf.stGRPerf.u64PreDstFulshTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov2Perf.stGRPerf.u64AferDstFulshTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov2Perf.stGRPerf.u64OPTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_PRINT() printf("Yolov2 Forward time: %llu us,GR time:%llu us,Flush time: %llu us\n",\
+-    s_stYolov2Perf.stForwardPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stYolov2Perf.stGRPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
+-    (s_stYolov2Perf.stForwardPerf.u64SrcFlushTime + s_stYolov2Perf.stForwardPerf.u64PreDstFulshTime + s_stYolov2Perf.stForwardPerf.u64AferDstFulshTime\
+-    + s_stYolov2Perf.stGRPerf.u64SrcFlushTime + s_stYolov2Perf.stGRPerf.u64PreDstFulshTime + s_stYolov2Perf.stGRPerf.u64AferDstFulshTime)/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES );
+-
+-/*SSD*/
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_SRC_FLUSH_TIME() s_stSsdPerf.stForwardPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_PRE_DST_FLUSH_TIME() s_stSsdPerf.stForwardPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_AFTER_DST_FLUSH_TIME() s_stSsdPerf.stForwardPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_OP_TIME() s_stSsdPerf.stForwardPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stSsdPerf.stGRPerf.u64SrcFlushTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stSsdPerf.stGRPerf.u64PreDstFulshTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stSsdPerf.stGRPerf.u64AferDstFulshTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stSsdPerf.stGRPerf.u64OPTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_PRINT() printf("SSD Forward time: %llu us,GR time:%llu us,Flush time: %llu us\n",\
+-    s_stSsdPerf.stForwardPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stSsdPerf.stGRPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
+-    (s_stSsdPerf.stForwardPerf.u64SrcFlushTime + s_stSsdPerf.stForwardPerf.u64PreDstFulshTime + s_stSsdPerf.stForwardPerf.u64AferDstFulshTime\
+-    + s_stSsdPerf.stGRPerf.u64SrcFlushTime + s_stSsdPerf.stGRPerf.u64PreDstFulshTime + s_stSsdPerf.stGRPerf.u64AferDstFulshTime)/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES );
+-
+-/*Pvanet*/
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_SRC_FLUSH_TIME() s_stPvanetPerf.stForwardPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_PRE_DST_FLUSH_TIME() s_stPvanetPerf.stForwardPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_AFTER_DST_FLUSH_TIME() s_stPvanetPerf.stForwardPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_OP_TIME() s_stPvanetPerf.stForwardPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_SRC_FLUSH_TIME() s_stPvanetPerf.stRpnPerf.u64SrcFlushTime += g_stOpRpnPerfTmp.u64SrcFlushTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_PRE_DST_FLUSH_TIME() s_stPvanetPerf.stRpnPerf.u64PreDstFulshTime += g_stOpRpnPerfTmp.u64PreDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_AFTER_DST_FLUSH_TIME() s_stPvanetPerf.stRpnPerf.u64AferDstFulshTime += g_stOpRpnPerfTmp.u64AferDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_OP_TIME() s_stPvanetPerf.stRpnPerf.u64OPTime += g_stOpRpnPerfTmp.u64OPTime;
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_SRC_FLUSH_TIME() s_stPvanetPerf.stRoiPoolingPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_PRE_DST_FLUSH_TIME() s_stPvanetPerf.stRoiPoolingPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_AFTER_DST_FLUSH_TIME() s_stPvanetPerf.stRoiPoolingPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_OP_TIME() s_stPvanetPerf.stRoiPoolingPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stPvanetPerf.stGRPerf.u64SrcFlushTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stPvanetPerf.stGRPerf.u64PreDstFulshTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stPvanetPerf.stGRPerf.u64AferDstFulshTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stPvanetPerf.stGRPerf.u64OPTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_PRINT() printf("Pvanet Forward time: %llu us,Rpn time:%llu us,RoiPooling time:%llu us,GR time:%llu us,Flush time: %llu us\n",\
+-    s_stPvanetPerf.stForwardPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stPvanetPerf.stRpnPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
+-    s_stPvanetPerf.stRoiPoolingPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES, s_stPvanetPerf.stGRPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
+-    (s_stPvanetPerf.stForwardPerf.u64SrcFlushTime + s_stPvanetPerf.stForwardPerf.u64PreDstFulshTime + s_stPvanetPerf.stForwardPerf.u64AferDstFulshTime\
+-    + s_stPvanetPerf.stRpnPerf.u64SrcFlushTime + s_stPvanetPerf.stRpnPerf.u64PreDstFulshTime + s_stPvanetPerf.stRpnPerf.u64AferDstFulshTime\
+-    + s_stPvanetPerf.stRoiPoolingPerf.u64SrcFlushTime + s_stPvanetPerf.stRoiPoolingPerf.u64PreDstFulshTime + s_stPvanetPerf.stRoiPoolingPerf.u64AferDstFulshTime\
+-    + s_stPvanetPerf.stGRPerf.u64SrcFlushTime + s_stPvanetPerf.stGRPerf.u64PreDstFulshTime + s_stPvanetPerf.stGRPerf.u64AferDstFulshTime)/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES );
+-
+-/*RFCN*/
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_SRC_FLUSH_TIME() s_stRfcnPerf.stForwardPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_PRE_DST_FLUSH_TIME() s_stRfcnPerf.stForwardPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_AFTER_DST_FLUSH_TIME() s_stRfcnPerf.stForwardPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_OP_TIME() s_stRfcnPerf.stForwardPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_SRC_FLUSH_TIME() s_stRfcnPerf.stRpnPerf.u64SrcFlushTime += g_stOpRpnPerfTmp.u64SrcFlushTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_PRE_DST_FLUSH_TIME() s_stRfcnPerf.stRpnPerf.u64PreDstFulshTime += g_stOpRpnPerfTmp.u64PreDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_AFTER_DST_FLUSH_TIME() s_stRfcnPerf.stRpnPerf.u64AferDstFulshTime += g_stOpRpnPerfTmp.u64AferDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_OP_TIME() s_stRfcnPerf.stRpnPerf.u64OPTime += g_stOpRpnPerfTmp.u64OPTime;
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_SRC_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling1Perf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_PRE_DST_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling1Perf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_AFTER_DST_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling1Perf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_OP_TIME() s_stRfcnPerf.stPsRoiPooling1Perf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_SRC_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling2Perf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_PRE_DST_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling2Perf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_AFTER_DST_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling2Perf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_OP_TIME() s_stRfcnPerf.stPsRoiPooling2Perf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stRfcnPerf.stGRPerf.u64SrcFlushTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stRfcnPerf.stGRPerf.u64PreDstFulshTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stRfcnPerf.stGRPerf.u64AferDstFulshTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stRfcnPerf.stGRPerf.u64OPTime);
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PRINT_VITOVO() printf("Rfcn_ViToVo Forward time: %llu us,Rpn time:%llu us,PsRoiPooling1 time:%llu us,PsRoiPooling2 time:%llu us,GR time:%llu us,Flush time: %llu us\n",\
+-    s_stRfcnPerf.stForwardPerf.u64OPTime,s_stRfcnPerf.stRpnPerf.u64OPTime,\
+-    s_stRfcnPerf.stPsRoiPooling1Perf.u64OPTime, s_stRfcnPerf.stPsRoiPooling2Perf.u64OPTime,s_stRfcnPerf.stGRPerf.u64OPTime,\
+-    (s_stRfcnPerf.stForwardPerf.u64SrcFlushTime + s_stRfcnPerf.stForwardPerf.u64PreDstFulshTime + s_stRfcnPerf.stForwardPerf.u64AferDstFulshTime\
+-    + s_stRfcnPerf.stRpnPerf.u64SrcFlushTime + s_stRfcnPerf.stRpnPerf.u64PreDstFulshTime + s_stRfcnPerf.stRpnPerf.u64AferDstFulshTime\
+-    + s_stRfcnPerf.stPsRoiPooling1Perf.u64SrcFlushTime + s_stRfcnPerf.stPsRoiPooling1Perf.u64PreDstFulshTime + s_stRfcnPerf.stPsRoiPooling1Perf.u64AferDstFulshTime\
+-    + s_stRfcnPerf.stPsRoiPooling2Perf.u64SrcFlushTime + s_stRfcnPerf.stPsRoiPooling2Perf.u64PreDstFulshTime + s_stRfcnPerf.stPsRoiPooling2Perf.u64AferDstFulshTime\
+-    + s_stRfcnPerf.stGRPerf.u64SrcFlushTime + s_stRfcnPerf.stGRPerf.u64PreDstFulshTime + s_stRfcnPerf.stGRPerf.u64AferDstFulshTime));
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PRINT_FILE() printf("Rfcn_File Forward time: %llu us,Rpn time:%llu us,PsRoiPooling1 time:%llu us,PsRoiPooling2 time:%llu us,GR time:%llu us,Flush time: %llu us\n",\
+-    s_stRfcnPerf.stForwardPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stRfcnPerf.stRpnPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
+-    s_stRfcnPerf.stPsRoiPooling1Perf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stRfcnPerf.stPsRoiPooling2Perf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
+-    s_stRfcnPerf.stGRPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
+-    (s_stRfcnPerf.stForwardPerf.u64SrcFlushTime + s_stRfcnPerf.stForwardPerf.u64PreDstFulshTime + s_stRfcnPerf.stForwardPerf.u64AferDstFulshTime\
+-    + s_stRfcnPerf.stRpnPerf.u64SrcFlushTime + s_stRfcnPerf.stRpnPerf.u64PreDstFulshTime + s_stRfcnPerf.stRpnPerf.u64AferDstFulshTime\
+-    + s_stRfcnPerf.stPsRoiPooling1Perf.u64SrcFlushTime + s_stRfcnPerf.stPsRoiPooling1Perf.u64PreDstFulshTime + s_stRfcnPerf.stPsRoiPooling1Perf.u64AferDstFulshTime\
+-    + s_stRfcnPerf.stPsRoiPooling2Perf.u64SrcFlushTime + s_stRfcnPerf.stPsRoiPooling2Perf.u64PreDstFulshTime + s_stRfcnPerf.stPsRoiPooling2Perf.u64AferDstFulshTime\
+-    + s_stRfcnPerf.stGRPerf.u64SrcFlushTime + s_stRfcnPerf.stGRPerf.u64PreDstFulshTime + s_stRfcnPerf.stGRPerf.u64AferDstFulshTime)/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES);
+-
+-
+-
+-static SAMPLE_SVP_NNIE_YOLO_PERF_STAT_S s_stYolov1Perf = {0};
+-static SAMPLE_SVP_NNIE_YOLO_PERF_STAT_S s_stYolov2Perf = {0};
+-static SAMPLE_SVP_NNIE_SSD_PERF_STAT_S  s_stSsdPerf = {0};
+-static SAMPLE_SVP_NNIE_PVANET_PERF_STAT_S s_stPvanetPerf = {0};
+-static SAMPLE_SVP_NNIE_RFCN_PERF_STAT_S s_stRfcnPerf = {0};
+-
+-static SAMPLE_SVP_NNIE_OP_PERF_STAT_S   s_stOpForwardPerfTmp = {0};
+-extern SAMPLE_SVP_NNIE_OP_PERF_STAT_S   g_stOpRpnPerfTmp;
+-#else
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_CLREAR()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_OP_TIME()
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_OP_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_OP_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_PRINT()
+-
+-/*Yolov2*/
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_OP_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_OP_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_PRINT()
+-/*SSD*/
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_OP_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_OP_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_PRINT()
+-
+-/*Pvanet*/
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_OP_TIME()
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_OP_TIME()
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_OP_TIME()
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_OP_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_PRINT()
+-
+-/*RFCN*/
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_OP_TIME()
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_OP_TIME()
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_OP_TIME()
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_OP_TIME()
+-
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_SRC_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_PRE_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_AFTER_DST_FLUSH_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_OP_TIME()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PRINT_VITOVO()
+-#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PRINT_FILE()
++RfcnCfg g_rfcnCfg = { 
++    .classNum = 21,
++};
++
++Yolo1Cfg g_yolo1Cfg = { 
++    .classNum = 20,
++    .gridNumHeight = 7,
++    .gridNumWidth = 7,
++};
+ 
+-#endif
+ /******************************************************************************
+ * function : NNIE Forward
+ ******************************************************************************/
+-static HI_S32 SAMPLE_SVP_NNIE_Forward(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
++HI_S32 SAMPLE_SVP_NNIE_Forward(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
+     SAMPLE_SVP_NNIE_INPUT_DATA_INDEX_S* pstInputDataIdx,
+     SAMPLE_SVP_NNIE_PROCESS_SEG_INDEX_S* pstProcSegIdx,HI_BOOL bInstant)
+ {
+@@ -537,7 +282,7 @@ static HI_S32 SAMPLE_SVP_NNIE_ForwardWit
+ /******************************************************************************
+ * function : Fill Src Data
+ ******************************************************************************/
+-static HI_S32 SAMPLE_SVP_NNIE_FillSrcData(SAMPLE_SVP_NNIE_CFG_S* pstNnieCfg,
++HI_S32 SAMPLE_SVP_NNIE_FillSrcData(SAMPLE_SVP_NNIE_CFG_S* pstNnieCfg,
+     SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam, SAMPLE_SVP_NNIE_INPUT_DATA_INDEX_S* pstInputDataIdx)
+ {
+     FILE* fp = NULL;
+@@ -556,7 +301,7 @@ static HI_S32 SAMPLE_SVP_NNIE_FillSrcDat
+     {
+         fp = fopen(pstNnieCfg->pszPic,"rb");
+         SAMPLE_SVP_CHECK_EXPR_RET(NULL == fp,HI_INVALID_VALUE,SAMPLE_SVP_ERR_LEVEL_ERROR,
+-            "Error, open file failed!\n");
++            "Error, open file '%s' failed!\n",pstNnieCfg->pszPic);
+     }
+ 
+     /*get data size*/
+@@ -757,7 +502,7 @@ static HI_S32 SAMPLE_SVP_NNIE_Cnn_Softwa
+ /******************************************************************************
+ * function : Cnn Deinit
+ ******************************************************************************/
+-static HI_S32 SAMPLE_SVP_NNIE_Cnn_Deinit(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
++HI_S32 SAMPLE_SVP_NNIE_Cnn_Deinit(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
+     SAMPLE_SVP_NNIE_CNN_SOFTWARE_PARAM_S* pstSoftWareParam,SAMPLE_SVP_NNIE_MODEL_S* pstNnieModel)
+ {
+     HI_S32 s32Ret = HI_SUCCESS;
+@@ -833,7 +578,7 @@ static HI_S32 SAMPLE_SVP_NNIE_Cnn_Softwa
+ /******************************************************************************
+ * function : Cnn init
+ ******************************************************************************/
+-static HI_S32 SAMPLE_SVP_NNIE_Cnn_ParamInit(SAMPLE_SVP_NNIE_CFG_S* pstNnieCfg,
++HI_S32 SAMPLE_SVP_NNIE_Cnn_ParamInit(SAMPLE_SVP_NNIE_CFG_S* pstNnieCfg,
+     SAMPLE_SVP_NNIE_PARAM_S *pstCnnPara, SAMPLE_SVP_NNIE_CNN_SOFTWARE_PARAM_S* pstCnnSoftWarePara)
+ {
+     HI_S32 s32Ret = HI_SUCCESS;
+@@ -1580,7 +1325,7 @@ static HI_S32 SAMPLE_SVP_NNIE_Rfcn_Softw
+ /******************************************************************************
+ * function : Rfcn Deinit
+ ******************************************************************************/
+-static HI_S32 SAMPLE_SVP_NNIE_Rfcn_Deinit(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
++HI_S32 SAMPLE_SVP_NNIE_Rfcn_Deinit(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
+     SAMPLE_SVP_NNIE_RFCN_SOFTWARE_PARAM_S* pstSoftWareParam,SAMPLE_SVP_NNIE_MODEL_S *pstNnieModel)
+ {
+     HI_S32 s32Ret = HI_SUCCESS;
+@@ -1629,7 +1374,8 @@ static HI_S32 SAMPLE_SVP_NNIE_Rfcn_Softw
+ 
+     /*init Rpn para*/
+     pstSoftWareParam->u32MaxRoiNum = pstCfg->u32MaxRoiNum;
+-    pstSoftWareParam->u32ClassNum = 21;
++    assert(g_rfcnCfg.classNum > 1);
++    pstSoftWareParam->u32ClassNum = g_rfcnCfg.classNum; // 21;
+     pstSoftWareParam->u32NumRatioAnchors = 3;
+     pstSoftWareParam->u32NumScaleAnchors = 3;
+     pstSoftWareParam->au32Scales[0] = 8 * SAMPLE_SVP_NNIE_QUANT_BASE;
+@@ -1751,7 +1497,7 @@ static HI_S32 SAMPLE_SVP_NNIE_Rfcn_Softw
+ /******************************************************************************
+ * function : Rfcn init
+ ******************************************************************************/
+-static HI_S32 SAMPLE_SVP_NNIE_Rfcn_ParamInit(SAMPLE_SVP_NNIE_CFG_S* pstCfg,
++HI_S32 SAMPLE_SVP_NNIE_Rfcn_ParamInit(SAMPLE_SVP_NNIE_CFG_S* pstCfg,
+     SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam, SAMPLE_SVP_NNIE_RFCN_SOFTWARE_PARAM_S* pstSoftWareParam)
+ {
+     HI_S32 s32Ret = HI_SUCCESS;
+@@ -1847,7 +1593,7 @@ HI_S32 SAMPLE_SVP_NNIE_RoiToRect(SVP_BLO
+ /******************************************************************************
+ * function : Rfcn Proc
+ ******************************************************************************/
+-static HI_S32 SAMPLE_SVP_NNIE_Rfcn_Proc(SAMPLE_SVP_NNIE_PARAM_S *pstParam,
++HI_S32 SAMPLE_SVP_NNIE_Rfcn_Proc(SAMPLE_SVP_NNIE_PARAM_S *pstParam,
+     SAMPLE_SVP_NNIE_RFCN_SOFTWARE_PARAM_S *pstSwParam)
+ {
+     HI_S32 s32Ret = HI_FAILURE;
+@@ -2646,7 +2392,7 @@ static HI_S32 SAMPLE_SVP_NNIE_Yolov1_Sof
+ /******************************************************************************
+ * function : Yolov1 Deinit
+ ******************************************************************************/
+-static HI_S32 SAMPLE_SVP_NNIE_Yolov1_Deinit(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
++HI_S32 SAMPLE_SVP_NNIE_Yolov1_Deinit(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
+     SAMPLE_SVP_NNIE_YOLOV1_SOFTWARE_PARAM_S* pstSoftWareParam,SAMPLE_SVP_NNIE_MODEL_S *pstNnieModel)
+ {
+     HI_S32 s32Ret = HI_SUCCESS;
+@@ -2695,9 +2441,12 @@ static HI_S32 SAMPLE_SVP_NNIE_Yolov1_Sof
+     pstSoftWareParam->u32OriImHeight = pstNnieParam->astSegData[0].astSrc[0].unShape.stWhc.u32Height;
+     pstSoftWareParam->u32OriImWidth = pstNnieParam->astSegData[0].astSrc[0].unShape.stWhc.u32Width;
+     pstSoftWareParam->u32BboxNumEachGrid = 2;
+-    pstSoftWareParam->u32ClassNum = 20;
+-    pstSoftWareParam->u32GridNumHeight = 7;
+-    pstSoftWareParam->u32GridNumWidth = 7;
++    assert(g_yolo1Cfg.classNum > 0);
++    pstSoftWareParam->u32ClassNum = g_yolo1Cfg.classNum;
++    assert(g_yolo1Cfg.gridNumHeight > 0);
++    pstSoftWareParam->u32GridNumHeight = g_yolo1Cfg.gridNumHeight;
++    assert(g_yolo1Cfg.gridNumWidth > 0);
++    pstSoftWareParam->u32GridNumWidth = g_yolo1Cfg.gridNumWidth;
+     pstSoftWareParam->u32NmsThresh = (HI_U32)(0.5f*SAMPLE_SVP_NNIE_QUANT_BASE);
+     pstSoftWareParam->u32ConfThresh = (HI_U32)(0.2f*SAMPLE_SVP_NNIE_QUANT_BASE);
+ 
+@@ -2761,7 +2510,7 @@ static HI_S32 SAMPLE_SVP_NNIE_Yolov1_Sof
+ /******************************************************************************
+ * function : Yolov1 init
+ ******************************************************************************/
+-static HI_S32 SAMPLE_SVP_NNIE_Yolov1_ParamInit(SAMPLE_SVP_NNIE_CFG_S* pstCfg,
++HI_S32 SAMPLE_SVP_NNIE_Yolov1_ParamInit(SAMPLE_SVP_NNIE_CFG_S* pstCfg,
+     SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam, SAMPLE_SVP_NNIE_YOLOV1_SOFTWARE_PARAM_S* pstSoftWareParam)
+ {
+     HI_S32 s32Ret = HI_SUCCESS;
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample/sample_nnie_main.h hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample/sample_nnie_main.h
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample/sample_nnie_main.h	2020-05-27 20:04:35.000000000 -0700
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample/sample_nnie_main.h	2021-07-18 08:41:39.463383014 -0700
+@@ -1,5 +1,5 @@
+-#ifndef __SAMPLE_SVP_MAIN_H__
+-#define __SAMPLE_SVP_MAIN_H__
++#ifndef SAMPLE_NNIE_MAIN_H
++#define SAMPLE_NNIE_MAIN_H
+ 
+ 
+ #ifdef __cplusplus
+@@ -9,10 +9,294 @@ extern "C"{
+ #endif /* __cplusplus */
+ #include "hi_type.h"
+ 
++#include <sample_comm_nnie.h>
++
++/******************************************************************************
++    模型配置参数
++******************************************************************************/
++typedef struct RfcnCfg {
++    uint32_t classNum;
++}   RfcnCfg;
++
++typedef struct Yolo1Cfg {
++    uint32_t classNum;
++    uint32_t gridNumWidth;
++    uint32_t gridNumHeight;
++}   Yolo1Cfg;
++
++extern RfcnCfg g_rfcnCfg;
++extern Yolo1Cfg g_yolo1Cfg;
++
++/*cnn para*/
++static SAMPLE_SVP_NNIE_MODEL_S s_stCnnModel;
++static SAMPLE_SVP_NNIE_PARAM_S s_stCnnNnieParam;
++static SAMPLE_SVP_NNIE_CNN_SOFTWARE_PARAM_S s_stCnnSoftwareParam;
++/*segment para*/
++static SAMPLE_SVP_NNIE_MODEL_S s_stSegnetModel;
++static SAMPLE_SVP_NNIE_PARAM_S s_stSegnetNnieParam;
++/*fasterrcnn para*/
++static SAMPLE_SVP_NNIE_MODEL_S s_stFasterRcnnModel;
++static SAMPLE_SVP_NNIE_PARAM_S s_stFasterRcnnNnieParam;
++static SAMPLE_SVP_NNIE_FASTERRCNN_SOFTWARE_PARAM_S s_stFasterRcnnSoftwareParam;
++static SAMPLE_SVP_NNIE_NET_TYPE_E s_enNetType;
++/*rfcn para*/
++static SAMPLE_SVP_NNIE_MODEL_S s_stRfcnModel;
++static SAMPLE_SVP_NNIE_PARAM_S s_stRfcnNnieParam;
++static SAMPLE_SVP_NNIE_RFCN_SOFTWARE_PARAM_S s_stRfcnSoftwareParam;
++static SAMPLE_IVE_SWITCH_S s_stRfcnSwitch = {HI_FALSE,HI_FALSE};
++static HI_BOOL s_bNnieStopSignal = HI_FALSE;
++static pthread_t s_hNnieThread;
++static SAMPLE_VI_CONFIG_S s_stViConfig;
++
++/*ssd para*/
++static SAMPLE_SVP_NNIE_MODEL_S s_stSsdModel;
++static SAMPLE_SVP_NNIE_PARAM_S s_stSsdNnieParam;
++static SAMPLE_SVP_NNIE_SSD_SOFTWARE_PARAM_S s_stSsdSoftwareParam;
++/*yolov1 para*/
++static SAMPLE_SVP_NNIE_MODEL_S s_stYolov1Model;
++static SAMPLE_SVP_NNIE_PARAM_S s_stYolov1NnieParam;
++static SAMPLE_SVP_NNIE_YOLOV1_SOFTWARE_PARAM_S s_stYolov1SoftwareParam;
++/*yolov2 para*/
++static SAMPLE_SVP_NNIE_MODEL_S s_stYolov2Model;
++static SAMPLE_SVP_NNIE_PARAM_S s_stYolov2NnieParam;
++static SAMPLE_SVP_NNIE_YOLOV2_SOFTWARE_PARAM_S s_stYolov2SoftwareParam;
++/*yolov3 para*/
++static SAMPLE_SVP_NNIE_MODEL_S s_stYolov3Model;
++static SAMPLE_SVP_NNIE_PARAM_S s_stYolov3NnieParam;
++static SAMPLE_SVP_NNIE_YOLOV3_SOFTWARE_PARAM_S s_stYolov3SoftwareParam;
++/*lstm para*/
++static SAMPLE_SVP_NNIE_MODEL_S s_stLstmModel;
++static SAMPLE_SVP_NNIE_PARAM_S s_stLstmNnieParam;
++/*pvanet para*/
++static SAMPLE_SVP_NNIE_MODEL_S s_stPvanetModel;
++static SAMPLE_SVP_NNIE_PARAM_S s_stPvanetNnieParam;
++static SAMPLE_SVP_NNIE_FASTERRCNN_SOFTWARE_PARAM_S s_stPvanetSoftwareParam;
++
++#ifdef SAMPLE_SVP_NNIE_PERF_STAT
++#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_CLREAR()  memset(&s_stOpForwardPerfTmp,0,sizeof(s_stOpForwardPerfTmp));
++#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_GET_DIFF_TIME(s_stOpForwardPerfTmp.u64SrcFlushTime)
++#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_GET_DIFF_TIME(s_stOpForwardPerfTmp.u64PreDstFulshTime)
++#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_GET_DIFF_TIME(s_stOpForwardPerfTmp.u64AferDstFulshTime)
++#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_GET_DIFF_TIME(s_stOpForwardPerfTmp.u64OPTime)
++
++/*YoloV1*/
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_SRC_FLUSH_TIME() s_stYolov1Perf.stForwardPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_PRE_DST_FLUSH_TIME() s_stYolov1Perf.stForwardPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_AFTER_DST_FLUSH_TIME() s_stYolov1Perf.stForwardPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_OP_TIME() s_stYolov1Perf.stForwardPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov1Perf.stGRPerf.u64SrcFlushTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov1Perf.stGRPerf.u64PreDstFulshTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov1Perf.stGRPerf.u64AferDstFulshTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov1Perf.stGRPerf.u64OPTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_PRINT() printf("Yolov1 Forward time: %llu us,GR time:%llu us,Flush time: %llu us\n",\
++    s_stYolov1Perf.stForwardPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stYolov1Perf.stGRPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
++    (s_stYolov1Perf.stForwardPerf.u64SrcFlushTime + s_stYolov1Perf.stForwardPerf.u64PreDstFulshTime + s_stYolov1Perf.stForwardPerf.u64AferDstFulshTime\
++    + s_stYolov1Perf.stGRPerf.u64SrcFlushTime + s_stYolov1Perf.stGRPerf.u64PreDstFulshTime + s_stYolov1Perf.stGRPerf.u64AferDstFulshTime)/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES );
++/*Yolov2*/
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_SRC_FLUSH_TIME() s_stYolov2Perf.stForwardPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_PRE_DST_FLUSH_TIME() s_stYolov2Perf.stForwardPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_AFTER_DST_FLUSH_TIME() s_stYolov2Perf.stForwardPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_OP_TIME() s_stYolov2Perf.stForwardPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov2Perf.stGRPerf.u64SrcFlushTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov2Perf.stGRPerf.u64PreDstFulshTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov2Perf.stGRPerf.u64AferDstFulshTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stYolov2Perf.stGRPerf.u64OPTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_PRINT() printf("Yolov2 Forward time: %llu us,GR time:%llu us,Flush time: %llu us\n",\
++    s_stYolov2Perf.stForwardPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stYolov2Perf.stGRPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
++    (s_stYolov2Perf.stForwardPerf.u64SrcFlushTime + s_stYolov2Perf.stForwardPerf.u64PreDstFulshTime + s_stYolov2Perf.stForwardPerf.u64AferDstFulshTime\
++    + s_stYolov2Perf.stGRPerf.u64SrcFlushTime + s_stYolov2Perf.stGRPerf.u64PreDstFulshTime + s_stYolov2Perf.stGRPerf.u64AferDstFulshTime)/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES );
++
++/*SSD*/
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_SRC_FLUSH_TIME() s_stSsdPerf.stForwardPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_PRE_DST_FLUSH_TIME() s_stSsdPerf.stForwardPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_AFTER_DST_FLUSH_TIME() s_stSsdPerf.stForwardPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_OP_TIME() s_stSsdPerf.stForwardPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stSsdPerf.stGRPerf.u64SrcFlushTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stSsdPerf.stGRPerf.u64PreDstFulshTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stSsdPerf.stGRPerf.u64AferDstFulshTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stSsdPerf.stGRPerf.u64OPTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_PRINT() printf("SSD Forward time: %llu us,GR time:%llu us,Flush time: %llu us\n",\
++    s_stSsdPerf.stForwardPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stSsdPerf.stGRPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
++    (s_stSsdPerf.stForwardPerf.u64SrcFlushTime + s_stSsdPerf.stForwardPerf.u64PreDstFulshTime + s_stSsdPerf.stForwardPerf.u64AferDstFulshTime\
++    + s_stSsdPerf.stGRPerf.u64SrcFlushTime + s_stSsdPerf.stGRPerf.u64PreDstFulshTime + s_stSsdPerf.stGRPerf.u64AferDstFulshTime)/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES );
++
++/*Pvanet*/
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_SRC_FLUSH_TIME() s_stPvanetPerf.stForwardPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_PRE_DST_FLUSH_TIME() s_stPvanetPerf.stForwardPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_AFTER_DST_FLUSH_TIME() s_stPvanetPerf.stForwardPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_OP_TIME() s_stPvanetPerf.stForwardPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_SRC_FLUSH_TIME() s_stPvanetPerf.stRpnPerf.u64SrcFlushTime += g_stOpRpnPerfTmp.u64SrcFlushTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_PRE_DST_FLUSH_TIME() s_stPvanetPerf.stRpnPerf.u64PreDstFulshTime += g_stOpRpnPerfTmp.u64PreDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_AFTER_DST_FLUSH_TIME() s_stPvanetPerf.stRpnPerf.u64AferDstFulshTime += g_stOpRpnPerfTmp.u64AferDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_OP_TIME() s_stPvanetPerf.stRpnPerf.u64OPTime += g_stOpRpnPerfTmp.u64OPTime;
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_SRC_FLUSH_TIME() s_stPvanetPerf.stRoiPoolingPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_PRE_DST_FLUSH_TIME() s_stPvanetPerf.stRoiPoolingPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_AFTER_DST_FLUSH_TIME() s_stPvanetPerf.stRoiPoolingPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_OP_TIME() s_stPvanetPerf.stRoiPoolingPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stPvanetPerf.stGRPerf.u64SrcFlushTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stPvanetPerf.stGRPerf.u64PreDstFulshTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stPvanetPerf.stGRPerf.u64AferDstFulshTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stPvanetPerf.stGRPerf.u64OPTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_PRINT() printf("Pvanet Forward time: %llu us,Rpn time:%llu us,RoiPooling time:%llu us,GR time:%llu us,Flush time: %llu us\n",\
++    s_stPvanetPerf.stForwardPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stPvanetPerf.stRpnPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
++    s_stPvanetPerf.stRoiPoolingPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES, s_stPvanetPerf.stGRPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
++    (s_stPvanetPerf.stForwardPerf.u64SrcFlushTime + s_stPvanetPerf.stForwardPerf.u64PreDstFulshTime + s_stPvanetPerf.stForwardPerf.u64AferDstFulshTime\
++    + s_stPvanetPerf.stRpnPerf.u64SrcFlushTime + s_stPvanetPerf.stRpnPerf.u64PreDstFulshTime + s_stPvanetPerf.stRpnPerf.u64AferDstFulshTime\
++    + s_stPvanetPerf.stRoiPoolingPerf.u64SrcFlushTime + s_stPvanetPerf.stRoiPoolingPerf.u64PreDstFulshTime + s_stPvanetPerf.stRoiPoolingPerf.u64AferDstFulshTime\
++    + s_stPvanetPerf.stGRPerf.u64SrcFlushTime + s_stPvanetPerf.stGRPerf.u64PreDstFulshTime + s_stPvanetPerf.stGRPerf.u64AferDstFulshTime)/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES );
++
++/*RFCN*/
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_SRC_FLUSH_TIME() s_stRfcnPerf.stForwardPerf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_PRE_DST_FLUSH_TIME() s_stRfcnPerf.stForwardPerf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_AFTER_DST_FLUSH_TIME() s_stRfcnPerf.stForwardPerf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_OP_TIME() s_stRfcnPerf.stForwardPerf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_SRC_FLUSH_TIME() s_stRfcnPerf.stRpnPerf.u64SrcFlushTime += g_stOpRpnPerfTmp.u64SrcFlushTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_PRE_DST_FLUSH_TIME() s_stRfcnPerf.stRpnPerf.u64PreDstFulshTime += g_stOpRpnPerfTmp.u64PreDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_AFTER_DST_FLUSH_TIME() s_stRfcnPerf.stRpnPerf.u64AferDstFulshTime += g_stOpRpnPerfTmp.u64AferDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_OP_TIME() s_stRfcnPerf.stRpnPerf.u64OPTime += g_stOpRpnPerfTmp.u64OPTime;
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_SRC_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling1Perf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_PRE_DST_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling1Perf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_AFTER_DST_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling1Perf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_OP_TIME() s_stRfcnPerf.stPsRoiPooling1Perf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_SRC_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling2Perf.u64SrcFlushTime += s_stOpForwardPerfTmp.u64SrcFlushTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_PRE_DST_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling2Perf.u64PreDstFulshTime += s_stOpForwardPerfTmp.u64PreDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_AFTER_DST_FLUSH_TIME() s_stRfcnPerf.stPsRoiPooling2Perf.u64AferDstFulshTime += s_stOpForwardPerfTmp.u64AferDstFulshTime;
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_OP_TIME() s_stRfcnPerf.stPsRoiPooling2Perf.u64OPTime += s_stOpForwardPerfTmp.u64OPTime;
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_SRC_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stRfcnPerf.stGRPerf.u64SrcFlushTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_PRE_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stRfcnPerf.stGRPerf.u64PreDstFulshTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_AFTER_DST_FLUSH_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stRfcnPerf.stGRPerf.u64AferDstFulshTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_OP_TIME() SAMPLE_SVP_NNIE_PERF_STAT_ADD_DIFF_TIME(s_stRfcnPerf.stGRPerf.u64OPTime);
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PRINT_VITOVO() printf("Rfcn_ViToVo Forward time: %llu us,Rpn time:%llu us,PsRoiPooling1 time:%llu us,PsRoiPooling2 time:%llu us,GR time:%llu us,Flush time: %llu us\n",\
++    s_stRfcnPerf.stForwardPerf.u64OPTime,s_stRfcnPerf.stRpnPerf.u64OPTime,\
++    s_stRfcnPerf.stPsRoiPooling1Perf.u64OPTime, s_stRfcnPerf.stPsRoiPooling2Perf.u64OPTime,s_stRfcnPerf.stGRPerf.u64OPTime,\
++    (s_stRfcnPerf.stForwardPerf.u64SrcFlushTime + s_stRfcnPerf.stForwardPerf.u64PreDstFulshTime + s_stRfcnPerf.stForwardPerf.u64AferDstFulshTime\
++    + s_stRfcnPerf.stRpnPerf.u64SrcFlushTime + s_stRfcnPerf.stRpnPerf.u64PreDstFulshTime + s_stRfcnPerf.stRpnPerf.u64AferDstFulshTime\
++    + s_stRfcnPerf.stPsRoiPooling1Perf.u64SrcFlushTime + s_stRfcnPerf.stPsRoiPooling1Perf.u64PreDstFulshTime + s_stRfcnPerf.stPsRoiPooling1Perf.u64AferDstFulshTime\
++    + s_stRfcnPerf.stPsRoiPooling2Perf.u64SrcFlushTime + s_stRfcnPerf.stPsRoiPooling2Perf.u64PreDstFulshTime + s_stRfcnPerf.stPsRoiPooling2Perf.u64AferDstFulshTime\
++    + s_stRfcnPerf.stGRPerf.u64SrcFlushTime + s_stRfcnPerf.stGRPerf.u64PreDstFulshTime + s_stRfcnPerf.stGRPerf.u64AferDstFulshTime));
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PRINT_FILE() printf("Rfcn_File Forward time: %llu us,Rpn time:%llu us,PsRoiPooling1 time:%llu us,PsRoiPooling2 time:%llu us,GR time:%llu us,Flush time: %llu us\n",\
++    s_stRfcnPerf.stForwardPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stRfcnPerf.stRpnPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
++    s_stRfcnPerf.stPsRoiPooling1Perf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,s_stRfcnPerf.stPsRoiPooling2Perf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
++    s_stRfcnPerf.stGRPerf.u64OPTime/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES,\
++    (s_stRfcnPerf.stForwardPerf.u64SrcFlushTime + s_stRfcnPerf.stForwardPerf.u64PreDstFulshTime + s_stRfcnPerf.stForwardPerf.u64AferDstFulshTime\
++    + s_stRfcnPerf.stRpnPerf.u64SrcFlushTime + s_stRfcnPerf.stRpnPerf.u64PreDstFulshTime + s_stRfcnPerf.stRpnPerf.u64AferDstFulshTime\
++    + s_stRfcnPerf.stPsRoiPooling1Perf.u64SrcFlushTime + s_stRfcnPerf.stPsRoiPooling1Perf.u64PreDstFulshTime + s_stRfcnPerf.stPsRoiPooling1Perf.u64AferDstFulshTime\
++    + s_stRfcnPerf.stPsRoiPooling2Perf.u64SrcFlushTime + s_stRfcnPerf.stPsRoiPooling2Perf.u64PreDstFulshTime + s_stRfcnPerf.stPsRoiPooling2Perf.u64AferDstFulshTime\
++    + s_stRfcnPerf.stGRPerf.u64SrcFlushTime + s_stRfcnPerf.stGRPerf.u64PreDstFulshTime + s_stRfcnPerf.stGRPerf.u64AferDstFulshTime)/SAMPLE_SVP_NNIE_PERF_STAT_LOOP_TIMES);
++
++
++
++static SAMPLE_SVP_NNIE_YOLO_PERF_STAT_S s_stYolov1Perf = {0};
++static SAMPLE_SVP_NNIE_YOLO_PERF_STAT_S s_stYolov2Perf = {0};
++static SAMPLE_SVP_NNIE_SSD_PERF_STAT_S  s_stSsdPerf = {0};
++static SAMPLE_SVP_NNIE_PVANET_PERF_STAT_S s_stPvanetPerf = {0};
++static SAMPLE_SVP_NNIE_RFCN_PERF_STAT_S s_stRfcnPerf = {0};
++
++static SAMPLE_SVP_NNIE_OP_PERF_STAT_S   s_stOpForwardPerfTmp = {0};
++extern SAMPLE_SVP_NNIE_OP_PERF_STAT_S   g_stOpRpnPerfTmp;
++#else
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_CLREAR()
++#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_OP_FORWARD_OP_TIME()
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_FORWARD_OP_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_GR_OP_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV1_PRINT()
++
++/*Yolov2*/
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_FORWARD_OP_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_GR_OP_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_YOLOV2_PRINT()
++/*SSD*/
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_FORWARD_OP_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_GR_OP_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_SSD_PRINT()
++
++/*Pvanet*/
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_FORWARD_OP_TIME()
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_RPN_OP_TIME()
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_ROIPOOLING_OP_TIME()
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_GR_OP_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_PVANET_PRINT()
++
++/*RFCN*/
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_FORWARD_OP_TIME()
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_RPN_OP_TIME()
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING1_OP_TIME()
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PSROIPOOLING2_OP_TIME()
++
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_SRC_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_PRE_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_AFTER_DST_FLUSH_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_GR_OP_TIME()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PRINT_VITOVO()
++#define SAMPLE_SVP_NNIE_PERF_STAT_RFCN_PRINT_FILE()
++
++#endif
++
+ /******************************************************************************
+ * function : show Cnn sample
+ ******************************************************************************/
+-void SAMPLE_SVP_NNIE_Cnn();
++void SAMPLE_SVP_NNIE_Cnn(void);
+ 
+ /******************************************************************************
+ * function : show Segnet sample
+@@ -124,6 +408,53 @@ void SAMPLE_SVP_NNIE_Lstm_HandleSig(void
+ ******************************************************************************/
+ void SAMPLE_SVP_NNIE_Pvanet_HandleSig(void);
+ 
++/******************************************************************************
++* function : Cnn init
++******************************************************************************/
++extern HI_S32 SAMPLE_SVP_NNIE_Cnn_ParamInit(SAMPLE_SVP_NNIE_CFG_S* pstNnieCfg,
++    SAMPLE_SVP_NNIE_PARAM_S *pstCnnPara, SAMPLE_SVP_NNIE_CNN_SOFTWARE_PARAM_S* pstCnnSoftWarePara);
++
++/******************************************************************************
++* function : Cnn Deinit
++******************************************************************************/
++extern HI_S32 SAMPLE_SVP_NNIE_Cnn_Deinit(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
++    SAMPLE_SVP_NNIE_CNN_SOFTWARE_PARAM_S* pstSoftWareParam,SAMPLE_SVP_NNIE_MODEL_S* pstNnieModel);
++
++/******************************************************************************
++* function : Fill Src Data
++******************************************************************************/
++extern HI_S32 SAMPLE_SVP_NNIE_FillSrcData(SAMPLE_SVP_NNIE_CFG_S* pstNnieCfg,
++    SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam, SAMPLE_SVP_NNIE_INPUT_DATA_INDEX_S* pstInputDataIdx);
++
++/******************************************************************************
++* function : Rfcn init
++******************************************************************************/
++extern HI_S32 SAMPLE_SVP_NNIE_Rfcn_ParamInit(SAMPLE_SVP_NNIE_CFG_S* pstCfg,
++    SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam, SAMPLE_SVP_NNIE_RFCN_SOFTWARE_PARAM_S* pstSoftWareParam);
++
++/******************************************************************************
++* function : Rfcn Deinit
++******************************************************************************/
++extern HI_S32 SAMPLE_SVP_NNIE_Rfcn_Deinit(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
++    SAMPLE_SVP_NNIE_RFCN_SOFTWARE_PARAM_S* pstSoftWareParam,SAMPLE_SVP_NNIE_MODEL_S *pstNnieModel);
++
++/******************************************************************************
++* function : Rfcn Proc
++******************************************************************************/
++extern HI_S32 SAMPLE_SVP_NNIE_Rfcn_Proc(SAMPLE_SVP_NNIE_PARAM_S *pstParam,
++    SAMPLE_SVP_NNIE_RFCN_SOFTWARE_PARAM_S *pstSwParam);
++
++/******************************************************************************
++* function : Yolov1 init
++******************************************************************************/
++extern HI_S32 SAMPLE_SVP_NNIE_Yolov1_ParamInit(SAMPLE_SVP_NNIE_CFG_S* pstCfg,
++    SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam, SAMPLE_SVP_NNIE_YOLOV1_SOFTWARE_PARAM_S* pstSoftWareParam);
++
++/******************************************************************************
++* function : Yolov1 Deinit
++******************************************************************************/
++extern HI_S32 SAMPLE_SVP_NNIE_Yolov1_Deinit(SAMPLE_SVP_NNIE_PARAM_S *pstNnieParam,
++    SAMPLE_SVP_NNIE_YOLOV1_SOFTWARE_PARAM_S* pstSoftWareParam,SAMPLE_SVP_NNIE_MODEL_S *pstNnieModel);
+ 
+ #ifdef __cplusplus
+ #if __cplusplus
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample/sample_nnie.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample/sample_nnie.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample_nnie_main 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample_nnie_main 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample_nnie_main.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample_nnie_main.o 不同
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample_nnie_software/sample_svp_nnie_software.c hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample_nnie_software/sample_svp_nnie_software.c
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample_nnie_software/sample_svp_nnie_software.c	2020-05-27 20:04:35.000000000 -0700
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample_nnie_software/sample_svp_nnie_software.c	2021-07-18 08:41:39.455383014 -0700
+@@ -638,7 +638,7 @@ static HI_S32 SVP_NNIE_Rpn(HI_S32** pps3
+     HI_U32 u32OriImWidth,HI_U32* pu32ConvHeight,HI_U32* pu32ConvWidth,HI_U32* pu32ConvChannel,
+     HI_U32  u32ConvStride,HI_U32 u32MaxRois,HI_U32 u32MinSize,HI_U32 u32SpatialScale,
+     HI_U32 u32NmsThresh,HI_U32 u32FilterThresh,HI_U32 u32NumBeforeNms,HI_U32 *pu32MemPool,
+-    HI_S32 *ps32ProposalResult, HI_U32 u32DstStride, HI_U32* pu32NumRois)
++    HI_S32 *ps32ProposalResult, HI_U32* pu32NumRois)
+ {
+     /******************** define parameters ****************/
+     HI_U32 u32Size = 0;
+@@ -911,10 +911,10 @@ static HI_S32 SVP_NNIE_Rpn(HI_S32** pps3
+         {
+             /*In this sample,the output Roi coordinates will be input in hardware,
+             so the type coordinates are convert to HI_S20Q12*/
+-            ps32ProposalResult[u32DstStride / sizeof(HI_U32) * u32RoiCount] = *ps32Ptr*SAMPLE_SVP_NNIE_QUANT_BASE;
+-            ps32ProposalResult[u32DstStride / sizeof(HI_U32) * u32RoiCount + 1] = *(ps32Ptr+1)*SAMPLE_SVP_NNIE_QUANT_BASE;
+-            ps32ProposalResult[u32DstStride / sizeof(HI_U32) * u32RoiCount + 2] = *(ps32Ptr+2)*SAMPLE_SVP_NNIE_QUANT_BASE;
+-            ps32ProposalResult[u32DstStride / sizeof(HI_U32) * u32RoiCount + 3] = *(ps32Ptr+3)*SAMPLE_SVP_NNIE_QUANT_BASE;
++            ps32ProposalResult[SAMPLE_SVP_NNIE_COORDI_NUM * u32RoiCount] = *ps32Ptr*SAMPLE_SVP_NNIE_QUANT_BASE;
++            ps32ProposalResult[SAMPLE_SVP_NNIE_COORDI_NUM * u32RoiCount + 1] = *(ps32Ptr+1)*SAMPLE_SVP_NNIE_QUANT_BASE;
++            ps32ProposalResult[SAMPLE_SVP_NNIE_COORDI_NUM * u32RoiCount + 2] = *(ps32Ptr+2)*SAMPLE_SVP_NNIE_QUANT_BASE;
++            ps32ProposalResult[SAMPLE_SVP_NNIE_COORDI_NUM * u32RoiCount + 3] = *(ps32Ptr+3)*SAMPLE_SVP_NNIE_QUANT_BASE;
+             u32RoiCount++;
+         }
+         if(u32RoiCount >= u32MaxRois)
+@@ -960,7 +960,7 @@ static HI_S32 SVP_NNIE_Rpn(HI_S32** pps3
+ *
+ *****************************************************************************/
+ static HI_S32 SVP_NNIE_FasterRcnn_GetResult(HI_S32*ps32FcBbox,HI_U32 u32BboxStride,
+-    HI_S32*ps32FcScore, HI_U32 u32ScoreStride,HI_S32* ps32Proposal,HI_U32 u32PropsoalStride,HI_U32 u32RoiCnt,
++    HI_S32*ps32FcScore, HI_U32 u32ScoreStride,HI_S32* ps32Proposal,HI_U32 u32RoiCnt,
+     HI_U32* pu32ConfThresh,HI_U32 u32NmsThresh,HI_U32 u32MaxRoi,HI_U32 u32ClassNum,
+     HI_U32 u32OriImWidth,HI_U32 u32OriImHeight,HI_U32* pu32MemPool,HI_S32* ps32DstScore,
+     HI_S32* ps32DstBbox,HI_S32* ps32ClassRoiNum)
+@@ -998,7 +998,6 @@ static HI_S32 SVP_NNIE_FasterRcnn_GetRes
+     SAMPLE_SVP_NNIE_STACK_S* pstStack=NULL;
+     HI_S32 s32Ret = HI_SUCCESS;
+     HI_U32 u32OffSet = 0;
+-    HI_U32 u32ProposalOffset = u32PropsoalStride / sizeof(HI_S32);
+ 
+   /******************* Get or calculate parameters **********************/
+     u32ClsScoreChannels = u32ClassNum;   /*channel num is equal to class size, cls_score class*/
+@@ -1034,10 +1033,10 @@ static HI_S32 SVP_NNIE_FasterRcnn_GetRes
+     {
+         for(i = 0; i < u32RoiCnt; i++)
+         {
+-            f32ProposalWidth   = (HI_FLOAT)(ps32Proposals[u32ProposalOffset*i + 2] - ps32Proposals[u32ProposalOffset*i] + 1);
+-            f32ProposalHeight  = (HI_FLOAT)(ps32Proposals[u32ProposalOffset*i + 3] - ps32Proposals[u32ProposalOffset*i + 1] + 1);
+-            f32ProposalCenterX = (HI_FLOAT)(ps32Proposals[u32ProposalOffset*i] + SAMPLE_SVP_NNIE_HALF * f32ProposalWidth);
+-            f32ProposalCenterY = (HI_FLOAT)(ps32Proposals[u32ProposalOffset*i + 1] + SAMPLE_SVP_NNIE_HALF * f32ProposalHeight);
++            f32ProposalWidth   = (HI_FLOAT)(ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 2] - ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i] + 1);
++            f32ProposalHeight  = (HI_FLOAT)(ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 3] - ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 1] + 1);
++            f32ProposalCenterX = (HI_FLOAT)(ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i] + SAMPLE_SVP_NNIE_HALF * f32ProposalWidth);
++            f32ProposalCenterY = (HI_FLOAT)(ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 1] + SAMPLE_SVP_NNIE_HALF * f32ProposalHeight);
+ 
+             u32FcBboxIndex = u32FcBboxWidth * i + SAMPLE_SVP_NNIE_COORDI_NUM * j;
+             f32PredCenterX = ((HI_FLOAT)ps32FcBbox[u32FcBboxIndex]/SAMPLE_SVP_NNIE_QUANT_BASE) * f32ProposalWidth  + f32ProposalCenterX;
+@@ -1133,7 +1132,7 @@ static HI_S32 SVP_NNIE_FasterRcnn_GetRes
+ *
+ *****************************************************************************/
+ static HI_S32 SVP_NNIE_Pvanet_GetResult(HI_S32*ps32FcBbox,HI_U32 u32BboxStride,
+-    HI_S32*ps32FcScore, HI_U32 u32ScoreStride,HI_S32* ps32Proposal,HI_U32 u32PropsoalStride,HI_U32 u32RoiCnt,
++    HI_S32*ps32FcScore, HI_U32 u32ScoreStride,HI_S32* ps32Proposal,HI_U32 u32RoiCnt,
+     HI_U32* pu32ConfThresh,HI_U32 u32NmsThresh,HI_U32 u32MaxRoi,HI_U32 u32ClassNum,
+     HI_U32 u32OriImWidth,HI_U32 u32OriImHeight,HI_U32* pu32MemPool,HI_S32* ps32DstScore,
+     HI_S32* ps32DstBbox,HI_S32* ps32ClassRoiNum)
+@@ -1171,7 +1170,6 @@ static HI_S32 SVP_NNIE_Pvanet_GetResult(
+     SAMPLE_SVP_NNIE_STACK_S* pstStack=NULL;
+     HI_S32 s32Ret = HI_SUCCESS;
+     HI_U32 u32OffSet = 0;
+-    HI_U32 u32ProposalOffset = u32PropsoalStride / sizeof(HI_S32);
+ 
+   /******************* Get or calculate parameters **********************/
+     u32ClsScoreChannels = u32ClassNum;   /*channel num is equal to class size, cls_score class*/
+@@ -1207,10 +1205,10 @@ static HI_S32 SVP_NNIE_Pvanet_GetResult(
+     {
+         for(i = 0; i < u32RoiCnt; i++)
+         {
+-            f32ProposalWidth   = (HI_FLOAT)(ps32Proposals[u32ProposalOffset*i + 2] - ps32Proposals[u32ProposalOffset*i] + 1);
+-            f32ProposalHeight  = (HI_FLOAT)(ps32Proposals[u32ProposalOffset*i + 3] - ps32Proposals[u32ProposalOffset*i + 1] + 1);
+-            f32ProposalCenterX = (HI_FLOAT)(ps32Proposals[u32ProposalOffset*i] + SAMPLE_SVP_NNIE_HALF * f32ProposalWidth);
+-            f32ProposalCenterY = (HI_FLOAT)(ps32Proposals[u32ProposalOffset*i + 1] + SAMPLE_SVP_NNIE_HALF * f32ProposalHeight);
++            f32ProposalWidth   = (HI_FLOAT)(ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 2] - ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i] + 1);
++            f32ProposalHeight  = (HI_FLOAT)(ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 3] - ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 1] + 1);
++            f32ProposalCenterX = (HI_FLOAT)(ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i] + SAMPLE_SVP_NNIE_HALF * f32ProposalWidth);
++            f32ProposalCenterY = (HI_FLOAT)(ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 1] + SAMPLE_SVP_NNIE_HALF * f32ProposalHeight);
+ 
+             u32FcBboxIndex = u32FcBboxWidth * i + SAMPLE_SVP_NNIE_COORDI_NUM * j;
+             f32PredCenterX = ((HI_FLOAT)ps32FcBbox[u32FcBboxIndex]/SAMPLE_SVP_NNIE_QUANT_BASE) * f32ProposalWidth  + f32ProposalCenterX;
+@@ -1309,7 +1307,7 @@ static HI_S32 SVP_NNIE_Pvanet_GetResult(
+ *****************************************************************************/
+ static HI_S32  SVP_NNIE_Rfcn_GetResult(HI_S32 *ps32FcScore,
+     HI_U32 u32FcScoreStride,HI_S32* ps32FcBbox,HI_U32 u32FcBboxStride,
+-    HI_S32 *ps32Proposals, HI_U32 u32PropsoalStride, HI_U32 u32RoiCnt, HI_U32 *pu32ConfThresh,
++    HI_S32 *ps32Proposals, HI_U32 u32RoiCnt, HI_U32 *pu32ConfThresh,
+     HI_U32 u32MaxRoi,HI_U32 u32ClassNum,HI_U32 u32OriImWidth,HI_U32 u32OriImHeight,
+     HI_U32 u32NmsThresh, HI_U32* pu32MemPool,HI_S32 *ps32DstScores, HI_S32 *ps32DstRoi,
+     HI_S32 *ps32ClassRoiNum)
+@@ -1344,7 +1342,6 @@ static HI_S32  SVP_NNIE_Rfcn_GetResult(H
+     HI_U32 u32OffSet = 0;
+     SAMPLE_SVP_NNIE_STACK_S* pstStack = NULL;
+     HI_S32 s32Ret = HI_SUCCESS;
+-    HI_U32 u32ProposalOffset = u32PropsoalStride / sizeof(HI_S32);
+ 
+     /******************* Get or calculate parameters **********************/
+     u32ClsScoreChannels = u32ClassNum;   /*channel num is equal to class size, cls_score class*/
+@@ -1399,10 +1396,10 @@ static HI_S32  SVP_NNIE_Rfcn_GetResult(H
+     {
+         for (i = 0; i < u32RoiCnt; i++)
+         {
+-            f32ProposalWidth = ps32Proposals[u32ProposalOffset*i + 2] - ps32Proposals[u32ProposalOffset*i] + 1;
+-            f32ProposalHeight = ps32Proposals[u32ProposalOffset*i + 3] - ps32Proposals[u32ProposalOffset*i + 1] + 1;
+-            f32ProposalCenterX = ps32Proposals[u32ProposalOffset*i] + 0.5 * f32ProposalWidth;
+-            f32ProposalCenterY = ps32Proposals[u32ProposalOffset*i + 1] + 0.5 * f32ProposalHeight;
++            f32ProposalWidth = ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 2] - ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i] + 1;
++            f32ProposalHeight = ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 3] - ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 1] + 1;
++            f32ProposalCenterX = ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i] + 0.5 * f32ProposalWidth;
++            f32ProposalCenterY = ps32Proposals[SAMPLE_SVP_NNIE_COORDI_NUM*i + 1] + 0.5 * f32ProposalHeight;
+ 
+             u32FcBboxIndex = SAMPLE_SVP_NNIE_COORDI_NUM * i;
+             f32PredCenterX = ((HI_FLOAT)ps32FcBboxMemPool[u32FcBboxIndex] / 4096) * f32ProposalWidth + f32ProposalCenterX;
+@@ -2367,7 +2364,7 @@ static HI_S32 SVP_NNIE_Yolov2_NonMaxSupp
+ *           Modification : Create
+ *
+ *****************************************************************************/
+-static HI_FLOAT SVP_NNIE_GetMaxVal(HI_FLOAT *pf32Val,HI_U32 u32Num,
++static HI_FLOAT SVP_NNIE_Yolov2_GetMaxVal(HI_FLOAT *pf32Val,HI_U32 u32Num,
+     HI_U32 * pu32MaxValueIndex)
+ {
+     HI_U32 i = 0;
+@@ -2486,7 +2483,7 @@ static HI_S32 SVP_NNIE_Yolov2_GetResult(
+             f32ObjScore = SAMPLE_SVP_NNIE_SIGMOID(pf32BoxTmp[u32Index + 4]);
+             SVP_NNIE_SoftMax(&pf32BoxTmp[u32Index + 5],u32ClassNum);
+ 
+-            f32MaxScore = SVP_NNIE_GetMaxVal(&pf32BoxTmp[u32Index + 5],u32ClassNum,&u32MaxValueIndex);
++            f32MaxScore = SVP_NNIE_Yolov2_GetMaxVal(&pf32BoxTmp[u32Index + 5],u32ClassNum,&u32MaxValueIndex);
+ 
+             s32Score = (HI_S32)(f32MaxScore * f32ObjScore*SAMPLE_SVP_NNIE_QUANT_BASE);
+             if(s32Score > u32ConfThresh)
+@@ -2564,7 +2561,7 @@ static HI_S32 SVP_NNIE_Yolov2_GetResult(
+ *           Modification : Create
+ *
+ *****************************************************************************/
+-static HI_S32 SVP_NNIE_Yolov3_GetResult(HI_U64 au64InputBlobAddr[],HI_U32 au32GridNumWidth[],
++static HI_S32 SVP_NNIE_Yolov3_GetResult(HI_S32 **pps32InputData,HI_U32 au32GridNumWidth[],
+     HI_U32 au32GridNumHeight[],HI_U32 au32Stride[],HI_U32 u32EachGridBbox,HI_U32 u32ClassNum,HI_U32 u32SrcWidth,
+     HI_U32 u32SrcHeight,HI_U32 u32MaxRoiNum,HI_U32 u32NmsThresh,HI_U32 u32ConfThresh,
+     HI_FLOAT af32Bias[SAMPLE_SVP_NNIE_YOLOV3_REPORT_BLOB_NUM][SAMPLE_SVP_NNIE_YOLOV3_EACH_GRID_BIAS_NUM],
+@@ -2618,7 +2615,7 @@ static HI_S32 SVP_NNIE_Yolov3_GetResult(
+     {
+         //permute
+         u32Offset = 0;
+-        ps32InputBlob = SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32, au64InputBlobAddr[i]);
++        ps32InputBlob = pps32InputData[i];
+         u32ChnOffset = au32GridNumHeight[i]*au32Stride[i]/sizeof(HI_S32);
+         u32HeightOffset = au32Stride[i]/sizeof(HI_S32);
+         for (h = 0; h < au32GridNumHeight[i]; h++)
+@@ -2648,9 +2645,9 @@ static HI_S32 SVP_NNIE_Yolov3_GetResult(
+                 f32Height = (HI_FLOAT)(exp(pf32Permute[u32Offset + 3]) * af32Bias[i][2*k + 1]) / u32SrcHeight;
+ 
+                 //calculate score
+-                (void)SVP_NNIE_Sigmoid(&pf32Permute[u32Offset + 4], (u32ClassNum+1));
+-                f32ObjScore = pf32Permute[u32Offset + 4];
+-                f32MaxScore = SVP_NNIE_GetMaxVal(&pf32Permute[u32Offset + 5], u32ClassNum, &u32MaxValueIndex);
++				f32ObjScore = SAMPLE_SVP_NNIE_SIGMOID(pf32Permute[u32Offset + 4]);
++                (void)SVP_NNIE_SoftMax(&pf32Permute[u32Offset + 5], u32ClassNum);
++                f32MaxScore = SVP_NNIE_Yolov2_GetMaxVal(&pf32Permute[u32Offset + 5], u32ClassNum, &u32MaxValueIndex);
+                 s32ClassScore = (HI_S32)(f32MaxScore * f32ObjScore*SAMPLE_SVP_NNIE_QUANT_BASE);
+ 
+                 //filter low score roi
+@@ -2674,10 +2671,10 @@ static HI_S32 SVP_NNIE_Yolov3_GetResult(
+         sizeof(SAMPLE_SVP_NNIE_YOLOV3_BBOX_S)/sizeof(HI_U32),4,(SAMPLE_SVP_NNIE_STACK_S*)ps32AssistBuf);
+ 
+     //Yolov3 and Yolov2 have the same Nms operation
+-    (void)SVP_NNIE_Yolov2_NonMaxSuppression(pstBbox, u32BboxNum, u32NmsThresh, u32MaxRoiNum);
++    (void)SVP_NNIE_Yolov2_NonMaxSuppression(pstBbox, u32BboxNum, u32NmsThresh, sizeof(SAMPLE_SVP_NNIE_YOLOV3_BBOX_S)/sizeof(HI_U32));
+ 
+     //Get result
+-    for (i = 1; i < u32ClassNum + 1; i++)
++    for (i = 1; i < u32ClassNum; i++)
+     {
+         u32ClassRoiNum = 0;
+         for(j = 0; j < u32BboxNum; j++)
+@@ -2811,7 +2808,6 @@ HI_S32 SAMPLE_SVP_NNIE_FasterRcnn_Rpn(SA
+         pstSoftwareParam->u32NumBeforeNms,
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_U32,pstSoftwareParam->stRpnTmpBuf.u64VirAddr),
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstSoftwareParam->stRpnBbox.u64VirAddr),
+-        pstSoftwareParam->stRpnBbox.u32Stride,
+         &pstSoftwareParam->stRpnBbox.unShape.stWhc.u32Height);
+     SAMPLE_COMM_SVP_FlushCache(pstSoftwareParam->stRpnBbox.u64PhyAddr,
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_VOID,pstSoftwareParam->stRpnBbox.u64VirAddr),
+@@ -2820,7 +2816,7 @@ HI_S32 SAMPLE_SVP_NNIE_FasterRcnn_Rpn(SA
+         pstSoftwareParam->stRpnBbox.unShape.stWhc.u32Height*
+         pstSoftwareParam->stRpnBbox.u32Stride);
+     SAMPLE_SVP_CHECK_EXPR_RET(HI_SUCCESS != s32Ret,s32Ret,SAMPLE_SVP_ERR_LEVEL_ERROR,
+-        "Error,SVP_NNIE_Rpn failed!\n");
++        "Error,SVP_NNIE_Rpnt failed!\n");
+     return s32Ret;
+ }
+ 
+@@ -2866,7 +2862,6 @@ HI_S32 SAMPLE_SVP_NNIE_Pvanet_Rpn(SAMPLE
+         pstSoftwareParam->u32NmsThresh,pstSoftwareParam->u32FilterThresh,
+         pstSoftwareParam->u32NumBeforeNms,SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_U32,pstSoftwareParam->stRpnTmpBuf.u64VirAddr),
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstSoftwareParam->stRpnBbox.u64VirAddr),
+-        pstSoftwareParam->stRpnBbox.u32Stride,
+         &pstSoftwareParam->stRpnBbox.unShape.stWhc.u32Height);
+ 
+     SAMPLE_SVP_NNIE_PERF_STAT_END()
+@@ -2976,17 +2971,16 @@ HI_S32 SAMPLE_SVP_NNIE_FasterRcnn_GetRes
+ {
+     HI_S32 s32Ret = HI_SUCCESS;
+     HI_U32 i = 0;
+-    HI_U32 u32Offset = pstSoftwareParam->stRpnBbox.u32Stride / sizeof(HI_S32);
+     HI_S32* ps32Proposal = SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstSoftwareParam->stRpnBbox.u64VirAddr);
+     SAMPLE_SVP_CHECK_EXPR_RET(0 == pstSoftwareParam->stRpnBbox.u64VirAddr,HI_INVALID_VALUE,
+         SAMPLE_SVP_ERR_LEVEL_ERROR,"Error,pstSoftwareParam->stRpnBbox.u64VirAddr can't be 0!\n");
+ 
+     for(i = 0; i < pstSoftwareParam->stRpnBbox.unShape.stWhc.u32Height; i++)
+     {
+-        *(ps32Proposal+u32Offset*i) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+-        *(ps32Proposal+u32Offset*i+1) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+-        *(ps32Proposal+u32Offset*i+2) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+-        *(ps32Proposal+u32Offset*i+3) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i+1) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i+2) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i+3) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+     }
+     s32Ret = SVP_NNIE_FasterRcnn_GetResult(
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstNnieParam->astSegData[1].astDst[0].u64VirAddr),
+@@ -2994,7 +2988,6 @@ HI_S32 SAMPLE_SVP_NNIE_FasterRcnn_GetRes
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstNnieParam->astSegData[1].astDst[1].u64VirAddr),
+         pstNnieParam->astSegData[1].astDst[1].u32Stride,
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstSoftwareParam->stRpnBbox.u64VirAddr),
+-        pstSoftwareParam->stRpnBbox.u32Stride,
+         pstSoftwareParam->stRpnBbox.unShape.stWhc.u32Height,
+         pstSoftwareParam->au32ConfThresh,pstSoftwareParam->u32ValidNmsThresh,
+         pstSoftwareParam->u32MaxRoiNum,pstSoftwareParam->u32ClassNum,
+@@ -3032,17 +3025,16 @@ HI_S32 SAMPLE_SVP_NNIE_Pvanet_GetResult(
+ {
+     HI_S32 s32Ret = HI_SUCCESS;
+     HI_U32 i = 0;
+-    HI_U32 u32Offset = pstSoftwareParam->stRpnBbox.u32Stride / sizeof(HI_S32);
+     HI_S32* ps32Proposal = SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstSoftwareParam->stRpnBbox.u64VirAddr);
+     SAMPLE_SVP_CHECK_EXPR_RET(0 == pstSoftwareParam->stRpnBbox.u64VirAddr,HI_INVALID_VALUE,
+         SAMPLE_SVP_ERR_LEVEL_ERROR,"Error,pstSoftwareParam->stRpnBbox.u64VirAddr can't be 0!\n");
+ 
+     for(i = 0; i < pstSoftwareParam->stRpnBbox.unShape.stWhc.u32Height; i++)
+     {
+-        *(ps32Proposal+u32Offset*i) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+-        *(ps32Proposal+u32Offset*i+1) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+-        *(ps32Proposal+u32Offset*i+2) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+-        *(ps32Proposal+u32Offset*i+3) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i+1) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i+2) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i+3) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+     }
+     s32Ret = SVP_NNIE_Pvanet_GetResult(
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstNnieParam->astSegData[1].astDst[0].u64VirAddr),
+@@ -3050,7 +3042,6 @@ HI_S32 SAMPLE_SVP_NNIE_Pvanet_GetResult(
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstNnieParam->astSegData[1].astDst[1].u64VirAddr),
+         pstNnieParam->astSegData[1].astDst[1].u32Stride,
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstSoftwareParam->stRpnBbox.u64VirAddr),
+-        pstSoftwareParam->stRpnBbox.u32Stride,
+         pstSoftwareParam->stRpnBbox.unShape.stWhc.u32Height,
+         pstSoftwareParam->au32ConfThresh,pstSoftwareParam->u32ValidNmsThresh,
+         pstSoftwareParam->u32MaxRoiNum,pstSoftwareParam->u32ClassNum,
+@@ -3134,7 +3125,6 @@ HI_S32 SAMPLE_SVP_NNIE_Rfcn_Rpn(SAMPLE_S
+         pstSoftwareParam->u32NumBeforeNms,
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_U32,pstSoftwareParam->stRpnTmpBuf.u64VirAddr),
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstSoftwareParam->stRpnBbox.u64VirAddr),
+-        pstSoftwareParam->stRpnBbox.u32Stride,
+         &pstSoftwareParam->stRpnBbox.unShape.stWhc.u32Height);
+ 
+     SAMPLE_SVP_NNIE_PERF_STAT_END()
+@@ -3181,17 +3171,16 @@ HI_S32 SAMPLE_SVP_NNIE_Rfcn_GetResult(SA
+ {
+     HI_S32 s32Ret = HI_SUCCESS;
+     HI_U32 i = 0;
+-    HI_U32 u32Offset = pstSoftwareParam->stRpnBbox.u32Stride / sizeof(HI_S32);
+     HI_S32* ps32Proposal = SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstSoftwareParam->stRpnBbox.u64VirAddr);
+ 
+     SAMPLE_SVP_CHECK_EXPR_RET(0 == pstSoftwareParam->stRpnBbox.u64VirAddr,HI_INVALID_VALUE,
+         SAMPLE_SVP_ERR_LEVEL_ERROR,"Error,pstSoftwareParam->stRpnBbox.u64VirAddr can't be 0!\n");
+     for(i = 0; i < pstSoftwareParam->stRpnBbox.unShape.stWhc.u32Height; i++)
+     {
+-        *(ps32Proposal+u32Offset*i) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+-        *(ps32Proposal+u32Offset*i+1) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+-        *(ps32Proposal+u32Offset*i+2) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+-        *(ps32Proposal+u32Offset*i+3) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i+1) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i+2) /= SAMPLE_SVP_NNIE_QUANT_BASE;
++        *(ps32Proposal+SAMPLE_SVP_NNIE_COORDI_NUM*i+3) /= SAMPLE_SVP_NNIE_QUANT_BASE;
+     }
+     s32Ret = SVP_NNIE_Rfcn_GetResult(
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstNnieParam->astSegData[1].astDst[0].u64VirAddr),
+@@ -3199,7 +3188,6 @@ HI_S32 SAMPLE_SVP_NNIE_Rfcn_GetResult(SA
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstNnieParam->astSegData[2].astDst[0].u64VirAddr),
+         pstNnieParam->astSegData[2].astDst[0].u32Stride,
+         SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstSoftwareParam->stRpnBbox.u64VirAddr),
+-        pstSoftwareParam->stRpnBbox.u32Stride,
+         pstSoftwareParam->stRpnBbox.unShape.stWhc.u32Height,
+         pstSoftwareParam->au32ConfThresh,pstSoftwareParam->u32MaxRoiNum,
+         pstSoftwareParam->u32ClassNum,pstSoftwareParam->u32OriImWidth,
+@@ -3654,15 +3642,15 @@ HI_S32 SAMPLE_SVP_NNIE_Yolov3_GetResult(
+     SAMPLE_SVP_NNIE_YOLOV3_SOFTWARE_PARAM_S* pstSoftwareParam)
+ {
+     HI_U32 i = 0;
+-    HI_U64 au64InputBlobAddr[SAMPLE_SVP_NNIE_YOLOV3_REPORT_BLOB_NUM] = {0};
++    HI_S32 *aps32InputBlob[SAMPLE_SVP_NNIE_YOLOV3_REPORT_BLOB_NUM] = {0};
+     HI_U32 au32Stride[SAMPLE_SVP_NNIE_YOLOV3_REPORT_BLOB_NUM] = {0};
+ 
+     for(i = 0; i < SAMPLE_SVP_NNIE_YOLOV3_REPORT_BLOB_NUM; i++)
+     {
+-        au64InputBlobAddr[i] = pstNnieParam->astSegData[0].astDst[i].u64VirAddr;
++        aps32InputBlob[i] = SAMPLE_SVP_NNIE_CONVERT_64BIT_ADDR(HI_S32,pstNnieParam->astSegData[0].astDst[i].u64VirAddr);
+         au32Stride[i] = pstNnieParam->astSegData[0].astDst[i].u32Stride;
+     }
+-    return SVP_NNIE_Yolov3_GetResult(au64InputBlobAddr,pstSoftwareParam->au32GridNumWidth,
++    return SVP_NNIE_Yolov3_GetResult(aps32InputBlob,pstSoftwareParam->au32GridNumWidth,
+         pstSoftwareParam->au32GridNumHeight,au32Stride,pstSoftwareParam->u32BboxNumEachGrid,
+         pstSoftwareParam->u32ClassNum,pstSoftwareParam->u32OriImWidth,
+         pstSoftwareParam->u32OriImWidth,pstSoftwareParam->u32MaxRoiNum,pstSoftwareParam->u32NmsThresh,
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample_nnie_software/sample_svp_nnie_software.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/svp/nnie/sample_nnie_software/sample_svp_nnie_software.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/tde/sample_tde 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/tde/sample_tde 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/tde/sample_tde.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/tde/sample_tde.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/traffic_capture/sample_traffic_capture 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/traffic_capture/sample_traffic_capture 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/traffic_capture/sample_traffic_capture.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/traffic_capture/sample_traffic_capture.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/application.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/application.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/camera.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/camera.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/config_svc.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/config_svc.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/dictionary.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/dictionary.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/frame_cache.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/frame_cache.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/hiaudio.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/hiaudio.o 不同
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/histream.h hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/histream.h
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/histream.h	2020-05-27 20:04:35.000000000 -0700
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/histream.h	2021-07-18 08:41:39.455383014 -0700
+@@ -1,5 +1,5 @@
+-#ifndef __STREAM_H__
+-#define __STREAM_H__
++#ifndef HISTREAM_H
++#define HISTREAM_H
+ 
+ #include <unistd.h>
+ #include <fcntl.h>
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/histream.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/histream.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/hiuac.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/hiuac.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/hiuvc.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/hiuvc.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/iniparser.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/iniparser.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/log.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/log.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/sample_comm_venc.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/sample_comm_venc.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/sample_venc.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/sample_venc.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/sample_yuv.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/sample_yuv.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uac-gadget.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uac-gadget.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc_app 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc_app 不同
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc-gadget.c hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc-gadget.c
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc-gadget.c	2020-05-27 20:04:35.000000000 -0700
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc-gadget.c	2021-07-18 08:41:39.455383014 -0700
+@@ -110,253 +110,7 @@
+     __u8  bMaxVersion;
+ } __attribute__((__packed__));
+  */
+-struct v4l2_event_subscription
+-{
+-    __u32 type;
+-    __u32 id;
+-    __u32 flags;
+-    __u32 reserved[5];
+-};
+ 
+-/* Payload for V4L2_EVENT_VSYNC */
+-struct v4l2_event_vsync
+-{
+-    /* Can be V4L2_FIELD_ANY, _NONE, _TOP or _BOTTOM */
+-    __u8 field;
+-} __attribute__ ((packed));
+-
+-/* Payload for V4L2_EVENT_CTRL */
+- #define V4L2_EVENT_CTRL_CH_VALUE (1 << 0)
+- #define V4L2_EVENT_CTRL_CH_FLAGS (1 << 1)
+- #define V4L2_EVENT_CTRL_CH_RANGE (1 << 2)
+-
+-struct v4l2_event_ctrl
+-{
+-    __u32 changes;
+-    __u32 type;
+-    union
+-    {
+-        __s32 value;
+-        __s64 value64;
+-    };
+-    __u32 flags;
+-    __s32 minimum;
+-    __s32 maximum;
+-    __s32 step;
+-    __s32 default_value;
+-};
+-
+-struct v4l2_event_frame_sync
+-{
+-    __u32 frame_sequence;
+-};
+-
+-struct v4l2_event
+-{
+-    __u32 type;
+-    union
+-    {
+-        struct v4l2_event_vsync      vsync;
+-        struct v4l2_event_ctrl       ctrl;
+-        struct v4l2_event_frame_sync frame_sync;
+-        __u8                         data[64];
+-    }               u;
+-    __u32           pending;
+-    __u32           sequence;
+-    struct timespec timestamp;
+-    __u32           id;
+-    __u32           reserved[8];
+-};
+-enum v4l2_buf_type
+-{
+-    V4L2_BUF_TYPE_VIDEO_CAPTURE = 1,
+-    V4L2_BUF_TYPE_VIDEO_OUTPUT  = 2,
+-    V4L2_BUF_TYPE_VIDEO_OVERLAY = 3,
+-    V4L2_BUF_TYPE_VBI_CAPTURE = 4,
+-    V4L2_BUF_TYPE_VBI_OUTPUT = 5,
+-    V4L2_BUF_TYPE_SLICED_VBI_CAPTURE = 6,
+-    V4L2_BUF_TYPE_SLICED_VBI_OUTPUT = 7,
+- #if 1
+-    /* Experimental */
+-    V4L2_BUF_TYPE_VIDEO_OUTPUT_OVERLAY = 8,
+- #endif
+-    V4L2_BUF_TYPE_VIDEO_CAPTURE_MPLANE = 9,
+-    V4L2_BUF_TYPE_VIDEO_OUTPUT_MPLANE = 10,
+-
+-    /* Deprecated, do not use */
+-    V4L2_BUF_TYPE_PRIVATE = 0x80,
+-};
+-
+-enum v4l2_memory
+-{
+-    V4L2_MEMORY_MMAP = 1,
+-    V4L2_MEMORY_USERPTR = 2,
+-    V4L2_MEMORY_OVERLAY = 3,
+-    V4L2_MEMORY_DMABUF = 4,
+-};
+-
+-enum v4l2_field
+-{
+-    V4L2_FIELD_ANY  = 0,          /* driver can choose from none,
+-                                  top, bottom, interlaced
+-                                  depending on whatever it thinks
+-                                  is approximate ... */
+-    V4L2_FIELD_NONE = 1, /* this device has no fields ... */
+-    V4L2_FIELD_TOP = 2, /* top field only */
+-    V4L2_FIELD_BOTTOM = 3, /* bottom field only */
+-    V4L2_FIELD_INTERLACED = 4, /* both fields interlaced */
+-    V4L2_FIELD_SEQ_TB = 5,        /* both fields sequential into one
+-                                  buffer, top-bottom order */
+-    V4L2_FIELD_SEQ_BT = 6, /* same as above + bottom-top order */
+-    V4L2_FIELD_ALTERNATE = 7,     /* both fields alternating into
+-                                  separate buffers */
+-    V4L2_FIELD_INTERLACED_TB = 8, /* both fields interlaced, top field
+-                                  first and the top field is
+-                                  transmitted first */
+-    V4L2_FIELD_INTERLACED_BT = 9, /* both fields interlaced, top field
+-                                  first and the bottom field is
+-                                  transmitted first */
+-};
+-struct v4l2_capability
+-{
+-    __u8  driver[16];
+-    __u8  card[32];
+-    __u8  bus_info[32];
+-    __u32 version;
+-    __u32 capabilities;
+-    __u32 device_caps;
+-    __u32 reserved[3];
+-};
+-struct v4l2_timecode
+-{
+-    __u32 type;
+-    __u32 flags;
+-    __u8  frames;
+-    __u8  seconds;
+-    __u8  minutes;
+-    __u8  hours;
+-    __u8  userbits[4];
+-};
+-struct v4l2_buffer
+-{
+-    __u32                index;
+-    __u32                type;
+-    __u32                bytesused;
+-    __u32                flags;
+-    __u32                field;
+-    struct timeval       timestamp;
+-    struct v4l2_timecode timecode;
+-    __u32                sequence;
+-
+-    /* memory location */
+-    __u32 memory;
+-    union
+-    {
+-        __u32              offset;
+-        unsigned long      userptr;
+-        struct v4l2_plane* planes;
+-        __s32              fd;
+-    }     m;
+-    __u32 length;
+-    __u32 reserved2;
+-    __u32 reserved;
+-};
+-struct v4l2_requestbuffers
+-{
+-    __u32 count;
+-    __u32 type;           /* enum v4l2_buf_type */
+-    __u32 memory;         /* enum v4l2_memory */
+-    __u32 reserved[2];
+-};
+-struct v4l2_pix_format
+-{
+-    __u32 width;
+-    __u32 height;
+-    __u32 pixelformat;
+-    __u32 field;          /* enum v4l2_field */
+-    __u32 bytesperline;   /* for padding, zero if unused */
+-    __u32 sizeimage;
+-    __u32 colorspace;     /* enum v4l2_colorspace */
+-    __u32 priv;           /* private data, depends on pixelformat */
+-};
+- #define VIDEO_MAX_PLANES 8
+-struct v4l2_plane_pix_format
+-{
+-    __u32 sizeimage;
+-    __u16 bytesperline;
+-    __u16 reserved[7];
+-} __attribute__ ((packed));
+-struct v4l2_pix_format_mplane
+-{
+-    __u32 width;
+-    __u32 height;
+-    __u32 pixelformat;
+-    __u32 field;
+-    __u32 colorspace;
+-
+-    struct v4l2_plane_pix_format plane_fmt[VIDEO_MAX_PLANES];
+-    __u8                         num_planes;
+-    __u8                         reserved[11];
+-} __attribute__ ((packed));
+-struct v4l2_rect
+-{
+-    __s32 left;
+-    __s32 top;
+-    __s32 width;
+-    __s32 height;
+-};
+- #define __user
+-struct v4l2_clip
+-{
+-    struct v4l2_rect c;
+-    struct v4l2_clip __user* next;
+-};
+-struct v4l2_window
+-{
+-    struct v4l2_rect w;
+-    __u32            field;          /* enum v4l2_field */
+-    __u32            chromakey;
+-    struct v4l2_clip __user* clips;
+-    __u32            clipcount;
+-    void __user*     bitmap;
+-    __u8             global_alpha;
+-};
+-struct v4l2_vbi_format
+-{
+-    __u32 sampling_rate;          /* in 1 Hz */
+-    __u32 offset;
+-    __u32 samples_per_line;
+-    __u32 sample_format;          /* V4L2_PIX_FMT_* */
+-    __s32 start[2];
+-    __u32 count[2];
+-    __u32 flags;                  /* V4L2_VBI_* */
+-    __u32 reserved[2];            /* must be zero */
+-};
+-struct v4l2_sliced_vbi_format
+-{
+-    __u16 service_set;
+-
+-    /* service_lines[0][...] specifies lines 0-23 (1-23 used) of the first field
+-       service_lines[1][...] specifies lines 0-23 (1-23 used) of the second field
+-       (equals frame lines 313-336 for 625 line video
+-       standards, 263-286 for 525 line standards) */
+-    __u16 service_lines[2][24];
+-    __u32 io_size;
+-    __u32 reserved[2];            /* must be zero */
+-};
+-struct v4l2_format
+-{
+-    __u32 type;
+-    union
+-    {
+-        struct v4l2_pix_format        pix;       /* V4L2_BUF_TYPE_VIDEO_CAPTURE */
+-        struct v4l2_pix_format_mplane pix_mp;  /* V4L2_BUF_TYPE_VIDEO_CAPTURE_MPLANE */
+-        struct v4l2_window            win;       /* V4L2_BUF_TYPE_VIDEO_OVERLAY */
+-        struct v4l2_vbi_format        vbi;       /* V4L2_BUF_TYPE_VBI_CAPTURE */
+-        struct v4l2_sliced_vbi_format sliced;  /* V4L2_BUF_TYPE_SLICED_VBI_CAPTURE */
+-        __u8                          raw_data[200]; /* user-defined */
+-    } fmt;
+-};
+ #endif
+ 
+ 
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc_gadgete.h hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc_gadgete.h
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc_gadgete.h	2020-05-27 20:04:35.000000000 -0700
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc_gadgete.h	2021-07-18 08:41:39.455383014 -0700
+@@ -44,6 +44,289 @@ struct uvc_device
+     struct uvc_request_data request_error_code;
+ };
+ 
++struct v4l2_event_subscription
++{
++    __u32 type;
++    __u32 id;
++    __u32 flags;
++    __u32 reserved[5];
++};
++
++/* Payload for V4L2_EVENT_VSYNC */
++struct v4l2_event_vsync
++{
++    /* Can be V4L2_FIELD_ANY, _NONE, _TOP or _BOTTOM */
++    __u8 field;
++} __attribute__ ((packed));
++
++/* Payload for V4L2_EVENT_CTRL */
++ #define V4L2_EVENT_CTRL_CH_VALUE (1 << 0)
++ #define V4L2_EVENT_CTRL_CH_FLAGS (1 << 1)
++ #define V4L2_EVENT_CTRL_CH_RANGE (1 << 2)
++
++/*  Flags for 'flags' field */
++/* Buffer is mapped (flag) */
++#define V4L2_BUF_FLAG_MAPPED                    0x00000001
++/* Buffer is queued for processing */
++#define V4L2_BUF_FLAG_QUEUED                    0x00000002
++/* Buffer is ready */
++#define V4L2_BUF_FLAG_DONE                      0x00000004
++/* Image is a keyframe (I-frame) */
++#define V4L2_BUF_FLAG_KEYFRAME                  0x00000008
++/* Image is a P-frame */
++#define V4L2_BUF_FLAG_PFRAME                    0x00000010
++/* Image is a B-frame */
++#define V4L2_BUF_FLAG_BFRAME                    0x00000020
++/* Buffer is ready, but the data contained within is corrupted. */
++#define V4L2_BUF_FLAG_ERROR                     0x00000040
++/* timecode field is valid */
++#define V4L2_BUF_FLAG_TIMECODE                  0x00000100
++/* Buffer is prepared for queuing */
++#define V4L2_BUF_FLAG_PREPARED                  0x00000400
++/* Cache handling flags */
++#define V4L2_BUF_FLAG_NO_CACHE_INVALIDATE       0x00000800
++#define V4L2_BUF_FLAG_NO_CACHE_CLEAN            0x00001000
++/* Timestamp type */
++#define V4L2_BUF_FLAG_TIMESTAMP_MASK            0x0000e000
++#define V4L2_BUF_FLAG_TIMESTAMP_UNKNOWN         0x00000000
++#define V4L2_BUF_FLAG_TIMESTAMP_MONOTONIC       0x00002000
++#define V4L2_BUF_FLAG_TIMESTAMP_COPY            0x00004000
++/* Timestamp sources. */
++#define V4L2_BUF_FLAG_TSTAMP_SRC_MASK           0x00070000
++#define V4L2_BUF_FLAG_TSTAMP_SRC_EOF            0x00000000
++#define V4L2_BUF_FLAG_TSTAMP_SRC_SOE            0x00010000
++/* mem2mem encoder/decoder */
++#define V4L2_BUF_FLAG_LAST                      0x00100000
++
++struct v4l2_event_ctrl
++{
++    __u32 changes;
++    __u32 type;
++    union
++    {
++        __s32 value;
++        __s64 value64;
++    };
++    __u32 flags;
++    __s32 minimum;
++    __s32 maximum;
++    __s32 step;
++    __s32 default_value;
++};
++
++struct v4l2_event_frame_sync
++{
++    __u32 frame_sequence;
++};
++
++struct v4l2_event
++{
++    __u32 type;
++    union
++    {
++        struct v4l2_event_vsync      vsync;
++        struct v4l2_event_ctrl       ctrl;
++        struct v4l2_event_frame_sync frame_sync;
++        __u8                         data[64];
++    }               u;
++    __u32           pending;
++    __u32           sequence;
++    struct timespec timestamp;
++    __u32           id;
++    __u32           reserved[8];
++};
++enum v4l2_buf_type
++{
++    V4L2_BUF_TYPE_VIDEO_CAPTURE = 1,
++    V4L2_BUF_TYPE_VIDEO_OUTPUT  = 2,
++    V4L2_BUF_TYPE_VIDEO_OVERLAY = 3,
++    V4L2_BUF_TYPE_VBI_CAPTURE = 4,
++    V4L2_BUF_TYPE_VBI_OUTPUT = 5,
++    V4L2_BUF_TYPE_SLICED_VBI_CAPTURE = 6,
++    V4L2_BUF_TYPE_SLICED_VBI_OUTPUT = 7,
++ #if 1
++    /* Experimental */
++    V4L2_BUF_TYPE_VIDEO_OUTPUT_OVERLAY = 8,
++ #endif
++    V4L2_BUF_TYPE_VIDEO_CAPTURE_MPLANE = 9,
++    V4L2_BUF_TYPE_VIDEO_OUTPUT_MPLANE = 10,
++
++    /* Deprecated, do not use */
++    V4L2_BUF_TYPE_PRIVATE = 0x80,
++};
++
++enum v4l2_memory
++{
++    V4L2_MEMORY_MMAP = 1,
++    V4L2_MEMORY_USERPTR = 2,
++    V4L2_MEMORY_OVERLAY = 3,
++    V4L2_MEMORY_DMABUF = 4,
++};
++
++enum v4l2_field
++{
++    V4L2_FIELD_ANY  = 0,          /* driver can choose from none,
++                                  top, bottom, interlaced
++                                  depending on whatever it thinks
++                                  is approximate ... */
++    V4L2_FIELD_NONE = 1, /* this device has no fields ... */
++    V4L2_FIELD_TOP = 2, /* top field only */
++    V4L2_FIELD_BOTTOM = 3, /* bottom field only */
++    V4L2_FIELD_INTERLACED = 4, /* both fields interlaced */
++    V4L2_FIELD_SEQ_TB = 5,        /* both fields sequential into one
++                                  buffer, top-bottom order */
++    V4L2_FIELD_SEQ_BT = 6, /* same as above + bottom-top order */
++    V4L2_FIELD_ALTERNATE = 7,     /* both fields alternating into
++                                  separate buffers */
++    V4L2_FIELD_INTERLACED_TB = 8, /* both fields interlaced, top field
++                                  first and the top field is
++                                  transmitted first */
++    V4L2_FIELD_INTERLACED_BT = 9, /* both fields interlaced, top field
++                                  first and the bottom field is
++                                  transmitted first */
++};
++
++struct v4l2_capability
++{
++    __u8  driver[16];
++    __u8  card[32];
++    __u8  bus_info[32];
++    __u32 version;
++    __u32 capabilities;
++    __u32 device_caps;
++    __u32 reserved[3];
++};
++struct v4l2_timecode
++{
++    __u32 type;
++    __u32 flags;
++    __u8  frames;
++    __u8  seconds;
++    __u8  minutes;
++    __u8  hours;
++    __u8  userbits[4];
++};
++struct v4l2_buffer
++{
++    __u32                index;
++    __u32                type;
++    __u32                bytesused;
++    __u32                flags;
++    __u32                field;
++    struct timeval       timestamp;
++    struct v4l2_timecode timecode;
++    __u32                sequence;
++
++    /* memory location */
++    __u32 memory;
++    union
++    {
++        __u32              offset;
++        unsigned long      userptr;
++        struct v4l2_plane* planes;
++        __s32              fd;
++    }     m;
++    __u32 length;
++    __u32 reserved2;
++    __u32 reserved;
++};
++struct v4l2_requestbuffers
++{
++    __u32 count;
++    __u32 type;           /* enum v4l2_buf_type */
++    __u32 memory;         /* enum v4l2_memory */
++    __u32 reserved[2];
++};
++struct v4l2_pix_format
++{
++    __u32 width;
++    __u32 height;
++    __u32 pixelformat;
++    __u32 field;          /* enum v4l2_field */
++    __u32 bytesperline;   /* for padding, zero if unused */
++    __u32 sizeimage;
++    __u32 colorspace;     /* enum v4l2_colorspace */
++    __u32 priv;           /* private data, depends on pixelformat */
++};
++ #define VIDEO_MAX_PLANES 8
++struct v4l2_plane_pix_format
++{
++    __u32 sizeimage;
++    __u16 bytesperline;
++    __u16 reserved[7];
++} __attribute__ ((packed));
++struct v4l2_pix_format_mplane
++{
++    __u32 width;
++    __u32 height;
++    __u32 pixelformat;
++    __u32 field;
++    __u32 colorspace;
++
++    struct v4l2_plane_pix_format plane_fmt[VIDEO_MAX_PLANES];
++    __u8                         num_planes;
++    __u8                         reserved[11];
++} __attribute__ ((packed));
++struct v4l2_rect
++{
++    __s32 left;
++    __s32 top;
++    __s32 width;
++    __s32 height;
++};
++ #define __user
++struct v4l2_clip
++{
++    struct v4l2_rect c;
++    struct v4l2_clip __user* next;
++};
++struct v4l2_window
++{
++    struct v4l2_rect w;
++    __u32            field;          /* enum v4l2_field */
++    __u32            chromakey;
++    struct v4l2_clip __user* clips;
++    __u32            clipcount;
++    void __user*     bitmap;
++    __u8             global_alpha;
++};
++struct v4l2_vbi_format
++{
++    __u32 sampling_rate;          /* in 1 Hz */
++    __u32 offset;
++    __u32 samples_per_line;
++    __u32 sample_format;          /* V4L2_PIX_FMT_* */
++    __s32 start[2];
++    __u32 count[2];
++    __u32 flags;                  /* V4L2_VBI_* */
++    __u32 reserved[2];            /* must be zero */
++};
++struct v4l2_sliced_vbi_format
++{
++    __u16 service_set;
++
++    /* service_lines[0][...] specifies lines 0-23 (1-23 used) of the first field
++       service_lines[1][...] specifies lines 0-23 (1-23 used) of the second field
++       (equals frame lines 313-336 for 625 line video
++       standards, 263-286 for 525 line standards) */
++    __u16 service_lines[2][24];
++    __u32 io_size;
++    __u32 reserved[2];            /* must be zero */
++};
++struct v4l2_format
++{
++    __u32 type;
++    union
++    {
++        struct v4l2_pix_format        pix;       /* V4L2_BUF_TYPE_VIDEO_CAPTURE */
++        struct v4l2_pix_format_mplane pix_mp;  /* V4L2_BUF_TYPE_VIDEO_CAPTURE_MPLANE */
++        struct v4l2_window            win;       /* V4L2_BUF_TYPE_VIDEO_OVERLAY */
++        struct v4l2_vbi_format        vbi;       /* V4L2_BUF_TYPE_VBI_CAPTURE */
++        struct v4l2_sliced_vbi_format sliced;  /* V4L2_BUF_TYPE_SLICED_VBI_CAPTURE */
++        __u8                          raw_data[200]; /* user-defined */
++    } fmt;
++};
++
+ int open_uvc_device(const char *devpath);
+ int close_uvc_device();
+ int run_uvc_device();
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc-gadget.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc-gadget.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc_venc_glue.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/uvc_venc_glue.o 不同
+diff -urpBN hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/video.h hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/video.h
+--- hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/video.h	2020-05-27 20:04:35.000000000 -0700
++++ hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/uvc_app/video.h	2021-07-18 08:41:39.455383014 -0700
+@@ -11,8 +11,8 @@
+  * http://www.usb.org/developers/devclass_docs/USB_Video_Class_1_1.zip
+  */
+ 
+-#ifndef __LINUX_USB_VIDEO_H
+-#define __LINUX_USB_VIDEO_H
++#ifndef VIDEO_H
++#define VIDEO_H
+ 
+ #include <linux/types.h>
+ 
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vdec/sample_vdec 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vdec/sample_vdec 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vdec/sample_vdec.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vdec/sample_vdec.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/venc/sample_venc 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/venc/sample_venc 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/venc/sample_venc.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/venc/sample_venc.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vgs/sample_vgs 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vgs/sample_vgs 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vgs/sample_vgs.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vgs/sample_vgs.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vio/sample_vio_main.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vio/sample_vio_main.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vio/smp/sample_vio 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vio/smp/sample_vio 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vio/smp/sample_vio.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vio/smp/sample_vio.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vo/sample_vo_main.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vo/sample_vo_main.o 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vo/smp/sample_vo 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vo/smp/sample_vo 不同
+二进制文件 hiopenais/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vo/smp/sample_vo.o 和 hiopenais_modify/sdk/hi3516dv300/smp/a7_linux/mpp/sample/vo/smp/sample_vo.o 不同

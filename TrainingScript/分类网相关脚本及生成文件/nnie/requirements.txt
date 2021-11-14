@@ -1,0 +1,23 @@
+#name [condition] [version]
+#condition    ==, >=, <=, >, <
+#tensorflow==1.8.1
+naie
+pillow==6.2.2
+tqdm
+Cython==0.29.15
+numpy
+albumentations>=0.3.2
+imagecorruptions
+matplotlib
+pycocotools==2.0
+six
+terminaltables
+asynctest
+codecov
+flake8
+isort
+yapf
+kwarray
+torch==1.5.0
+torchvision==0.6.0
+

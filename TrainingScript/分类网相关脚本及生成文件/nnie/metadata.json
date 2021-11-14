@@ -1,0 +1,101 @@
+{
+  "version" : "5.1",
+  "basicinfo" : {
+    "creation_time" : "20210908105439",
+    "model_file_type" : [ {
+      "env_name" : "PyTorch",
+      "file_type" : "others",
+      "name" : "model"
+    } ],
+    "name" : "classify_face",
+    "description" : "",
+    "id" : "classify_face",
+    "type" : "model",
+    "category" : "",
+    "version" : "1.0.0",
+    "group" : "",
+    "tags" : ""
+  },
+  "runtime" : [ {
+    "env" : {
+      "env_name" : "PyTorch",
+      "env_dependencies" : {
+        "hardware_dependencies" : [ {
+          "min_value" : "1",
+          "name" : "CPU",
+          "max_value" : "8"
+        }, {
+          "min_value" : "1GB",
+          "name" : "MEM",
+          "max_value" : "64GB"
+        }, {
+          "min_value" : "1",
+          "name" : "GPU",
+          "max_value" : "32"
+        } ],
+        "enable_gpu" : true
+      },
+      "env_version" : "PyTorch-1.4.0-python3.6"
+    },
+    "runtime_type" : "retrain",
+    "software_dependencies" : [ {
+      "installer" : "pip",
+      "python_requirements" : "requirements.txt"
+    } ]
+  }, {
+    "env" : {
+      "env_name" : "PyTorch",
+      "env_dependencies" : {
+        "hardware_dependencies" : [ {
+          "min_value" : "1",
+          "name" : "CPU",
+          "max_value" : "8"
+        }, {
+          "min_value" : "1GB",
+          "name" : "MEM",
+          "max_value" : "64GB"
+        }, {
+          "min_value" : "1",
+          "name" : "GPU",
+          "max_value" : "32"
+        } ],
+        "enable_gpu" : true
+      },
+      "env_version" : "PyTorch-1.4.0-python3.6"
+    },
+    "runtime_type" : "predict",
+    "software_dependencies" : [ {
+      "installer" : "pip",
+      "python_requirements" : "requirements.txt"
+    } ]
+  } ],
+  "methods" : [ {
+    "entry" : "train_cat01.py",
+    "http_method" : "post",
+    "input_params" : [ ],
+    "name" : "train_cat01",
+    "model_file_directory" : "model",
+    "input_datameta" : {
+      "min_size" : "0",
+      "datasets" : ""
+    },
+    "http_path" : "/retrain",
+    "type" : "retrain",
+    "invoke_type" : "async"
+  }, {
+    "entry" : "train_cat01_predict.py:predict_data",
+    "http_method" : "post",
+    "name" : "train_cat01_predict",
+    "model_file_directory" : "model",
+    "output_params" : [ ],
+    "input_datameta" : { },
+    "description" : "",
+    "http_path" : "/predict",
+    "input_params_demo" : "",
+    "type" : "predict",
+    "invoke_type" : "sync"
+  } ],
+  "datasets" : [ ],
+  "metrics" : [ ],
+  "config_meta" : [ ]
+}
