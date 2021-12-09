@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gizwits.opensource.appkit"
+    android:versionCode="1"
+    android:versionName="2.5.0.022212">
+    <!--
+    <permission
+        android:name="com.gizwits.opensource.appkit.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.gizwits.opensource.appkit.permission.JPUSH_MESSAGE" />
+    -->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".GosApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:testOnly="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NFC.NFC_ReturnActivity"></activity>
+        <activity android:name=".Environment.EnvironmentReturnActivity" />
+        <activity android:name=".NFC.NFC_ControlActivity" />
+        <activity android:name=".Environment.EnvironmentValueActivity" />
+        <activity android:name=".Environment.EnvironmentActivity" />
+        <activity android:name=".NFC.NFC_HistreamingActivity" />
+        <activity android:name=".NFC.NFC_HuaweiSmartLiftActivity" />
+        <activity android:name=".NFC.NFC_TaobaoActivity" />
+        <activity android:name=".NFC.NFC_TodayHeadLineActivity" />
+        <activity android:name=".Environment.EnvironmentGasActivity" />
+        <activity android:name=".Environment.EnvironmentHumidityActivity" />
+        <activity android:name=".Environment.EnvironmentTemperatureActivity" />
+        <activity android:name=".NFC.NFC_WeChatActivity" />
+        <activity android:name=".ColorfulLight.ManualLedControlActivity" />
+        <activity android:name=".TrafficLight.TrafficLightReturnMenuActivity" />
+        <activity android:name=".TrafficLight.TrafficHumanModuleActivity" />
+        <activity android:name=".TrafficLight.TrafficAutoModuleActivity" />
+        <activity android:name=".TrafficLight.TrafficManualControlActivity" />
+        <activity android:name=".TrafficLight.TrafficLightActivity" />
+        <activity android:name=".ColorfulLight.UnionActivity" />
+        <activity android:name=".ColorfulLight.ReturnMenuActivity" />
+        <activity android:name=".ColorfulLight.LightDetectActivity" />
+        <activity android:name=".ColorfulLight.Human_DetectActivity" />
+        <activity android:name=".ColorfulLight.BrightnessActivity" />
+        <activity android:name=".ColorfulLight.pwmControlActivity" />
+        <activity android:name=".ColorfulLight.periodFlashActivity" />
+        <activity android:name=".ColorfulLight.ManualControlActivity" />
+        <activity android:name=".ColorfulLight.ColorLightActivity" />
+        <activity android:name=".ControlModule.GosModularControlActivity" />
+        <activity android:name=".ControlModule.GosCarControlActivity" />
+        <activity android:name=".ControlModule.GosControlActivity" />
+        <activity
+            android:name=".UserModule.GosUserLoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/My_Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeviceModule.GosMainActivity" />
+        <activity android:name=".UserModule.GosRegisterUserActivity" />
+        <activity android:name=".UserModule.GosForgetPasswordActivity" />
+        <activity android:name=".ConfigModule.GosDeviceReadyActivity" />
+        <activity android:name=".ConfigModule.GosDeviceResetActivity" />
+        <activity android:name=".ConfigModule.GosChooseDeviceActivity" />
+        <activity android:name=".ConfigModule.GosConfigCountdownActivity" />
+        <activity android:name=".ConfigModule.GosConfigFailedActivity" />
+        <activity android:name=".DeviceModule.GosDeviceListActivity" />
+        <activity android:name=".UserModule.GosChangeUserPasswordActivity" />
+        <activity android:name=".SettingsModule.GosSettiingsActivity" />
+        <activity android:name=".SettingsModule.GosAboutActivity" />
+        <activity android:name=".ConfigModule.GosCheckDeviceWorkWiFiActivity" />
+        <activity android:name=".ControlModule.GosDeviceControlActivity" />
+        <activity android:name=".ControlModule.GosDeviceLedControlActivity" /> <!-- add by wgm -->
+        <activity android:name=".ConfigModule.GosModeListActivity" />
+        <activity android:name=".ConfigModule.GosAirlinkChooseDeviceWorkWiFiActivity" />
+        <activity android:name=".ConfigModule.GosAirlinkReadyActivity" />
+        <activity android:name=".ConfigModule.GosAirlinkConfigCountdownActivity" />
+        <activity android:name=".UserModule.GosUserManager" />
+    </application>
+
+</manifest>

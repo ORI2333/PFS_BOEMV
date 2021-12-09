@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="1200px"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/bt_traffic_human_normal"
+        android:layout_width="1000px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Traffic_Human_Module_Start"
+        />
+    <Button
+        android:id="@+id/bt_traffic_human_control"
+        android:layout_width="1000px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Traffic_Human_Module_control"
+        />
+
+</LinearLayout>

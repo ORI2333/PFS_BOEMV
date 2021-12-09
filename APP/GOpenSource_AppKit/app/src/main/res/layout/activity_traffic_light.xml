@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="1200px"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/Traffic_Manual_Control_Module_bt"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Traffic_Manual_Control_Module"
+        />
+    <Button
+        android:id="@+id/Traffic_Auto_Module_bt"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Traffic_Auto_Module"
+        />
+    <Button
+        android:id="@+id/Traffic_Human_Module_bt"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Traffic_Human_Module"
+        />
+    <Button
+        android:id="@+id/Traffic_Return_Menu_Module_bt"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Return_Menu_Module"
+        />
+
+</LinearLayout>

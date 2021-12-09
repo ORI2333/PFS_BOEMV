@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="1200px"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/bt_environment_all_value"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/environment_all_value"
+        />
+    <Button
+        android:id="@+id/bt_environment_temperature_value"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/environment_temperature_value"
+        />
+    <Button
+        android:id="@+id/bt_environment_humidity_value"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/environment_humidity_value"
+        />
+    <Button
+        android:id="@+id/bt_environment_gas_value"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/environment_gas_value"
+        />
+    <Button
+        android:id="@+id/bt_environment_return_main_menu"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/environment_return"
+        />
+
+</LinearLayout>

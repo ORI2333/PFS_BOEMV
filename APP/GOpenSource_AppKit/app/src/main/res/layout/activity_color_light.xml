@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="1200px"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/Manual_Control_Module_bt"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Manual_Control_Module"
+        />
+    <Button
+        android:id="@+id/Colorful_Light_Module_bt"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Colorful_Light_Module"
+        />
+    <Button
+        android:id="@+id/PWM_Control_Module_bt"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/PWM_Control_Module"
+        />
+    <Button
+        android:id="@+id/Brightness_Module_bt"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Brightness_Module"
+        />
+    <Button
+        android:id="@+id/Human_Detect_Module_bt"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Human_Detect_Module"
+        />
+    <Button
+        android:id="@+id/Light_Detect_Module_bt"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Light_Detect_Module"
+        />
+    <Button
+        android:id="@+id/Union_Detect_Module_bt"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Union_Detect_Module"
+        />
+    <Button
+        android:id="@+id/Return_Menu_Module_bt"
+        android:layout_width="700px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/Return_Menu_Module"
+        />
+
+</LinearLayout>

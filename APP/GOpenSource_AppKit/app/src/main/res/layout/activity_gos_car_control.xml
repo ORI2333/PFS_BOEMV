@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="315dp"
+        android:layout_height="61dp">
+
+        <TextView
+            android:id="@+id/toptext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="远程控制操作"
+            android:textColor="@color/teal"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/go_forward_bt"
+        android:layout_width="200px"
+        android:layout_height="300px"
+        android:layout_gravity="center"
+        android:background="@color/bluel"
+        android:text="@string/go_forward" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/turn_left_bt"
+            android:layout_width="300px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:text="@string/turn_left"
+            android:background="@color/bluel"
+            />
+        <Button
+            android:id="@+id/stop_bt"
+            android:layout_width="200px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:text="@string/stop_bt"
+            android:background="@color/red"
+            />
+        <Button
+            android:id="@+id/turn_right_bt"
+            android:layout_width="300px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:text="@string/turn_right"
+            android:background="@color/bluel"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/turn_back_bt"
+        android:layout_width="200px"
+        android:layout_height="300px"
+        android:layout_gravity="center"
+        android:text="@string/turn_back"
+        android:background="@color/bluel"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cat_bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/amber"
+            android:text="@string/cat_bt3" />
+
+        <Button
+            android:id="@+id/cat_bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/cat_bt1"
+            android:background="@color/amber"/>
+
+        <Button
+            android:id="@+id/cat_bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/cat_bt2"
+            android:background="@color/amber"/>
+
+        <EditText
+            android:id="@+id/num_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="自定义克数"
+            android:background="@color/tomato">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/cat_bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:text="@string/cat_bt4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dog_bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@color/amber"
+            android:text="狗粮30g" />
+
+        <Button
+            android:id="@+id/dog_bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="@color/amber"
+            android:text="狗粮50g" />
+
+        <Button
+            android:id="@+id/dog_bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/dog_bt2"
+            android:background="@color/amber"/>
+
+        <EditText
+            android:id="@+id/num_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="自定义克数"
+            android:background="@color/tomato">
+
+        </EditText>
+
+
+        <Button
+            android:id="@+id/dog_bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/dog_bt4"
+            android:background="@color/green"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_gravity="left"
+        android:layout_marginTop="50px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/time_1"
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/tomato"
+            android:hint="投喂时间间隔设定"
+
+            android:maxLines="2">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/determine_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/text_blue"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/pet_b"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:text="宠物按钮" />
+
+        <Button
+            android:id="@+id/auto_b"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/red"
+            android:layout_weight="1"
+            android:text="自动跟随" />
+
+    </LinearLayout>
+
+
+    </LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="1200px"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/bt_nfc_wechat_app"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/nfc_wechat_app"
+        />
+    <Button
+        android:id="@+id/bt_nfc_today_headline_app"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/nfc_today_headline_app"
+        />
+    <Button
+        android:id="@+id/bt_nfc_taobao_app"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/nfc_taobao_app"
+        />
+    <Button
+    android:id="@+id/bt_nfc_huawei_smart_lift_app"
+    android:layout_width="900px"
+    android:layout_height="150px"
+    android:layout_gravity="center"
+    android:text="@string/nfc_huawei_smart_lift_app"
+    />
+    <Button
+        android:id="@+id/bt_nfc_histreaming_app"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/nfc_histreaming_app"
+        />
+    <Button
+        android:id="@+id/bt_nfc_return"
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_gravity="center"
+        android:text="@string/nfc_return"
+        />
+
+</LinearLayout>

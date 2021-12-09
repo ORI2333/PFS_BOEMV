@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400px"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+
+    <Button
+        android:id="@+id/switch_bt"
+        android:layout_width="300px"
+        android:layout_height="150px"
+        android:text="@string/on"
+        />
+    <Button
+        android:id="@+id/slow_bt"
+        android:layout_width="300px"
+        android:layout_height="150px"
+        android:text="@string/slow"
+        />
+    <Button
+        android:id="@+id/fast_bt"
+        android:layout_width="300px"
+        android:layout_height="150px"
+        android:text="@string/fast"
+        />
+</LinearLayout>
